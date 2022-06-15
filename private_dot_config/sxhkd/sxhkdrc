@@ -151,10 +151,10 @@ super + End
 
 # Volume
 super + equal
-	exec pamixer --increase 10
+	exec pamixer --increase 5
 #	exec amixer sset Master 5%+
 super + minus
-	exec pamixer --decrease 10
+	exec pamixer --decrease 5
 #	exec amixer sset Master 5%-
 
 # Mute
