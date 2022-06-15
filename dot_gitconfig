@@ -1,0 +1,11 @@
+[user]
+	email = adhiwena@gmail.com
+	name = adhiwena
+[safe]
+	directory = /home/data/Github/base16-alacritty
+	directory = /home/data/Github/base16-kitty
+	directory = /home/data/Github/base16-rofi
+	directory = /home/data/Github/bebasid
+	directory = /home/data/Github/Scripts
+	directory = /home/data/Github/Subtitles
+	directory = /home/data/Github/polybar-scripts

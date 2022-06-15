@@ -1,0 +1,6 @@
+[Added Associations]
+[Default Applications]
+application/x-rar=nnn.desktop;
+
+text/x-ssa=subtitleedit.desktop;
+inode/directory=nnn.desktop;
