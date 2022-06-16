@@ -13,22 +13,27 @@ bspc config gapless_monocle      true
 
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
 # bspc rule -a Screenkey manage=off
-bspc rule -a '*' state=floating center=on sticky=on private=on # rectangle=1500x800+0+0
+
+# floating
+bspc rule -a '*' state=floating center=on
+
+floatingApps=(\
+  Lightdm-gtk-greeter-settings \
+  Lxappearance \
+  Timeshift-gtk \
+  Font-manager \
+  bpytop \
+  Xscreensaver-settings \
+  Pavucontrol
+)
+
+for app in ${floatingApps[@]}; do
+  bspc rule -a $app sticky=on rectangle=1500x800+0+0
+done
+
+# tiled
 bspc rule -a kitty desktop='^1' state=tiled follow=on
 bspc rule -a firefox desktop='^2' state=tiled follow=on
 bspc rule -a Code:code desktop='^3' state=tiled follow=on
 bspc rule -a mpv desktop='^4' state=tiled follow=on # mpv also in desktop 4
-bspc rule -a Pavucontrol rectangle=800x500+0+0
-
-# floatingApps=(Lightdm-gtk-greeter-settings \
-#   Lxappearance \
-#   Timeshift-gtk \
-#   Font-manager \
-#   bpytop \
-#   Xscreensaver-settings \
-# )
-
-# for app in ${floatingApps[@]}; do
-#   bspc rule -a $app state=floating center=on rectangle=1500x800+0+0
-# done
 
