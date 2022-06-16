@@ -13,7 +13,7 @@ bspc config gapless_monocle      true
 
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
 # bspc rule -a Screenkey manage=off
-bspc rule -a '*' state=floating center=on # rectangle=1500x800+0+0
+bspc rule -a '*' state=floating center=on sticky=on private=on # rectangle=1500x800+0+0
 bspc rule -a kitty desktop='^1' state=tiled follow=on
 bspc rule -a firefox desktop='^2' state=tiled follow=on
 bspc rule -a Code:code desktop='^3' state=tiled follow=on
