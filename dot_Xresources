@@ -8,3 +8,5 @@ Xft.rgba: rgb
 
 Xcursor.theme: Qogir-dark
 Xcursor.size: 16
+
+URxvt.font: xft:Iosevka

@@ -119,7 +119,7 @@ super + {Left,Down,Up,Right}
 
 # terminal emulator
 super + Return
-	kitty
+	kitty --name terminal
 
 # program launcher
 super + space
@@ -135,11 +135,11 @@ super + v
 
 # bpytop
 super + Delete 
-	kitty --class bpytop bpytop
+	kitty --name bpytop bpytop
 	
 # Visual Studio Code
 super + e
-	kitty --class nnn nnn
+	kitty --name nnn nnn
 
 # lockscreen
 super + End
@@ -152,12 +152,9 @@ super + End
 # Volume
 super + equal
 	exec pamixer --increase 5
-#	exec amixer sset Master 5%+
 super + minus
 	exec pamixer --decrease 5
-#	exec amixer sset Master 5%-
 
 # Mute
 super + backslash
 	exec pamixer --toggle-mute
-#	exec amixer sset Master toggle

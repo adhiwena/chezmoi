@@ -18,12 +18,11 @@ bspc config gapless_monocle      true
 bspc rule -a '*' state=floating center=on
 
 floatingApps=(\
-  Lightdm-gtk-greeter-settings \
   Lxappearance \
   Timeshift-gtk \
   Font-manager \
-  bpytop \
-  Xscreensaver-settings \
+  kitty:bpytop \
+  kitty:nnn \
   Pavucontrol
 )
 
@@ -32,8 +31,10 @@ for app in ${floatingApps[@]}; do
 done
 
 # tiled
-bspc rule -a kitty desktop='^1' state=tiled follow=on
+bspc rule -a kitty:terminal desktop='^1' state=tiled follow=on
 bspc rule -a firefox desktop='^2' state=tiled follow=on
 bspc rule -a Code:code desktop='^3' state=tiled follow=on
 bspc rule -a mpv desktop='^4' state=tiled follow=on # mpv also in desktop 4
 
+# autostart polybar
+exec ~/.config/polybar/launch.sh &

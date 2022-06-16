@@ -31,14 +31,17 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+# keyring
+# exec dex -as /etc/xdg/autostart/:~/.config/autostart/ &
+eval $(/usr/bin/gnome-keyring-daemon --start)
+export SSH_AUTH_SOCK
+
 # autostart apps
-# exec /usr/bin/bspwm &
 exec /home/adhiwena/.screenlayout/monitor.sh &
-exec polybar example &
-exec feh --bg-fill --randomize /home/adhiwena/Pictures/Wallpaper/* &
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 exec xsetroot -cursor_name left_ptr &
-exec picom &
-exec numlockx &
-exec betterlockscreen -u /home/adhiwena/Pictures/Wallpaper &
-exec bspwm
+exec numlockx & picom & urxvtd &
+exec feh --bg-fill --randomize /home/adhiwena/Pictures/Wallpaper/* &
+# exec /usr/lib/notification-daemon-1.0/notification-daemon &
+exec bspwm # polybar inside bspwm
+
