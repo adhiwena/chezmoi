@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Subtitle Edit
+MimeType=text/x-ssa;
+Comment=An advanced subtitle editor and converter
+Exec=/home/data/Github/Scripts/Bash/subtitleedit.sh %F
+Icon=subtitleedit
+Terminal=false
+Type=Application
+Categories=Video;AudioVideo;AudioVideoEditing;

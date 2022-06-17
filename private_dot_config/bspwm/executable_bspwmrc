@@ -15,26 +15,28 @@ bspc config gapless_monocle      true
 # bspc rule -a Screenkey manage=off
 
 # floating
-bspc rule -a '*' state=floating center=on
+# bspc rule -a '*' state=floating
 
-floatingApps=(\
-  Lxappearance \
-  Timeshift-gtk \
-  Font-manager \
-  kitty:bpytop \
-  kitty:nnn \
-  Pavucontrol
-)
+# floatingApps=(\
+  # Lxappearance \
+  # Timeshift-gtk \
+  # Font-manager \
+  # URxvt:bpytop \
+  # URxvt:nnn \
+  # Pavucontrol
+# )
 
-for app in ${floatingApps[@]}; do
-  bspc rule -a $app sticky=on rectangle=1500x800+0+0
-done
+# for app in ${floatingApps[@]}; do
+  # bspc rule -a $app desktop='^5' rectangle=1500x800+0+0
+# done
 
-# tiled
-bspc rule -a kitty:terminal desktop='^1' state=tiled follow=on
-bspc rule -a firefox desktop='^2' state=tiled follow=on
-bspc rule -a Code:code desktop='^3' state=tiled follow=on
-bspc rule -a mpv desktop='^4' state=tiled follow=on # mpv also in desktop 4
+# desktop
+bspc rule -a URxvt:urxvt desktop='^1' follow=on
+bspc rule -a firefox desktop='^2' follow=on
+bspc rule -a Code:code desktop='^3' follow=on
+bspc rule -a mpv desktop='^4' follow=on # subtitleedit also in desktop 4
+bspc rule -a '*:*:JDownloader 2' desktop='^5' follow=on
+bspc rule -a feh:feh state=fullscreen
 
-# autostart polybar
+# autostart
 exec ~/.config/polybar/launch.sh &

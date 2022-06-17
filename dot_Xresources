@@ -1,12 +1,57 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Themes LxAppearance Complimentary !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 Xft.dpi: 96
 Xft.autohint: 0
-Xft.lcdfilter:  lcddefault
-Xft.hintstyle:  hintslight
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
 Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
-
 Xcursor.theme: Qogir-dark
 Xcursor.size: 16
 
-URxvt.font: xft:Iosevka
+!!!!!!!!!!!!!!!!!!
+! URxvt Settings !
+!!!!!!!!!!!!!!!!!!
+
+! URxvt*font: xft:Inconsolata Nerd Font Mono:pixelSize=12
+URxvt*font: xft:MesloLGS Nerd Font Mono:pixelSize=12
+! URxvt*font: xft:Iosevka Term:pixelSize=12
+! URxvt*font: xft:Iosevka:pixelSize=12
+! URxvt*letterSpace: -1
+
+URxvt*internalBorder: 15
+
+URxvt*perl-ext-common: default,matcher
+URxvt*url-launcher: /usr/bin/xdg-open
+URxvt*matcher.button: 1
+URxvt*matcher.rend.0: Uline Bold
+
+! Scroll when output come but not when you go back in to the buffer.
+! Scroll back to the end on key press
+! (on program stop running and prompt is back it go back to the end too).
+URxvt*scrollTtyOutput: 0
+URxvt*scrollWithBuffer: 1
+URxvt*scrollTtyKeypress: 1
+URxvt*saveLines: 50000
+URxvt*mouseWheelScrollPage: 0
+
+URxvt*scrollBar: 1
+URxvt*scrollBar_right: 1
+URxvt*scrollstyle: plain
+
+! Keybindings for 1-line scrolling
+URxvt*keysym.Shift-Up: command:\033]720;1\007
+URxvt*keysym.Shift-Down: command:\033]721;1\007
+
+URxvt*cursorBlink: 1
+URxvt*cursorUnderline: 1
+URxvt*urgentOnBell: 1
+URxvt*visualBell: 0
+URxvt*mapAlert: 0
+
+#define background_opacity 10
+URxvt*depth: 32
+#include ".Xresources.d/colors"

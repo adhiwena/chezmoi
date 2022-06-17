@@ -1,13 +1,14 @@
 set clipboard+=unnamedplus
 set ts=2 sw=2 sts=2 et ai si
 set nu rnu
-
+set guicursor+=n:hor20-Cursor/lCursor
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'kovetskiy/sxhkd-vim'
+" Plugin 'base16-project/base16-vim'
 
 call vundle#end()
 
@@ -16,3 +17,6 @@ set nocompatible
 filetype plugin indent on
 
 let NERDSpaceDelims=1
+" colorscheme base16-default-dark
+" hi Normal guibg=NONE ctermbg=NONE
+" hi LineNr guibg=NONE ctermbg=NONE

@@ -119,11 +119,11 @@ super + {Left,Down,Up,Right}
 
 # terminal emulator
 super + Return
-	kitty --name terminal
+	urxvtc
 
 # program launcher
 super + space
-	rofi -show drun -theme base16-nord
+	rofi -show drun
 
 # firefox
 super + w
@@ -131,15 +131,16 @@ super + w
 
 # visual studio code
 super + v
-  code
+  exec feh --bg-fill --randomize /home/adhiwena/Pictures/Wallpaper/dark/* &
+  # codium
 
 # bpytop
 super + Delete 
-	kitty --name bpytop bpytop
+	urxvtc -name bpytop -e bpytop
 	
-# Visual Studio Code
+# nnn
 super + e
-	kitty --name nnn nnn
+	urxvtc -name nnn -e nnn
 
 # lockscreen
 super + End
