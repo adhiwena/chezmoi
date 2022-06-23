@@ -41,6 +41,8 @@ exec /home/adhiwena/.screenlayout/monitor.sh &
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 exec xsetroot -cursor_name left_ptr &
 exec numlockx & picom & urxvtd &
-exec feh --bg-fill --randomize /home/adhiwena/Pictures/Wallpaper/* &
+exec feh --bg-fill /home/data/Github/wallpapers/landscapes/tropic_island_day.jpg &
+# exec feh --recursive --bg-fill --randomize /home/data/Github/wallpapers/* &
+# exec feh --bg-fill --randomize /home/adhiwena/Pictures/Wallpaper/dark/* &
 exec bspwm # polybar inside bspwm
 

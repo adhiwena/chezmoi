@@ -2,7 +2,10 @@
 Type=Application
 Name=nnn
 Comment=Terminal file manager
-Exec=urxvtc -name "nnn" -e /usr/bin/nnn %f
+# Exec=bash -lc /usr/bin/nnn
+Exec=urxvtc -name nnn -e zsh -ic "nnn -dHe %f"
+# Exec=urxvtc -name nnn -e /usr/bin/nnn -dHe %f
+# Exec=urxvtc -name "nnn" -e /usr/bin/nnn -ed %f
 Terminal=false
 Icon=nnn
 MimeType=inode/directory

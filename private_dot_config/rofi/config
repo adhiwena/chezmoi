@@ -1,12 +1,3 @@
-/home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/themes/base16-tomorrow.rasi
-/home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/themes/base16-sagelight.rasi
-/home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/themes/base16-materia.rasi
-/home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/themes/base16-material-darker.rasi
-/home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/themes/base16-materia.rasi
-/home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/themes/base16-material.rasi
-/home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/themes/base16-material-lighter.rasi
-/home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/themes/base16-materia.rasi
-/home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/themes/base16-material-darker.rasi
 # Theme set by base16-manager
-rofi.theme: /home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/colors/base16-material-lighter.rasi
-/home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/themes/base16-material-lighter.rasi
+rofi.theme: /home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/colors/base16-nord.rasi
+/home/adhiwena/.local/share/base16-manager/0xdec/base16-rofi/themes/base16-nord.rasi

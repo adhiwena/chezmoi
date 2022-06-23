@@ -16,42 +16,94 @@ Xcursor.size: 16
 ! URxvt Settings !
 !!!!!!!!!!!!!!!!!!
 
-! URxvt*font: xft:Inconsolata Nerd Font Mono:pixelSize=12
-URxvt*font: xft:MesloLGS Nerd Font Mono:pixelSize=12
-! URxvt*font: xft:Iosevka Term:pixelSize=12
-! URxvt*font: xft:Iosevka:pixelSize=12
-! URxvt*letterSpace: -1
+! URxvt.font: xft:Inconsolata Nerd Font Mono:pixelSize=12
+URxvt.font: xft:MesloLGS Nerd Font Mono:pixelSize=12
+! URxvt.font: xft:Iosevka Term:pixelSize=12
+! URxvt.font: xft:Iosevka:pixelSize=12
+! URxvt.letterSpace: -1
 
-URxvt*internalBorder: 15
+URxvt.internalBorder: 15
 
-URxvt*perl-ext-common: default,matcher
-URxvt*url-launcher: /usr/bin/xdg-open
-URxvt*matcher.button: 1
-URxvt*matcher.rend.0: Uline Bold
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.matcher.rend.0: Uline Bold
 
 ! Scroll when output come but not when you go back in to the buffer.
 ! Scroll back to the end on key press
 ! (on program stop running and prompt is back it go back to the end too).
-URxvt*scrollTtyOutput: 0
-URxvt*scrollWithBuffer: 1
-URxvt*scrollTtyKeypress: 1
-URxvt*saveLines: 50000
-URxvt*mouseWheelScrollPage: 0
+URxvt.scrollTtyOutput: 0
+URxvt.scrollWithBuffer: 1
+URxvt.scrollTtyKeypress: 1
+URxvt.saveLines: 50000
+URxvt.mouseWheelScrollPage: 0
 
-URxvt*scrollBar: 1
-URxvt*scrollBar_right: 1
-URxvt*scrollstyle: plain
+! URxvt.scrollBar: 1
+! URxvt.scrollBar_right: 1
+URxvt.scrollBar: 0
+URxvt.scrollBar_right: 0
+! URxvt.scrollstyle: plain
 
-! Keybindings for 1-line scrolling
-URxvt*keysym.Shift-Up: command:\033]720;1\007
-URxvt*keysym.Shift-Down: command:\033]721;1\007
+URxvt.cursorBlink: 1
+URxvt.cursorUnderline: 1
+URxvt.urgentOnBell: 1
+URxvt.visualBell: 0
+URxvt.mapAlert: 0
 
-URxvt*cursorBlink: 1
-URxvt*cursorUnderline: 1
-URxvt*urgentOnBell: 1
-URxvt*visualBell: 0
-URxvt*mapAlert: 0
+!!!!!!!!!!!!!!!
+! keybindings !
+!!!!!!!!!!!!!!!
 
-#define background_opacity 10
-URxvt*depth: 32
-#include ".Xresources.d/colors"
+! 1-line scrolling
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+URxvt.keysym.Control-k: command:\033]720;1\007
+URxvt.keysym.Control-j: command:\033]721;1\007
+
+URxvt.keysym.Control-Left: \033[1;5D
+URxvt.keysym.Control-Right: \033[1;5C
+URxvt.keysym.Control-space: \033[1;5C
+
+!!!!!!!!!
+! theme !
+!!!!!!!!!
+! #define background_opacity 95
+! URxvt.depth: 32
+! #include ".Xresources.d/colors"
+! URxvt.scrollColor: base03 
+URxvt.scrollColor: #FAE3B0
+
+*background: #1E1E2E
+*foreground: #D9E0EE
+
+! Gray
+*color0: #6E6C7E
+*color8: #988BA2
+
+! Red
+*color1: #F28FAD
+*color9: #F28FAD
+
+! Green
+*color2: #ABE9B3
+*color10: #ABE9B3
+
+! Yellow
+*color3: #FAE3B0
+*color11:  #FAE3B0
+
+! Blue
+*color4: #96CDFB
+*color12: #96CDFB
+
+! Maguve
+*color5: #DDB6F2
+*color13: #DDB6F2
+
+! Pink
+*color6: #F5C2E7
+*color14: #F5C2E7
+
+! Whites
+*color7: #C3BAC6
+*color15: #D9E0EE

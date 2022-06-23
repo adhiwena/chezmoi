@@ -122,8 +122,8 @@ super + Return
 	urxvtc
 
 # program launcher
-super + space
-	rofi -show drun
+super + {_,shift + ,alt + }space
+	rofi -show {drun,run,window}
 
 # firefox
 super + w
@@ -131,16 +131,17 @@ super + w
 
 # visual studio code
 super + v
-  exec feh --bg-fill --randomize /home/adhiwena/Pictures/Wallpaper/dark/* &
-  # codium
+  codium
+  # exec feh --bg-fill /home/data/Github/wallpapers/waves/cat-blue-eye.png &
+  # exec feh --bg-fill --randomize /home/adhiwena/Pictures/Wallpaper/dark/* &
 
-# bpytop
+# btop
 super + Delete 
-	urxvtc -name bpytop -e bpytop
+	gtk-launch btop.desktop
 	
 # nnn
 super + e
-	urxvtc -name nnn -e nnn
+	gtk-launch nnn.desktop
 
 # lockscreen
 super + End

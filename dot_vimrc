@@ -6,9 +6,13 @@ set guicursor+=n:hor20-Cursor/lCursor
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'kovetskiy/sxhkd-vim'
 " Plugin 'base16-project/base16-vim'
+Plugin 'catppuccin/nvim', {'name': 'catppuccin'}
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'triglav/vim-visual-increment'
 
 call vundle#end()
 
@@ -17,6 +21,16 @@ set nocompatible
 filetype plugin indent on
 
 let NERDSpaceDelims=1
-" colorscheme base16-default-dark
+
+" colorscheme base16-nord
 " hi Normal guibg=NONE ctermbg=NONE
 " hi LineNr guibg=NONE ctermbg=NONE
+
+" latte, frappe, macchiato, mocha
+" let g:catppuccin_flavour = "mocha"
+colorscheme catppuccin
+
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
