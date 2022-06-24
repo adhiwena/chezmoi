@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=JDownloader
-Icon=jdownloader
-TryExec=JDownloader
-Exec=/home/data/Github/Scripts/Bash/jdownloader.sh
-Terminal=false
-Categories=Application;Network;
-StartupWMClass=jd-Main
