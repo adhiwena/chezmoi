@@ -126,6 +126,8 @@ export NNN_SSHFS="sshfs -o follow_symlinks"
 export NNN_COLORS="2136"
 # trash (needs trash-cli) instead of delete
 export NNN_TRASH=1
+# archives
+export NNN_ARCHIVE="\\.(7z|bz2|gz|tar|tgz|zip|rar)$"
 # hidden files on top
 export LC_COLLATE="C"
 
@@ -133,11 +135,10 @@ export LC_COLLATE="C"
 # alias #
 #########
 
-# alias sudo="sudo "
 alias rb=reboot
 alias po=poweroff
 alias q=exit
-# alias :q=exit
+# alias o=xdg-open
 alias v=nvim
 alias sv="sudo -e"
 alias clip="xclip -sel clip"

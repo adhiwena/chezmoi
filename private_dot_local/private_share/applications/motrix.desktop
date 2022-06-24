@@ -1,8 +1,9 @@
 [Desktop Entry]
 Name=Motrix
 Comment=download manager
+Exec=/usr/bin/motrix %F
 # Keywords=
-Exec=motrix %f
+# Exec=motrix %f
 # TryExec=
 Terminal=false
 Icon=/usr/share/icons/motrix.png

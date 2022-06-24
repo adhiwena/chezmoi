@@ -33,12 +33,13 @@ bspc config gapless_monocle      true
 
 # desktop
 bspc rule -a URxvt:urxvt desktop='^1' follow=on
-bspc rule -a firefox desktop='^2' follow=on
-# bspc rule -a Code:code desktop='^3' follow=on
+bspc rule -a firefox:* desktop='^2' follow=on layer=above
+bspc rule -a firefox:Navigator layer=normal
 bspc rule -a VSCodium:vscodium desktop='^3' follow=on
 bspc rule -a URxvt:nnn desktop='^3' follow=on
 bspc rule -a mpv desktop='^4' follow=on # subtitleedit also in desktop 4
 bspc rule -a '*:*:JDownloader 2' desktop='^5' follow=on
+bspc rule -a Motrix desktop='^5' follow=on
 bspc rule -a feh:feh state=fullscreen
 bspc rule -a URxvt:btop state=floating sticky=on center=on layer=above rectangle=1500x800+0+0
 bspc rule -a Rofi:rofi layer=above 
