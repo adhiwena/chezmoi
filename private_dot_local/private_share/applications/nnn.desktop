@@ -2,10 +2,9 @@
 Type=Application
 Name=nnn
 Comment=Terminal file manager
-# d: details, H: hidden, e: edit mode, S presistent session
-Exec=urxvtc -name nnn -e zsh -ic "nnn -dHeS %F"
-# Exec=urxvtc -name nnn -e /usr/bin/nnn -dHe %f
-# Exec=urxvtc -name "nnn" -e /usr/bin/nnn -ed %f
+# d: details, H: hidden, c: cli opener, e: edit mode, S presistent session
+Exec=urxvtc -name nnn -e zsh -ic "nnn -dHcS %F"
+# Exec=urxvtc -name nnn -e zsh -ic "nnn -dHeS %F"
 Terminal=false
 Icon=nnn
 MimeType=inode/directory

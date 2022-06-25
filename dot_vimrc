@@ -1,18 +1,18 @@
 set clipboard+=unnamedplus
 set ts=2 sw=2 sts=2 et ai si
 set nu rnu
-set guicursor+=n:hor20-Cursor/lCursor
+" set guicursor+=n:hor20-Cursor/lCursor " Underscore cursor
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'kovetskiy/sxhkd-vim'
-" Plugin 'base16-project/base16-vim'
 Plugin 'catppuccin/nvim', {'name': 'catppuccin'}
-Plugin 'terryma/vim-multiple-cursors'
+Plugin 'mg979/vim-visual-multi', {'branch': 'master'}
 Plugin 'triglav/vim-visual-increment'
+Plugin 'joeky888/Ass.vim'
+Plugin 'mtdl9/vim-log-highlighting'
 
 call vundle#end()
 
@@ -22,15 +22,10 @@ filetype plugin indent on
 
 let NERDSpaceDelims=1
 
-" colorscheme base16-nord
-" hi Normal guibg=NONE ctermbg=NONE
-" hi LineNr guibg=NONE ctermbg=NONE
-
-" latte, frappe, macchiato, mocha
-" let g:catppuccin_flavour = "mocha"
+let g:catppuccin_flavour = "mocha" " latte, frappe, macchiato, mocha
 colorscheme catppuccin
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-T> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>

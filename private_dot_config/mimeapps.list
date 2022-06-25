@@ -1,6 +1,4 @@
 [Default Applications]
-application/json=nvim-usercreated-1.desktop;
-application/vnd.rar=xarchiver.desktop;
-application/x-rar=nnn.desktop;
-inode/directory=nnn.desktop;
 text/x-ssa=subtitleedit.desktop;
+inode/directory=ranger.desktop;
+text/markdown=nvim.desktop;

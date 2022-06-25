@@ -1,15 +1,15 @@
-#
-# wm independent hotkeys
-#
-
+##########################
+# wm independent hotkeys #
+##########################
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
-#
-# bspwm hotkeys
-#
+
+#################
+# bspwm hotkeys #
+#################
 
 # quit/restart bspwm
 super + alt + {q,r}
@@ -31,9 +31,10 @@ super + y
 super + g
 	bspc node -s biggest.window
 
-#
-# state/flags
-#
+
+###############
+# state/flags #
+###############
 
 # set the window state
 super + {t,shift + t,s,f}
@@ -43,9 +44,10 @@ super + {t,shift + t,s,f}
 super + ctrl + {m,x,y,z}
 	bspc node -g {marked,locked,sticky,private}
 
-#
-# focus/swap
-#
+
+##############
+# focus/swap #
+##############
 
 # focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
@@ -77,29 +79,31 @@ super + {o,i}
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
-#
-# preselect
-#
+
+#############
+# preselect #
+#############
 
 # preselect the direction
-super + ctrl + {h,j,k,l}
-	bspc node -p {west,south,north,east}
+# super + ctrl + {h,j,k,l}
+	# bspc node -p {west,south,north,east}
 
 # preselect the ratio
-super + ctrl + {1-9}
-	bspc node -o 0.{1-9}
+# super + ctrl + {1-9}
+	# bspc node -o 0.{1-9}
 
 # cancel the preselection for the focused node
-super + ctrl + space
-	bspc node -p cancel
+# super + ctrl + space
+	# bspc node -p cancel
 
 # cancel the preselection for the focused desktop
-super + ctrl + shift + space
-	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+# super + ctrl + shift + space
+	# bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
-#
-# move/resize
-#
+
+###############
+# move/resize #
+###############
 
 # expand a window by moving one of its side outward
 super + alt + {h,j,k,l}
@@ -113,9 +117,10 @@ super + alt + shift + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-#####################
-# open applications #
-#####################
+
+###############
+# Keybindings #
+###############
 
 # terminal emulator
 super + Return
@@ -131,7 +136,8 @@ super + w
 
 # visual studio code
 super + v
-  codium
+  gtk-launch nvim.desktop
+  # gtk-launch codium.desktop
   # exec feh --bg-fill /home/data/Github/wallpapers/waves/cat-blue-eye.png &
   # exec feh --bg-fill --randomize /home/adhiwena/Pictures/Wallpaper/dark/* &
 
@@ -139,17 +145,14 @@ super + v
 super + Delete 
 	gtk-launch btop.desktop
 	
-# nnn
+# file manager
 super + e
-	gtk-launch nnn.desktop
+	gtk-launch ranger.desktop
+	# gtk-launch nnn.desktop
 
 # lockscreen
 super + End
 	betterlockscreen -l blur
-
-#####################
-# custom keybinding #
-# ###################
 
 # Volume
 super + equal

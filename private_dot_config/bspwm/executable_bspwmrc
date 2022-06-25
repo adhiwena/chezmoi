@@ -4,6 +4,10 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
+##########
+# Config #
+##########
+
 bspc config border_width         2
 bspc config window_gap          10
 
@@ -11,8 +15,13 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
-# bspc rule -a Gimp desktop='^8' state=floating follow=on
-# bspc rule -a Screenkey manage=off
+bspc config normal_border_color \#1E1E2E
+bspc config active_border_color \#96CDFB
+bspc config focused_border_color \#96CDFB
+
+#########
+# Rules #
+#########
 
 # floating
 # bspc rule -a '*' state=floating
@@ -32,17 +41,27 @@ bspc config gapless_monocle      true
 # done
 
 # desktop
-bspc rule -a URxvt:urxvt desktop='^1' follow=on
+# bspc rule -a Gimp desktop='^8' state=floating follow=on
+# bspc rule -a Screenkey manage=off
+bspc rule -a URxvt desktop='^1' follow=on
 bspc rule -a firefox:* desktop='^2' follow=on layer=above
 bspc rule -a firefox:Navigator layer=normal
 bspc rule -a VSCodium:vscodium desktop='^3' follow=on
-bspc rule -a URxvt:nnn desktop='^3' follow=on
+bspc rule -a URxvt:ranger desktop='^3' follow=on
+bspc rule -a URxvt:nvim desktop='^3' follow=on
 bspc rule -a mpv desktop='^4' follow=on # subtitleedit also in desktop 4
 bspc rule -a '*:*:JDownloader 2' desktop='^5' follow=on
 bspc rule -a Motrix desktop='^5' follow=on
-bspc rule -a feh:feh state=fullscreen
-bspc rule -a URxvt:btop state=floating sticky=on center=on layer=above rectangle=1500x800+0+0
-bspc rule -a Rofi:rofi layer=above 
 
-# autostart
+# custom rules
+# bspc rule -a feh:feh state=fullscreen
+bspc rule -a Sxiv layer=above state=fullscreen
+bspc rule -a Rofi layer=above 
+bspc rule -a URxvt:btop state=floating sticky=on center=on layer=above rectangle=1500x800+0+0
+bspc rule -a Dragon-drop state=floating sticky=on center=on layer=above # rectangle=800x150+0+0
+
+#############
+# Autostart #
+#############
+
 exec ~/.config/polybar/launch.sh &

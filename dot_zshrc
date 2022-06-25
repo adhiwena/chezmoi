@@ -5,9 +5,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
 
@@ -79,13 +76,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git colored-man-pages cp zsh-autosuggestions zsh-syntax-highlighting history-substring-search)
 
-
 # User configuration
-
-export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -118,18 +109,16 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 # nnn #
 #######
 
-# add shortcuts
-export NNN_BMS='d:~/Documents;D:~/Downloads;g:~/Github;m:~/Music;p:~/Pictures;P:~/Public;v:~/Videos'
-# make sshfs follow symlinks on the remote
-export NNN_SSHFS="sshfs -o follow_symlinks"
-# use a different color for each context
-export NNN_COLORS="2136"
-# trash (needs trash-cli) instead of delete
-export NNN_TRASH=1
-# archives
+export NNN_PLUG='f:finder;d:dragdrop'
+export NNN_BMS='d:~/Documents;D:~/Downloads;g:~/Github;m:~/Music;p:~/Pictures;P:~/Public;v:~/Videos' # bookmark shortcuts
+export NNN_OPENER="/home/data/Github/Scripts/Bash/mimeopener"
+# export NNN_OPENER="/usr/bin/vendor_perl/mimeopen -a"
+# export NNN_OPENER="/home/adhiwena/.config/nnn/plugins/nuke"
+export NNN_TRASH=1 # trash-cli
 export NNN_ARCHIVE="\\.(7z|bz2|gz|tar|tgz|zip|rar)$"
-# hidden files on top
-export LC_COLLATE="C"
+export NNN_COLORS="2136" # use a different color for each context
+export LC_COLLATE="C" # hidden files on top
+export NNN_SSHFS="sshfs -o follow_symlinks" # follow symlinks on remote ssh
 
 #########
 # alias #
@@ -138,15 +127,11 @@ export LC_COLLATE="C"
 alias rb=reboot
 alias po=poweroff
 alias q=exit
-# alias o=xdg-open
 alias v=nvim
 alias sv="sudo -e"
 alias clip="xclip -sel clip"
 alias c=chezmoi
 alias cv="chezmoi edit"
-alias cdd="cd /home/data/"
-alias cds="cd /home/data/Github/Scripts/"
-alias cdS="cd /home/data/Github/Subtitles/"
 alias mkva="/home/data/Github/Scripts/Bash/mkva.sh"
 alias mkvm="/home/data/Github/Scripts/Bash/mkvm.sh"
 

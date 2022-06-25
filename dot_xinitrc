@@ -31,18 +31,30 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+##################
+# Autostart apps #
+##################
+
 # keyring
 # eval $(/usr/bin/gnome-keyring-daemon --start)
 # export SSH_AUTH_SOCK
 
-# autostart apps
-# exec /usr/lib/notification-daemon-1.0/notification-daemon &
-exec /home/adhiwena/.screenlayout/monitor.sh &
-exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-exec xsetroot -cursor_name left_ptr &
-exec numlockx & picom & urxvtd &
+exec dunst &
+exec /home/adhiwena/.screenlayout/monitor.sh & # resolution n refresh rate
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & # polkit popup
+exec xsetroot -cursor_name left_ptr & # load cursor theme
+exec numlockx & # on numlock
+exec picom & # transparency, blur, etc
+exec snapshot-detect & # timeshift snapshot auto detect
+
+# Background
 exec feh --bg-fill /home/data/Github/wallpapers/landscapes/tropic_island_day.jpg &
 # exec feh --recursive --bg-fill --randomize /home/data/Github/wallpapers/* &
 # exec feh --bg-fill --randomize /home/adhiwena/Pictures/Wallpaper/dark/* &
+
+# Kill all URxvt Daemon if exist
+killall -q urxvtd
+exec urxvtd &
+
 exec bspwm # polybar inside bspwm
 

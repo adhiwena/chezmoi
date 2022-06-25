@@ -1,5 +1,4 @@
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Themes LxAppearance Complimentary !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Themes LxAppearance Complimentary !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Xft.dpi: 96
@@ -16,6 +15,7 @@ Xcursor.size: 16
 ! URxvt Settings !
 !!!!!!!!!!!!!!!!!!
 
+URxvt.termName: rxvt-unicode-256color
 ! URxvt.font: xft:Inconsolata Nerd Font Mono:pixelSize=12
 URxvt.font: xft:MesloLGS Nerd Font Mono:pixelSize=12
 ! URxvt.font: xft:Iosevka Term:pixelSize=12
@@ -24,10 +24,14 @@ URxvt.font: xft:MesloLGS Nerd Font Mono:pixelSize=12
 
 URxvt.internalBorder: 15
 
-URxvt.perl-ext-common: default,matcher
+URxvt.perl-ext-common: default,matcher,tabbedex
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 URxvt.matcher.rend.0: Uline Bold
+URxvt.tabbedex.autohide: 1
+URxvt.tabbedex.new-button: 0
+URxvt.tabbedex.no-tabbedex-keys: 1
+! URxvt.tabbedex.reopen-on-close: yes ! doesnt work
 
 ! Scroll when output come but not when you go back in to the buffer.
 ! Scroll back to the end on key press
@@ -40,12 +44,13 @@ URxvt.mouseWheelScrollPage: 0
 
 ! URxvt.scrollBar: 1
 ! URxvt.scrollBar_right: 1
+! URxvt.scrollstyle: plain
+! URxvt.scrollColor: #FAE3B0
 URxvt.scrollBar: 0
 URxvt.scrollBar_right: 0
-! URxvt.scrollstyle: plain
 
-URxvt.cursorBlink: 1
-URxvt.cursorUnderline: 1
+! URxvt.cursorBlink: 1
+! URxvt.cursorUnderline: 1
 URxvt.urgentOnBell: 1
 URxvt.visualBell: 0
 URxvt.mapAlert: 0
@@ -54,24 +59,52 @@ URxvt.mapAlert: 0
 ! keybindings !
 !!!!!!!!!!!!!!!
 
+! disable insert mode
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+! disable ctrl+alt copy-paste
+URxvt.keysym.Control-Meta-c: builtin-string:
+URxvt.keysym.Control-Meta-v: builtin-string:
+
+! copy-paste
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
 ! 1-line scrolling
 URxvt.keysym.Shift-Up: command:\033]720;1\007
 URxvt.keysym.Shift-Down: command:\033]721;1\007
 URxvt.keysym.Control-k: command:\033]720;1\007
 URxvt.keysym.Control-j: command:\033]721;1\007
 
-URxvt.keysym.Control-Left: \033[1;5D
-URxvt.keysym.Control-Right: \033[1;5C
+! tabbedex
+URxvt.keysym.Control-t: perl:tabbedex:new_tab
+URxvt.keysym.Control-Tab: perl:tabbedex:next_tab
+URxvt.keysym.Control-Shift-Tab: perl:tabbedex:prev_tab
+
+! bypass ctrl + arrows
+URxvt.keysym.Control-Up:     \033[1;5A
+URxvt.keysym.Control-Down:   \033[1;5B
+URxvt.keysym.Control-Left:   \033[1;5D
+URxvt.keysym.Control-Right:  \033[1;5C
+
+! next word
+URxvt.keysym.Control-h: \033[1;5D
+! URxvt.keysym.Control-l: \033[1;5C ! conflict with clear
 URxvt.keysym.Control-space: \033[1;5C
 
 !!!!!!!!!
 ! theme !
 !!!!!!!!!
+
 ! #define background_opacity 95
 ! URxvt.depth: 32
-! #include ".Xresources.d/colors"
-! URxvt.scrollColor: base03 
-URxvt.scrollColor: #FAE3B0
+URxvt.tabbedex.tabbar-bg: -1 
+URxvt.tabbedex.tabbar-fg: 7
+URxvt.tabbedex.tab-bg: -1
+URxvt.tabbedex.tab-fg: 4
+URxvt.tabbedex.title-bg: -1 
+URxvt.tabbedex.title-fg: 4
 
 *background: #1E1E2E
 *foreground: #D9E0EE
