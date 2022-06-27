@@ -5080,3 +5080,10 @@ git clone https://github.com/SL-RU/ranger_udisk_menu
 : 1656348520:0;l
 : 1656348750:0;v ~/.config/ranger/rc.conf
 : 1656349049:0;c re-add
+: 1656349060:0;c cd
+: 1656349068:0;pwd | clip
+: 1656349082:0;ln -s /home/adhiwena/.local/share/chezmoi /home/adhiwena/chezmoi
+: 1656349085:0;exit
+: 1656349309:0;codium .
+: 1656350551:0;cd
+: 1656350579:0;c re-add
