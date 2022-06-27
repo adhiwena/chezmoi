@@ -1,4 +1,5 @@
 [Default Applications]
-text/x-ssa=subtitleedit.desktop;
 inode/directory=ranger.desktop;
 text/markdown=nvim.desktop;
+text/x-ssa=subtitleedit.desktop;
+text/plain=nvim.desktop;

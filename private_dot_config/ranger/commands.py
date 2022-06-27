@@ -10,7 +10,9 @@
 from __future__ import (absolute_import, division, print_function)
 
 import os
+import re
 from ranger.api.commands import Command
+from threading import Thread
 
 # Trash fix
 # Source: https://github.com/ranger/ranger/blob/391f061cb0b0cfa8266c0651f2a6d948f22e01dd/ranger/config/commands.py#L776
@@ -85,3 +87,95 @@ class trash(Command):
                                bad=True)
             else:
                 raise
+class empty(Command):
+    """:empty
+    Delete trash permanently
+    """
+
+    def execute(self):
+        self.fm.run("rm -rf /home/adhiwena/.local/share/Trash/;rm -rf /home/data/.Trash-1000/")
+        #  self.fm.run("rm -rf /home/data/.Trash-1000/")
+
+class dragon(Command):
+    """:dragon
+    Drag and drop
+    """
+    
+    def execute(self):
+        th = Thread(target=self.dragondaemon, daemon=True)
+        th.start()
+        th.join()
+
+    def dragondaemon(self):
+        arguments = 'urxvtc -name dragon-term -e dragon-daemon {}'.format(" ".join(self.args[1:]))
+        self.fm.execute_command(arguments)
+
+# class quitall_custom(Command):
+#     """:quitall_custom
+#     quitall_custom
+#     """
+
+#     def _exit_no_work(self):
+#         if self.fm.loader.has_work():
+#             self.fm.notify('Not quitting: Tasks in progress: Use `quitall!` to force quit')
+#         else:
+#             # mytabs = str(self.fm.tabs)
+
+#             if re.search('None', str(self.fm.tabs)):
+#                 for tab in self.fm.tabs:
+#                     self.fm.execute_console("tab_move 1")
+
+#             mt = re.findall(r'\'(.*?)\'', str(self.fm.tabs))
+#             # f = open("/home/adhiwena/.config/ranger/session", "w")
+#             f = open("/home/adhiwena/out.txt", "w")
+#             f.write(" ".join(mt))
+#             f.close()
+#             self.fm.exit()
+
+#     def execute(self):
+#         self._exit_no_work()
+        
+class quitall(Command):
+    """:quitall
+
+    Quits if there are no tasks in progress.
+    """
+    def _exit_with_save(self):
+        self._exit_no_work()
+                
+    def _exit_no_work(self):
+        if self.fm.loader.has_work():
+            self.fm.notify('Not quitting: Tasks in progress: Use `quitall!` to force quit')
+        else:
+            self.fm.exit()
+
+    def execute(self):
+        self.fm.execute_console("save_tabs")
+        self._exit_no_work()
+
+class quit(Command):  # pylint: disable=redefined-builtin
+    """:quit
+
+    Closes the current tab, if there's more than one tab.
+    Otherwise quits if there are no tasks in progress.
+    """
+    def _exit_no_work(self):
+        if self.fm.loader.has_work():
+            self.fm.notify('Not quitting: Tasks in progress: Use `quit!` to force quit')
+        else:
+            self.fm.exit()
+
+    def execute(self):
+        if len(self.fm.tabs) >= 2:
+            self.fm.tab_close()
+        else:
+            self.fm.execute_console("quitall")
+            # self._exit_no_work()
+
+class save_tabs(Command):
+    """:save_tabs
+    """
+    def execute(self):
+        with open(self.fm.datapath('tabs'), 'w', encoding="utf-8") as fobj:
+            fobj.write('\0'.join(v.path for t, v in self.fm.tabs.items()) + '\0\0')
+        # self.fm.notify('Tabs saved!')

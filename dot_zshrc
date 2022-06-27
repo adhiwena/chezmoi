@@ -5,6 +5,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/.local/bin:$PATH
+
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
 
@@ -104,6 +107,15 @@ plugins=(git colored-man-pages cp zsh-autosuggestions zsh-syntax-highlighting hi
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions2/src/zsh
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+
+################################
+# dynamic environment virables #
+################################
+
+# export TERMINAL=$TERM
+# In /etc/profile, there is a comment that states "Man is much better than
+# us at figuring this out", so this variable should generally be left unset.
+# export MANPATH=/usr/local/man:$MANPATH
 
 #######
 # nnn #

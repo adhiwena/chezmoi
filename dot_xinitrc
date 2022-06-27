@@ -47,11 +47,6 @@ exec numlockx & # on numlock
 exec picom & # transparency, blur, etc
 exec snapshot-detect & # timeshift snapshot auto detect
 
-# Background
-exec feh --bg-fill /home/data/Github/wallpapers/landscapes/tropic_island_day.jpg &
-# exec feh --recursive --bg-fill --randomize /home/data/Github/wallpapers/* &
-# exec feh --bg-fill --randomize /home/adhiwena/Pictures/Wallpaper/dark/* &
-
 # Kill all URxvt Daemon if exist
 killall -q urxvtd
 exec urxvtd &

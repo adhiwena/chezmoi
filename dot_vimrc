@@ -37,12 +37,13 @@ set viminfo     ='100,n$HOME/.vim/files/info/viminfo
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'tpope/vim-fugitive'
 Plugin 'junegunn/fzf.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-Plugin 'thaerkh/vim-workspace'
+" Plugin 'thaerkh/vim-workspace'
 Plugin 'mg979/vim-visual-multi', {'branch': 'master'}
 Plugin 'triglav/vim-visual-increment'
 
@@ -58,9 +59,9 @@ filetype plugin indent on
 
 " Plugin 'scrooloose/nerdtree'
 let g:NERDSpaceDelims = 1
-let g:workspace_session_directory = $HOME . '/.vim/sessions/'
-let g:workspace_autosave_ignore = ['gitcommit']
-let g:workspace_autocreate = 0
+" let g:workspace_session_directory = $HOME . '/.vim/sessions/'
+" let g:workspace_autosave_ignore = ['gitcommit']
+" let g:workspace_autocreate = 0
 
 "================
 " Theme
@@ -79,10 +80,12 @@ let g:airline_symbols.space = "\ua0"
 let g:airline_section_z = airline#section#create(['windowswap', '%3p%% ', 'linenr', ':%3v']) 
 
 "================
-" Keyindings
+" Keybindings
 "================
 
 nnoremap <C-T> :ToggleWorkspace<CR>
+nnoremap qq :q<CR>
+nnoremap qQ :q<CR>
 " nnoremap <leader>n :NERDTreeFocus<CR>
 " nnoremap <C-N> :NERDTree<CR>
 " nnoremap <C-T> :NERDTreeToggle<CR>

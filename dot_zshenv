@@ -5,9 +5,6 @@
 export VISUAL=nvim
 export EDITOR=nvim
 export BROWSER=firefox
-# export TERM=rxvt-unicode-256color
-# export TERMINAL=rxvt-unicode-256color
-
 
 ###########################
 # XDG Global Environments #
@@ -34,7 +31,4 @@ export ELM_SCALE=1
 # ZSH #
 #######
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-export MANPATH="/usr/local/man:$MANPATH"
-export LANG=en_US.UTF-8 # Language environment
-
+export LANG=en_US.UTF-8
