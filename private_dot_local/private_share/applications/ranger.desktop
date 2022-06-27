@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=ranger
+Comment=Launches the ranger file manager
+Icon=utilities-terminal
+Terminal=false
+Exec=urxvtc -name ranger -e ranger
+# Exec=urxvtc -name ranger -e zsh -ic "ranger $(< ~/.config/ranger/session)"
+# Exec=urxvtc -name ranger -e zsh -ic "[ -f ~/.local/share/ranger/tabs ] && ranger $(tr '\0' ' ' < ~/.local/share/ranger/tabs) || ranger"
+Categories=ConsoleOnly;System;FileTools;FileManager
+MimeType=inode/directory;
+Keywords=File;Manager;Browser;Explorer;Launcher;Vi;Vim;Python
