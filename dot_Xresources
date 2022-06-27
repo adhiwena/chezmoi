@@ -24,7 +24,7 @@ URxvt.font: xft:MesloLGS Nerd Font Mono:pixelSize=12
 
 URxvt.internalBorder: 15
 
-URxvt.perl-ext-common: default,matcher
+URxvt.perl-ext-common: default,matcher,-confirm-paste
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 URxvt.matcher.rend.0: Uline Bold

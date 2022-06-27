@@ -1,0 +1,5082 @@
+: 1655030001:0;7z "[Kusonime] NNB Mov BD 1080P.rar"
+: 1655030002:0;7z x "[Kusonime] NNB Mov BD 1080P.rar"
+: 1655030003:0;7z x "[Kusonime] Pangeran Mageran 1080p.rar"
+: 1655030004:0;7z x cb.zip
+: 1655030005:0;7zFM
+: 1655030006:0;7zFM cb.rar
+: 1655030007:0;alsa-info.sh
+: 1655030008:0;alsactl
+: 1655030009:0;alsamixer
+: 1655030010:0;amixer
+: 1655030011:0;amixer -?
+: 1655030012:0;amixer -D
+: 1655030013:0;amixer -D --help
+: 1655030014:0;amixer -D -?
+: 1655030015:0;amixer -D pulse sset Master 0%
+: 1655030016:0;amixer -D pulse sset Master 5%-
+: 1655030017:0;amixer -D pulse sset Master mute
+: 1655030018:0;amixer -D pulse sset Master toggle
+: 1655030019:0;amixer controls
+: 1655030020:0;amixer get
+: 1655030021:0;amixer get Master
+: 1655030022:0;amixer sset Master 5%-
+: 1655030023:0;amixer sset Master toggle
+: 1655030024:0;bash
+: 1655030025:0;bash ~/.screenlayout/monitor.sh
+: 1655030026:0;betterlockscreen -l
+: 1655030027:0;betterlockscreen -l blur
+: 1655030028:0;betterlockscreen -u /home/adhiwena/Pictures/Wallpaper
+: 1655030029:0;bpytop
+: 1655030030:0;bspc
+: 1655030031:0;bspc config
+: 1655030032:0;bspc config --help
+: 1655030033:0;bspc config /home/adhiwena/.config/bspwm/external_rules_command
+: 1655030034:0;bspc config center_pseudo_tiled
+: 1655030035:0;bspc config external_rules_command
+: 1655030036:0;bspc config external_rules_command /home/adhiwena/.config/bspwm/external_rules_command
+: 1655030037:0;bspc rule -a ::Advanced Sub Station Alpha styles desktop='^5' follow=on
+: 1655030038:0;bspc rule -a ::Advanced* desktop='^5' follow=on
+: 1655030039:0;bspc rule -a '::Advanced Sub Station Alpha styles' desktop='^5' follow=on
+: 1655030040:0;bspc rule -a '::Advanced*' desktop='^6' follow=on
+: 1655030041:0;bspc rule -a '*:*:Advanced Sub Station Alpha styles' desktop='^5' follow=on
+: 1655030042:0;bspc rule -a '*:*:Advanced Sub Station Alpha styles' desktop='^6' follow=on
+: 1655030043:0;bspc rule -a '*:*:Advanced*' desktop='^6' follow=on
+: 1655030044:0;bspc rule -a '*:*:JDownloader 2' desktop='^5' state=tiled follow=on
+: 1655030045:0;bspc rule -a 'Advanced Sub Station Alpha styles' desktop='^6' follow=on
+: 1655030046:0;bspc rule -a "::Advanced*" desktop='^6' follow=on
+: 1655030047:0;bspc rule -a firefox desktop='^2' follow=on
+: 1655030048:0;bspc rule -a firefox desktop='^3'
+: 1655030049:0;bspc rule -a firefox desktop='^3' focus=on
+: 1655030050:0;bspc rule -a firefox focus=on
+: 1655030051:0;bspc rule -a kitty desktop='^1' follow=on
+: 1655030052:0;bspc rule -a kitty desktop='^4' follow=on
+: 1655030053:0;bspc rule -a lxappearance state=floating
+: 1655030054:0;bspc rule -a Lxappearance state=floating
+: 1655030055:0;bspc rule -a SubtitleEdit desktop='^4' follow=on
+: 1655030056:0;bspc rule -a SubtitleEdit state=floating
+: 1655030057:0;bspc rule -l
+: 1655030058:0;bspc rule =l
+: 1655030059:0;bspwm
+: 1655030060:0;bspwm --r
+: 1655030061:0;bspwm --restart
+: 1655030062:0;bspwm -r
+: 1655030063:0;bspwm wm -r
+: 1655030064:0;bspwm Wm -r
+: 1655030065:0;c cd
+: 1655030066:0;c git add .
+: 1655030067:0;c git commit
+: 1655030069:0;c managed
+: 1655030070:0;c re-add
+: 1655030071:0;cat /etc/group
+: 1655030072:0;cat /etc/xdg/picom.conf >> ~/.config/picom/picom.conf
+: 1655030073:0;cat ~/.local/share/xorg/Xorg.0.log | grep '(EE)'
+: 1655030074:0;cat ~/.local/share/xorg/Xorg.0.log | grep (EE)
+: 1655030075:0;cat ~/.p10k.zsh
+: 1655030076:0;cat ~/.ssh/id_ed25519.pub
+: 1655030077:0;cat ~/.ssh/id_ed25519.pub | clip
+: 1655030078:0;cat out.txt
+: 1655030079:0;cd 
+: 1655030080:0;cd -
+: 1655030081:0;cd ..
+: 1655030082:0;cd ../..
+: 1655030083:0;cd ../../..
+: 1655030084:0;cd .chezmoi
+: 1655030085:0;cd .config
+: 1655030086:0;cd .config/rofi/
+: 1655030087:0;cd .java
+: 1655030088:0;cd .local/
+: 1655030089:0;cd .mozilla
+: 1655030090:0;cd .mozilla/firefox/hhrkshb3.default-release
+: 1655030091:0;cd .ssh
+: 1655030092:0;cd .vim
+: 1655030093:0;cd .vscode
+: 1655030094:0;cd .Xresources.d/
+: 1655030095:0;cd .xscreensaver
+: 1655030096:0;cd 'Pending Pings'
+: 1655030097:0;cd "[Kusonime] Pangeran Mageran 1080p/"
+: 1655030098:0;cd /
+: 1655030099:0;cd /etc/.git
+: 1655030100:0;cd /etc/fonts/conf.d/
+: 1655030101:0;cd /etc/X11/xinit/xinitrc.d/
+: 1655030102:0;cd /etc/X11/xorg.conf.d/
+: 1655030103:0;cd /etc/xdg/autostart
+: 1655030104:0;cd /etc/xdg/autostart/
+: 1655030105:0;cd /etc/xdg/termite/config
+: 1655030106:0;cd /etc/xprofile
+: 1655030107:0;cd /home/adhiwena/nerd-fonts-complete/src/nerd-fonts-2.1.0
+: 1655030108:0;cd /home/data
+: 1655030109:0;cd /home/data/Github
+: 1655030110:0;cd /proc/asound/cards
+: 1655030111:0;cd /root
+: 1655030112:0;cd /tmp
+: 1655030113:0;cd /usr/bin
+: 1655030114:0;cd /usr/local/share
+: 1655030115:0;cd /usr/share/app
+: 1655030116:0;cd /usr/share/applications
+: 1655030117:0;cd /usr/share/applications/
+: 1655030118:0;cd /usr/share/dbus-1/services
+: 1655030119:0;cd /usr/share/icons
+: 1655030120:0;cd /usr/share/icons/
+: 1655030121:0;cd /usr/share/icons/whiteglass
+: 1655030122:0;cd /usr/share/mime/packages/
+: 1655030123:0;cd /usr/share/pixmaps
+: 1655030124:0;cd /usr/share/xsessions/
+: 1655030125:0;cd ~
+: 1655030126:0;cd ~/.cache/fontconfig
+: 1655030127:0;cd ~/.config
+: 1655030128:0;cd ~/.config/fontconfig
+: 1655030129:0;cd ~/.config/gtk-3.0/
+: 1655030130:0;cd ~/.config/kitty
+: 1655030131:0;cd ~/.config/mpv
+: 1655030132:0;cd ~/.config/polybar
+: 1655030133:0;cd ~/.config/VSCodium/logs/
+: 1655030134:0;cd ~/.icons/default
+: 1655030135:0;cd ~/.icons/default/cursors
+: 1655030136:0;cd ~/.local
+: 1655030137:0;cd ~/.local/bin
+: 1655030138:0;cd ~/.local/bin 
+: 1655030139:0;cd ~/.local/share
+: 1655030140:0;cd ~/.local/share/
+: 1655030141:0;cd ~/.local/share/applications
+: 1655030142:0;cd ~/.local/share/dbus-1/services
+: 1655030143:0;cd ~/.local/share/keyrings/
+: 1655030144:0;cd ~/.local/share/xorg
+: 1655030145:0;cd ~/Downloads
+: 1655030146:0;cd ~/Downloads/final
+: 1655030147:0;cd ~/Github
+: 1655030148:0;cd ~/Github/base16-xresources
+: 1655030149:0;cd ~/Github/base16-xresources/xresources
+: 1655030150:0;cd ~/Github/polybar-scripts/polybar-scripts/pipewire-simple/
+: 1655030151:0;cd ~/Pictures/Wallpaper
+: 1655030152:0;cd ~/Public/Documents/mpv/
+: 1655030153:0;cd ~/Public/Videos/Animations
+: 1655030154:0;cd $myhdd
+: 1655030155:0;cd $XDG_CONFIG_DIRS
+: 1655030156:0;cd $XDG_CONFIG_HOME/
+: 1655030157:0;cd 20220617T040907
+: 1655030158:0;cd a
+: 1655030159:0;cd applications
+: 1655030160:0;cd autostart
+: 1655030161:0;cd base16
+: 1655030162:0;cd base16-alacritty
+: 1655030163:0;cd base16-kitty/
+: 1655030164:0;cd base16-xresources
+: 1655030165:0;cd Bash
+: 1655030166:0;cd bin
+: 1655030167:0;cd bin/usr/local/share
+: 1655030168:0;cd bpytop
+: 1655030169:0;cd bundle
+: 1655030170:0;cd bunkus.org
+: 1655030171:0;cd cb
+: 1655030172:0;cd Code
+: 1655030173:0;cd colors
+: 1655030174:0;cd conf.d
+: 1655030175:0;cd data
+: 1655030176:0;cd dbus-1/services
+: 1655030177:0;cd default
+: 1655030178:0;cd Do
+: 1655030179:0;cd Documents
+: 1655030180:0;cd Documents/Scripts
+: 1655030181:0;cd dot_screenlayout
+: 1655030182:0;cd Downloads
+: 1655030183:0;cd exthost1
+: 1655030184:0;cd fire
+: 1655030185:0;cd firefox
+: 1655030186:0;cd font
+: 1655030187:0;cd Font
+: 1655030188:0;cd fontconfig
+: 1655030189:0;cd fonts
+: 1655030190:0;cd fotns
+: 1655030191:0;cd g2x5u67o.default
+: 1655030192:0;cd Github
+: 1655030193:0;cd GitHub
+: 1655030194:0;cd Github/base16-xresources/xresources
+: 1655030195:0;cd Github/mpv-settings
+: 1655030196:0;cd Github/Scripts
+: 1655030197:0;cd Github/Scripts/
+: 1655030198:0;cd Github/Scripts/Bash
+: 1655030199:0;cd Github/Subtitles
+: 1655030200:0;cd go
+: 1655030201:0;cd go/bin
+: 1655030202:0;cd keyrings
+: 1655030203:0;cd ll
+: 1655030204:0;cd logs
+: 1655030205:0;cd mpv
+: 1655030206:0;cd mpv-settings
+: 1655030207:0;cd Music
+: 1655030208:0;cd nerd-fonts-2.1.0
+: 1655030209:0;cd nerd-fonts-complete
+: 1655030210:0;cd Noragami
+: 1655030211:0;cd out
+: 1655030212:0;cd out2
+: 1655030213:0;cd output_1_20220617T040909
+: 1655030214:0;cd output_logging_20220617T040911
+: 1655030215:0;cd Pictures
+: 1655030216:0;cd Pictures/Wallpaper
+: 1655030217:0;cd pkg
+: 1655030218:0;cd pkg/
+: 1655030219:0;cd polybar-scripts
+: 1655030220:0;cd private_dot_config
+: 1655030221:0;cd procps
+: 1655030222:0;cd Public/Documents/fonts
+: 1655030223:0;cd Public/Videos/Animations
+: 1655030224:0;cd pulse
+: 1655030225:0;cd RawZombieland
+: 1655030226:0;cd RawZombieland2
+: 1655030227:0;cd ryanoasis-nerd-fonts-2d218ec
+: 1655030228:0;cd script-opts
+: 1655030229:0;cd Scripts
+: 1655030230:0;cd shaders
+: 1655030231:0;cd share/
+: 1655030232:0;cd share/bin
+: 1655030233:0;cd src
+: 1655030234:0;cd state/wireplumber
+: 1655030235:0;cd Subtitles/Noragami
+: 1655030236:0;cd xorg
+: 1655030237:0;cd xresources
+: 1655030238:0;cd..
+: 1655030239:0;cdd
+: 1655030240:0;cdscr 
+: 1655030241:0;chezmoi
+: 1655030242:0;chezmoi --help
+: 1655030243:0;chezmoi -S .chezmoi
+: 1655030244:0;chezmoi -v -S .chezmoi init
+: 1655030245:0;chezmoi -vS .chezmoi init
+: 1655030246:0;chezmoi add betterlockscreenrc
+: 1655030247:0;chezmoi add bin .gitconfig .xinitrc .Xresources .vimrc .zshrc .zprofile .bashrc .screenlayout
+: 1655030248:0;chezmoi add bin/subtitleedit
+: 1655030249:0;chezmoi add bspwm polybar picom rofi kitty mimeapps.list fontconfig/fonts.conf
+: 1655030250:0;chezmoi add sxhkd 
+: 1655030251:0;chezmoi cd
+: 1655030253:0;chezmoi init
+: 1655030254:0;chezmoi init -S .chezmoi
+: 1655030255:0;chezmoi init -vS .chezmoi
+: 1655030256:0;chezmoi managed
+: 1655030257:0;chezmoi re-add
+: 1655030258:0;chezmoi unmanaged ~/bin
+: 1655030259:0;chezmoi unmanaged bin
+: 1655030260:0;chmod +x .screenlayout/monitor.sh
+: 1655030261:0;chmod +x ~/.config/bspwm/external_rules_command
+: 1655030262:0;chmod +x ~/.config/polybar/launch.sh
+: 1655030263:0;chmod +x awe.sh
+: 1655030264:0;chsh -l
+: 1655030265:0;cmake --version
+: 1655030266:0;code
+: 1655030267:0;code --verbose
+: 1655030268:0;code .gitconfig
+: 1655030269:0;code ~/.config/bspwm/bspwmrc
+: 1655030270:0;code ~/.config/mpv/mpv.conf
+: 1655030271:0;code ~/.config/polybar/config.ini
+: 1655030272:0;code ~/.config/sxhkd/sxhkdrc
+: 1655030273:0;code ~/Github/polybar-scripts/polybar-scripts/pipewire-simple/pipewire-simple.sh
+: 1655030274:0;code ~/Github/Scripts
+: 1655030275:0;code ~/Github/Scripts/Bash/subtitleedit.sh
+: 1655030276:0;code 01.json
+: 1655030277:0;code Github
+: 1655030278:0;code mkva.sh
+: 1655030279:0;code mpv.conf
+: 1655030280:0;code out.txt
+: 1655030281:0;codium /home/data/Github/base16-xresources/xresources/base16-nord-256.Xresources
+: 1655030282:0;codium ~/.config/fontconfig/fonts.conf
+: 1655030283:0;codium ~/.Xresources
+: 1655030284:0;codium ~/.zsh_history
+: 1655030285:0;cp -r /usr/share/doc/mpv/ ~/.config/
+: 1655030286:0;cp -r fonts ~/Downloads/final
+: 1655030287:0;cp -r out/Font cb
+: 1655030288:0;cp "[Kusonime] NNB Mov BD 1080P.rar" cb.rar
+: 1655030289:0;cp * a
+: 1655030290:0;cp *.* a
+: 1655030291:0;cp /etc/polybar/config.ini ~/.config/polybar/config
+: 1655030292:0;cp /etc/X11/xinit/xinitrc ~/.xinitrc
+: 1655030293:0;cp /etc/xdg/termite/config ~/.config/termite/config
+: 1655030294:0;cp /usr/bin/subtitleedit /home/adhiwena/.local/bin/subtitleedit
+: 1655030295:0;cp /usr/share/applications/jdownloader.desktop ~/.local/share/applications/
+: 1655030296:0;cp /usr/share/applications/nnn.desktop ~/.local/share/applications/
+: 1655030297:0;cp /usr/share/applications/subtitleedit.desktop ~/.local/share/applications/
+: 1655030298:0;cp /usr/share/doc/betterlockscreen/examples/betterlockscreenrc ~/.config
+: 1655030299:0;cp ~/Github/polybar-scripts/polybar-scripts/pipewire-simple/pipewire-simple.sh ~/.config/polybar/pipewire.sh
+: 1655030300:0;cp $myhdd/dot_ssh/id_* ~/.ssh
+: 1655030301:0;cp $myhdd/dot_ssh/known_hosts .ssh
+: 1655030302:0;cp 01.mkv cb
+: 1655030303:0;cp 01.mkv Font
+: 1655030304:0;cp 08.jpg /usr/share/pixmaps
+: 1655030305:0;cp betterlockscreen@.service /usr/lib/systemd/system/
+: 1655030306:0;cp cb.rar cb.zip
+: 1655030307:0;cp code ~/Github/polybar-scripts/polybar-scripts/pipewire-simple/pipewire-simple.sh ~/.config/polybar/pipewire.sh
+: 1655030308:0;cp Font/trebuc.ttf ./
+: 1655030309:0;cp fonts ~/Downloads/final
+: 1655030310:0;cp mpv.conf mpv.conf.example
+: 1655030311:0;cpv --help
+: 1655030312:0;cpv cb.rar cb.zip
+: 1655030313:0;cv ~/.config/bspwm/bspwmrc
+: 1655030314:0;cv ~/.xinitrc
+: 1655030315:0;cv ~/.zprofile
+: 1655030316:0;date
+: 1655030317:0;dbus-launch
+: 1655030318:0;desktop-file-validate -v $XDG_DATA_HOME/applications/subtitleedit.desktop
+: 1655030319:0;desktop-file-validate $XDG_DATA_HOME/applications/subtitleedit.desktop
+: 1655030320:0;dex -v -n -s /etc/xdg/autostart/:~/.config/autostart/
+: 1655030321:0;dex -v -ns /etc/xdg/autostart/:~/.config/autostart/
+: 1655030322:0;dex -vas /etc/xdg/autostart/:~/.config/autostart/
+: 1655030323:0;dex -vdas /etc/xdg/autostart/:~/.config/autostart/
+: 1655030324:0;dex -vds /etc/xdg/autostart/:~/.config/autostart/
+: 1655030325:0;dex -vns /etc/xdg/autostart/:~/.config/autostart/
+: 1655030326:0;echo "${dt}"
+: 1655030327:0;echo {dt}
+: 1655030328:0;echo $0
+: 1655030329:0;echo $dt
+: 1655030330:0;echo $myhdd
+: 1655030331:0;echo $PATH
+: 1655030332:0;echo $srcdir
+: 1655030333:0;echo $srcdir/
+: 1655030334:0;echo $TERM
+: 1655030335:0;echo $TERMINAL
+: 1655030336:0;echo $VISUAL
+: 1655030337:0;echo $XDG_DATA_DIRS
+: 1655030338:0;echo dt
+: 1655030339:0;echo wmname compiz >> ~/.xinitrc
+: 1655030340:0;env $EDITOR
+: 1655030341:0;env $VISUAL
+: 1655030342:0;eval "$(ssh-agent -s)"
+: 1655030343:0;eval $(/usr/bin/gnome-keyring-daemon --start)
+: 1655030344:0;exec amixer sset Master toggle
+: 1655030345:0;exir
+: 1655030346:0;exit
+: 1655030347:0;extract --help
+: 1655030348:0;extract -helo
+: 1655030349:0;extract -help
+: 1655030350:0;extract "[Kusonime] Arek-Arek Deso BD 720P.rar"
+: 1655030351:0;extract "[Kusonime] NNB Mov BD 1080P.rar"
+: 1655030352:0;extract "[Kusonime] NNB Mov BD 1080P.rar" cb
+: 1655030353:0;extract cb.rar
+: 1655030354:0;extract cb.zip
+: 1655030355:0;fc-cache -rv
+: 1655030356:0;fc-cache -v
+: 1655030357:0;fc-cache -v -f -r
+: 1655030358:0;fc-cache -vfr
+: 1655030359:0;fc-cache -vr
+: 1655030360:0;fc-cache -vrf
+: 1655030361:0;fc-list
+: 1655030362:0;fc-list > installed_fonts.txt
+: 1655030363:0;fc-list >> installed_fonts.txt
+: 1655030364:0;fc-scan
+: 1655030374:0;find * | grep dex
+: 1655030375:0;firefox
+: 1655030376:0;firefox --help
+: 1655030377:0;firefox --profile awe
+: 1655030378:0;firefox --ProfileManager
+: 1655030379:0;firefox &
+: 1655030380:0;firefox SSS.PNG
+: 1655030381:0;git add .
+: 1655030382:0;git clone git@github.com:base16-templates/base16-xresources.git
+: 1655030383:0;git clone git@github.com:kdrag0n/base16-kitty.git
+: 1655030384:0;git clone git@github.com:khamer/base16-termite.git
+: 1655030385:0;git clone git@github.com:polybar/polybar-scripts.git
+: 1655030386:0;git clone git@github.com:Tsubajashi/mpv-settings.git
+: 1655030387:0;git commit -m "init"
+: 1655030388:0;git commit -m "test pubkey"
+: 1655030389:0;git config --global --add safe.directory '/home/data/Github/*'
+: 1655030390:0;git config --global --add safe.directory /home/data/Github/*
+: 1655030391:0;git config --global --add safe.directory /home/data/Github/base16-alacritty
+: 1655030392:0;git config --global --add safe.directory /home/data/Github/mpv-settings
+: 1655030393:0;git config --global --add safe.directory /home/data/Github/polybar-scripts
+: 1655030394:0;git config --global --add safe.directory /home/data/Github/Scripts
+: 1655030395:0;git config --global --remove safe.directory /home/data/Github/mpv-settings
+: 1655030396:0;git config --global --unset safe.directory /home/data/Github/mpv-settings
+: 1655030397:0;git diff
+: 1655030398:0;git ferch
+: 1655030399:0;git fetch
+: 1655030400:0;git lazy
+: 1655030401:0;git push
+: 1655030402:0;git reset --hard
+: 1655030403:0;git revert
+: 1655030404:0;glxinfo | grep "OpenGL version"
+: 1655030405:0;gnome-keyring-daemon -r -d
+: 1655030406:0;go install -tags portal,x11 github.com/unrud/remote-touchpad@latest
+: 1655030407:0;groups
+: 1655030408:0;groups adhiwena
+: 1655030409:0;handlr --help
+: 1655030410:0;handlr get .ass --json
+: 1655030411:0;handlr get x-scheme-handler --json
+: 1655030412:0;handlr get x-scheme-handler/* --json
+: 1655030413:0;handlr list
+: 1655030414:0;handlr set .ass
+: 1655030415:0;handlr set .ass subtitleedit.desktop
+: 1655030416:0;history
+: 1655030417:0;i3lock
+: 1655030418:0;i3lock-fancy
+: 1655030419:0;i3lock-fancy -- scrot -zo
+: 1655030420:0;i3lock-fancy -g -- scrot -zo
+: 1655030421:0;i3lock-fancy -gf NotoSans-Regular -- scrot -zo
+: 1655030422:0;i3lock-fancy -gp -- scrot
+: 1655030423:0;i3lock-fancy -gp -- scrot -z
+: 1655030424:0;i3lock-fancy -gp -- scrot -zo
+: 1655030425:0;i3lock-fancy -gpf Comic-Sans-MS -- maim -z
+: 1655030426:0;i3lock-fancy -gpf Comic-Sans-MS -- scrot -z
+: 1655030427:0;i3lock-fancy -gpf Comic-Sans-MS -- scrot -zo
+: 1655030428:0;i3lock-fancy -gpf Noto-Sans -- scrot -zo
+: 1655030429:0;i3lock-fancy -gpf NotoSans-DisplayRegular -- scrot -zo
+: 1655030430:0;i3lock-fancy -l
+: 1655030431:0;i3lock-fancy -pf Noto Sans -- scrot -zo
+: 1655030432:0;i3lock-fancy -pf NotoSans -- scrot -zo
+: 1655030433:0;i3lock-fancy -pf NotoSans-DisplayRegular -- scrot -zo
+: 1655030434:0;i3lock-fancy -pf NotoSans-Regular -- scrot -zo
+: 1655030435:0;i3lock-fancy-rapid --help
+: 1655030436:0;i3lock-fancy-rapid 5 3
+: 1655030437:0;install -Dm644 /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
+: 1655030438:0;install -Dm755 /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
+: 1655030439:0;java --version
+: 1655030440:0;jdownloader
+: 1655030441:0;JDownloader
+: 1655030442:0;JDownloader --help
+: 1655030443:0;journalctl
+: 1655030444:0;journalctl -b
+: 1655030445:0;journalctl -b -p err
+: 1655030446:0;journalctl -b -p info
+: 1655030447:0;journalctl -b -p warning
+: 1655030448:0;journalctl -b -p=3
+: 1655030449:0;journalctl -b -p=err
+: 1655030450:0;journalctl -p warning
+: 1655030451:0;killall code
+: 1655030452:0;killall codium
+: 1655030453:0;killall firefox
+: 1655030454:0;killall kitty
+: 1655030455:0;killall nnn
+: 1655030456:0;killall picom
+: 1655030457:0;killall polybar
+: 1655030458:0;killall polybar example
+: 1655030459:0;killall Xorg
+: 1655030460:0;killall xss-lock
+: 1655030461:0;kitty --class awe top
+: 1655030462:0;kitty --class bpytop bpytop
+: 1655030463:0;kitty --class reminder ~/reminder.txt
+: 1655030464:0;kitty --class reminder nvim ~/reminder.txt
+: 1655030465:0;kitty --classname bpytop bpytop
+: 1655030466:0;kitty --name awe top
+: 1655030467:0;kitty --name bpytop1 bpytop
+: 1655030468:0;kitty -class awe top
+: 1655030469:0;kitty -class bpytop bpytop
+: 1655030470:0;kitty -classbpytop bpytop
+: 1655030471:0;kitty +kitten icat 01.jpg
+: 1655030472:0;kitty +kitten icat Pictures/Wallpaper/01.jpg
+: 1655030473:0;l /usr/bin 
+: 1655030474:0;l fontconfig
+: 1655030475:0;l fontconfig/conf.d
+: 1655030476:0;l nnn
+: 1655030477:0;l nvim
+: 1655030478:0;l polybar
+: 1655030479:0;l rofi
+: 1655030480:0;l sxhkd
+: 1655030481:0;lazygit
+: 1655030482:0;ln -s /home/data/base16/base16-rofi/themes /home/adhiwena/.config/rofi/
+: 1655030483:0;ln -s /home/data/Github /home/adhiwena/
+: 1655030484:0;ln -s /home/data/Github/base16-rofi/themes/base16-nord.rasi /home/adhiwena/.config/rofi/
+: 1655030485:0;ln -s /home/data/Github/mpv-settings /home/adhiwena/.config/mpv
+: 1655030486:0;ln -s /home/data/Github/mpv-settings/fonts /home/adhiwena/.config/mpv
+: 1655030487:0;ln -s /home/data/Github/mpv-settings/input.conf /home/adhiwena/.config/mpv
+: 1655030488:0;ln -s /home/data/Github/mpv-settings/mpv_linux.conf /home/adhiwena/.config/mpv
+: 1655030489:0;ln -s /home/data/Github/mpv-settings/mpv_linux.conf /home/adhiwena/.config/mpv/mpv.conf
+: 1655030490:0;ln -s /home/data/Github/mpv-settings/mpv_linux.conf /home/data/Github/mpv-settings/mpv.conf
+: 1655030491:0;ln -s /home/data/Github/mpv-settings/script-opts /home/adhiwena/.config/mpv
+: 1655030492:0;ln -s /home/data/Github/mpv-settings/shaders /home/adhiwena/.config/mpv
+: 1655030493:0;ln -s /home/data/Github/Scripts/Bash/subtitleedit.sh /home/adhiwena/.local/bin/subtitleedit
+: 1655030494:0;ln -s /home/data/Github/Scripts/Bash/subtitleedit.sh /home/adhiwena/bin/subtitleedit
+: 1655030495:0;ln -s /home/data/Pictures/Wallpaper /root
+: 1655030496:0;ln -s ~/.config/mimeapps.list ~/.local/share/applications/mimeapps.list
+: 1655030497:0;logout
+: 1655030498:0;ls *.mkv
+: 1655030499:0;ls /usr/bin
+: 1655030500:0;ls /usr/local/share/applications/
+: 1655030501:0;ls /usr/share/applications
+: 1655030502:0;ls | clip
+: 1655030503:0;ls | grep nord
+: 1655030504:0;ls | grep urxvt
+: 1655030505:0;ls bspwm
+: 1655030506:0;ls dconf
+: 1655030507:0;ls gtk-3.0
+: 1655030508:0;ls kitty
+: 1655030509:0;ls polybar
+: 1655030510:0;ls rofi
+: 1655030511:0;ls v gtk-3.0
+: 1655030512:0;lsdesktopf --gen-mimeapps
+: 1655030513:0;lsdesktopf --gm -gx x-scheme-handler
+: 1655030514:0;lsdesktopf --help
+: 1655030515:0;lsdesktopf --help all
+: 1655030516:0;lspci -k
+: 1655030517:0;lspci -k | grep "VGA"
+: 1655030518:0;lspci -k | grep amdgpu
+: 1655030519:0;lspci -v | grep -A1 -e VGA -e 3D
+: 1655030520:0;lxappearance
+: 1655030521:0;ma nmimeopen
+: 1655030522:0;ma nrename
+: 1655030523:0;makepkg -l -sci BUILDDIR=.
+: 1655030524:0;makepkg -L -sci BUILDDIR=.
+: 1655030525:0;makepkg -lsci BUILDDIR=.
+: 1655030526:0;makepkg -sci BUILDDIR=.
+: 1655030527:0;man _xscreensaver
+: 1655030528:0;man amixer
+: 1655030529:0;man bspc
+: 1655030530:0;man bspc config
+: 1655030531:0;man bspwm
+: 1655030532:0;man chezmoi
+: 1655030533:0;man chsh
+: 1655030534:0;man code
+: 1655030535:0;man dex
+: 1655030536:0;man eval
+: 1655030537:0;man extract
+: 1655030538:0;man fc-cache
+: 1655030539:0;man firefox
+: 1655030540:0;man hadnlr
+: 1655030541:0;man handlr
+: 1655030542:0;man i3lock-fancy-rapid 
+: 1655030543:0;man if
+: 1655030544:0;man JDownloader
+: 1655030545:0;man journalctl
+: 1655030546:0;man kitty
+: 1655030547:0;man lsdesktopf
+: 1655030548:0;man makepkg
+: 1655030549:0;man mimeo
+: 1655030550:0;man mimeopen
+: 1655030551:0;man mimetype
+: 1655030552:0;man mkvmerge 
+: 1655030553:0;man mkvpropedit
+: 1655030554:0;man mpv
+: 1655030555:0;man nnn
+: 1655030556:0;man p7zipForFilemanager
+: 1655030557:0;man pacman
+: 1655030558:0;man pgrep
+: 1655030559:0;man polybar
+: 1655030560:0;man reflector
+: 1655030561:0;man rename
+: 1655030562:0;man rofi
+: 1655030563:0;man scrot
+: 1655030564:0;man sh
+: 1655030565:0;man shared-mime-info
+: 1655030566:0;man snapshot-detect
+: 1655030567:0;man systemctl
+: 1655030568:0;man top
+: 1655030569:0;man unrar
+: 1655030570:0;man update-desktop-database
+: 1655030571:0;man urxvt
+: 1655030572:0;man urxvtc
+: 1655030573:0;man wget
+: 1655030574:0;man x
+: 1655030575:0;man xcursor
+: 1655030576:0;man xdg-mime
+: 1655030577:0;man xdg-settings
+: 1655030578:0;man xdg-settings 
+: 1655030579:0;man xdotool
+: 1655030580:0;man xgettext
+: 1655030581:0;man Xorg
+: 1655030582:0;man xrdb
+: 1655030583:0;man xset
+: 1655030584:0;man xsetroot
+: 1655030585:0;man xss-lock
+: 1655030586:0;man yay
+: 1655030587:0;man zsh
+: 1655030588:0;mimeo --add inode/directory nnn.desktop
+: 1655030589:0;mimeo --add text/x-ssa ~/.local/share/applications/subtitleedit.desktop
+: 1655030590:0;mimeo --add text/x-ssa subtitleedit.desktop
+: 1655030591:0;mimeo --finddesk nnn.desktop
+: 1655030592:0;mimeo --finddesk subtitleedit.desktop
+: 1655030593:0;mimeo --help
+: 1655030594:0;mimeo --list
+: 1655030595:0;mimeo --mime2desk inode/directory
+: 1655030596:0;mimeo --mimeapps-list
+: 1655030597:0;mimeo --mimeman-help
+: 1655030598:0;mimeo --mimetype 'globe:x-scheme-handler/*'
+: 1655030599:0;mimeo --mimetype 'globe:x-scheme*'
+: 1655030600:0;mimeo --mimetype 'regex:x-scheme*'
+: 1655030601:0;mimeo --unadd text/x-ssa ~/.local/share/applications/subtitleedit.desktop
+: 1655030602:0;mimeo --unadd text/x-ssa subtitleedit.desktop
+: 1655030603:0;mimeo --update
+: 1655030604:0;mimeo -d
+: 1655030605:0;mimeo -d nnn.desktop
+: 1655030606:0;mimeo -d subtitleedit.desktop
+: 1655030607:0;mimeo -m 01.en.ass
+: 1655030608:0;mimeo -m Documents/01.en.ass
+: 1655030609:0;mimeo -m inode/directory
+: 1655030610:0;mimeo 01.en.ass
+: 1655030611:0;mimeo Documents/01.en.ass
+: 1655030612:0;mimeopen -d 01.en.ass
+: 1655030613:0;mimeopen -d Documents
+: 1655030614:0;mimeopen -n 01.id.ass
+: 1655030615:0;mimeopen -s 01.en.ass
+: 1655030616:0;mkdir -p ~/.local/bin
+: 1655030617:0;mkdir -p ~/.local/share/applications/
+: 1655030618:0;mkdir -p $XDG_DATA_HOME/dbus-1/services
+: 1655030619:0;mkdir .chezmoi
+: 1655030620:0;mkdir .config/rofi
+: 1655030621:0;mkdir .screenlayout
+: 1655030622:0;mkdir .ssh
+: 1655030623:0;mkdir /home/adhiwena/nerd-fonts-complete/src/nerd-fonts-2.1.0
+: 1655030624:0;mkdir /usr/local/share/applications
+: 1655030625:0;mkdir ~/.config/kitty
+: 1655030626:0;mkdir ~/.config/mpv
+: 1655030627:0;mkdir ~/.config/picom
+: 1655030628:0;mkdir ~/.config/polybar
+: 1655030629:0;mkdir ~/.config/termite
+: 1655030630:0;mkdir a
+: 1655030631:0;mkdir cb
+: 1655030632:0;mkdir final
+: 1655030633:0;mkdir fonts
+: 1655030634:0;mkdir Github
+: 1655030635:0;mkdir out
+: 1655030636:0;mkva
+: 1655030637:0;mkva "A Font with Serifs.ttf"
+: 1655030638:0;mkva *
+: 1655030639:0;mkva >> out.txt
+: 1655030640:0;mkva 01.id.ass
+: 1655030641:0;mkva 01.mkv
+: 1655030642:0;mkva awe.ttf
+: 1655030643:0;mkva awee
+: 1655030644:0;mkva awee-aewdfsf~.ttf
+: 1655030645:0;mkva coba.en.ass
+: 1655030646:0;mkva Font/*
+: 1655030647:0;mkva Font/* >> out.txt
+: 1655030648:0;mkva trebuc.ttf
+: 1655030649:0;mkvmerge --verbose -o 01_changed.mkv 01.mkv --attachment-name '!!! HANDWRITINGG _3.TTF.TTF' --attachment-mime-type 'font/ttf' --attach-file './fonts/!!! HANDWRITINGG _3.TTF.TTF'
+: 1655030650:0;mkvmerge -i 01_changed.mkv
+: 1655030651:0;mkvmerge -i 01.mkv
+: 1655030652:0;mkvmerge -o 01_changed.mkv 01.mkv --attachment-name 'A Font with Serifs.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/A Font with Serifs.ttf' --attachment-name 'Amira Semibold Italic.otf' --attachment-mime-type 'font/otf' --attach-file './Font/Amira Semibold Italic.otf' --attachment-name 'AmmanV3Sans-Medium.otf' --attachment-mime-type 'font/otf' --attach-file './Font/AmmanV3Sans-Medium.otf' --attachment-name 'arabtype_0.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/arabtype_0.ttf' --attachment-name 'ARCENA.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/ARCENA.ttf' --attachment-name 'ARIALBD_0.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/ARIALBD_0.ttf' --attachment-name 'augie.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/augie.ttf' --attachment-name 'bahnschrift.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/bahnschrift.ttf' --attachment-name 'belligerent.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/belligerent.ttf' --attachment-name 'Blanket.otf' --attachment-mime-type 'font/otf' --attach-file './Font/Blanket.otf' --attachment-name 'brook23.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/brook23.ttf' --attachment-name 'Brushaff.otf' --attachment-mime-type 'font/otf' --attach-file './Font/Brushaff.otf' --attachment-name 'Brush Strokes_Español.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Brush Strokes_Español.ttf' --attachment-name 'Brush Strokes.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Brush Strokes.ttf' --attachment-name 'Brush.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Brush.ttf' --attachment-name 'Butterfly Reflect.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Butterfly Reflect.ttf' --attachment-name 'calibri_0.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/calibri_0.ttf' --attachment-name 'calibril.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/calibril.ttf' --attachment-name 'ClearGothicSerial-Medium.TTF' --attachment-mime-type 'font/ttf' --attach-file './Font/ClearGothicSerial-Medium.TTF' --attachment-name 'Cremona.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Cremona.ttf' --attachment-name 'DAGGERSQUARE.otf' --attachment-mime-type 'font/otf' --attach-file './Font/DAGGERSQUARE.otf' --attachment-name 'DANGERDIABOLIK.TTF' --attachment-mime-type 'font/ttf' --attach-file './Font/DANGERDIABOLIK.TTF' --attachment-name 'Delius-Regular.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Delius-Regular.ttf' --attachment-name 'DJ Goo.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/DJ Goo.ttf' --attachment-name 'Dosis-Bold.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Dosis-Bold.ttf' --attachment-name 'Filmcryptic.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Filmcryptic.ttf' --attachment-name 'FiraSans-Medium.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/FiraSans-Medium.ttf' --attachment-name 'Flareserif821.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Flareserif821.ttf' --attachment-name 'FOT-MatisseElegantoPro-EB.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/FOT-MatisseElegantoPro-EB.ttf' --attachment-name 'FOT Rodin Pro EB.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/FOT Rodin Pro EB.ttf' --attachment-name 'FOTSeuratProNStrp-DemiBold.otf' --attachment-mime-type 'font/otf' --attach-file './Font/FOTSeuratProNStrp-DemiBold.otf' --attachment-name 'GandhiSans-BoldItalic.otf' --attachment-mime-type 'font/otf' --attach-file './Font/GandhiSans-BoldItalic.otf' --attachment-name 'GandhiSans-Bold.otf' --attachment-mime-type 'font/otf' --attach-file './Font/GandhiSans-Bold.otf' --attachment-name 'GorgoBold.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/GorgoBold.ttf' --attachment-name 'HANDAB.TTF' --attachment-mime-type 'font/ttf' --attach-file './Font/HANDAB.TTF' --attachment-name 'Handgley Regular.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Handgley Regular.ttf' --attachment-name 'HandwritingCR-2.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/HandwritingCR-2.ttf' --attachment-name '!!! HANDWRITINGG _3.TTF.TTF' --attachment-mime-type 'font/ttf' --attach-file './Font/!!! HANDWRITINGG _3.TTF.TTF' --attachment-name 'hlbrush3.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/hlbrush3.ttf' --attachment-name 'HouseofTerror-Regular.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/HouseofTerror-Regular.ttf' --attachment-name 'IwaMinPro-Md-Kami.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/IwaMinPro-Md-Kami.ttf' --attachment-name 'Lato-Bold_0.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Lato-Bold_0.ttf' --attachment-name 'Metamorphous-Regular.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Metamorphous-Regular.ttf' --attachment-name 'NewRocker-Regular.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/NewRocker-Regular.ttf' --attachment-name 'One Off Mincho R.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/One Off Mincho R.ttf' --attachment-name 'playtime.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/playtime.ttf' --attachment-name 'PlaytimeWithHotToddies.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/PlaytimeWithHotToddies.ttf' --attachment-name 'Please write me a song.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Please write me a song.ttf' --attachment-name 'Roboto-Medium.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Roboto-Medium.ttf' --attachment-name 'stone-sans-semi-bold-italic.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/stone-sans-semi-bold-italic.ttf' --attachment-name 'stone-sans-semi-bold-regular.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/stone-sans-semi-bold-regular.ttf' --attachment-name 'timesbd_0.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/timesbd_0.ttf' --attachment-name 'trebucbd.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/trebucbd.ttf' --attachment-name 'trebucbi.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/trebucbi.ttf' --attachment-name 'trebucit.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/trebucit.ttf' --attachment-name 'trebuc.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/trebuc.ttf' --attachment-name 'VestaPro-BoldItalic.otf' --attachment-mime-type 'font/otf' --attach-file './Font/VestaPro-BoldItalic.otf'
+: 1655030653:0;mkvmerge -v -o 01_changed.mkv 01.mkv --attachment-name 'A Font with Serifs.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/A Font with Serifs.ttf' --attachment-name 'Amira Semibold Italic.otf' --attachment-mime-type 'font/otf' --attach-file './Font/Amira Semibold Italic.otf' --attachment-name 'AmmanV3Sans-Medium.otf' --attachment-mime-type 'font/otf' --attach-file './Font/AmmanV3Sans-Medium.otf' --attachment-name 'arabtype_0.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/arabtype_0.ttf' --attachment-name 'ARCENA.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/ARCENA.ttf' --attachment-name 'ARIALBD_0.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/ARIALBD_0.ttf' --attachment-name 'augie.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/augie.ttf' --attachment-name 'bahnschrift.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/bahnschrift.ttf' --attachment-name 'belligerent.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/belligerent.ttf' --attachment-name 'Blanket.otf' --attachment-mime-type 'font/otf' --attach-file './Font/Blanket.otf' --attachment-name 'brook23.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/brook23.ttf' --attachment-name 'Brushaff.otf' --attachment-mime-type 'font/otf' --attach-file './Font/Brushaff.otf' --attachment-name 'Brush Strokes_Español.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Brush Strokes_Español.ttf' --attachment-name 'Brush Strokes.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Brush Strokes.ttf' --attachment-name 'Brush.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Brush.ttf' --attachment-name 'Butterfly Reflect.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Butterfly Reflect.ttf' --attachment-name 'calibri_0.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/calibri_0.ttf' --attachment-name 'calibril.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/calibril.ttf' --attachment-name 'ClearGothicSerial-Medium.TTF' --attachment-mime-type 'font/ttf' --attach-file './Font/ClearGothicSerial-Medium.TTF' --attachment-name 'Cremona.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Cremona.ttf' --attachment-name 'DAGGERSQUARE.otf' --attachment-mime-type 'font/otf' --attach-file './Font/DAGGERSQUARE.otf' --attachment-name 'DANGERDIABOLIK.TTF' --attachment-mime-type 'font/ttf' --attach-file './Font/DANGERDIABOLIK.TTF' --attachment-name 'Delius-Regular.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Delius-Regular.ttf' --attachment-name 'DJ Goo.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/DJ Goo.ttf' --attachment-name 'Dosis-Bold.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Dosis-Bold.ttf' --attachment-name 'Filmcryptic.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Filmcryptic.ttf' --attachment-name 'FiraSans-Medium.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/FiraSans-Medium.ttf' --attachment-name 'Flareserif821.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Flareserif821.ttf' --attachment-name 'FOT-MatisseElegantoPro-EB.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/FOT-MatisseElegantoPro-EB.ttf' --attachment-name 'FOT Rodin Pro EB.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/FOT Rodin Pro EB.ttf' --attachment-name 'FOTSeuratProNStrp-DemiBold.otf' --attachment-mime-type 'font/otf' --attach-file './Font/FOTSeuratProNStrp-DemiBold.otf' --attachment-name 'GandhiSans-BoldItalic.otf' --attachment-mime-type 'font/otf' --attach-file './Font/GandhiSans-BoldItalic.otf' --attachment-name 'GandhiSans-Bold.otf' --attachment-mime-type 'font/otf' --attach-file './Font/GandhiSans-Bold.otf' --attachment-name 'GorgoBold.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/GorgoBold.ttf' --attachment-name 'HANDAB.TTF' --attachment-mime-type 'font/ttf' --attach-file './Font/HANDAB.TTF' --attachment-name 'Handgley Regular.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Handgley Regular.ttf' --attachment-name 'HandwritingCR-2.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/HandwritingCR-2.ttf' --attachment-name '!!! HANDWRITINGG _3.TTF.TTF' --attachment-mime-type 'font/ttf' --attach-file './Font/!!! HANDWRITINGG _3.TTF.TTF' --attachment-name 'hlbrush3.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/hlbrush3.ttf' --attachment-name 'HouseofTerror-Regular.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/HouseofTerror-Regular.ttf' --attachment-name 'IwaMinPro-Md-Kami.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/IwaMinPro-Md-Kami.ttf' --attachment-name 'Lato-Bold_0.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Lato-Bold_0.ttf' --attachment-name 'Metamorphous-Regular.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Metamorphous-Regular.ttf' --attachment-name 'NewRocker-Regular.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/NewRocker-Regular.ttf' --attachment-name 'One Off Mincho R.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/One Off Mincho R.ttf' --attachment-name 'playtime.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/playtime.ttf' --attachment-name 'PlaytimeWithHotToddies.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/PlaytimeWithHotToddies.ttf' --attachment-name 'Please write me a song.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Please write me a song.ttf' --attachment-name 'Roboto-Medium.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/Roboto-Medium.ttf' --attachment-name 'stone-sans-semi-bold-italic.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/stone-sans-semi-bold-italic.ttf' --attachment-name 'stone-sans-semi-bold-regular.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/stone-sans-semi-bold-regular.ttf' --attachment-name 'timesbd_0.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/timesbd_0.ttf' --attachment-name 'trebucbd.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/trebucbd.ttf' --attachment-name 'trebucbi.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/trebucbi.ttf' --attachment-name 'trebucit.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/trebucit.ttf' --attachment-name 'trebuc.ttf' --attachment-mime-type 'font/ttf' --attach-file './Font/trebuc.ttf' --attachment-name 'VestaPro-BoldItalic.otf' --attachment-mime-type 'font/otf' --attach-file './Font/VestaPro-BoldItalic.otf'
+: 1655030654:0;mkvmerge @01.json
+: 1655030655:0;mkvtoolnix-gui 01_change.mkv
+: 1655030656:0;mkvtoolnix-gui 01.mkv
+: 1655030657:0;mpv
+: 1655030658:0;mpv --hwdec=auto --hwdec-codecs=all 01.mkv
+: 1655030659:0;mpv --profile=help
+: 1655030660:0;mpv "Noragami"
+: 1655030661:0;mpv "Tensai Ouji no Akaji Kokka Saisei Jutsu"
+: 1655030662:0;mpv "Tensai Ouji no Akaji Kokka Saisei Jutsu" &
+: 1655030663:0;mpv "Youjo Senki" &
+: 1655030664:0;mpv 01.mkv
+: 1655030665:0;mv .dmrc .dmrc.rm
+: 1655030666:0;mv .fonts.conf ~/.config/fontconfig/fonts.conf
+: 1655030667:0;mv "[Kusonime] Pangeran Mageran 1080p" "Tensai Ouji no Akaji Kokka Saisei Jutsu"
+: 1655030668:0;mv "[Kusonime] Zombie Ngidol S2 BeDeh Font+Subs" out
+: 1655030669:0;mv "Non Non Biyori Vacation" Public/Videos/Animations
+: 1655030670:0;mv "Tensai Ouji no Akaji Kokka Saisei Jutsu" ~/Public/Videos/Animations
+: 1655030671:0;mv * /home/data/
+: 1655030672:0;mv ~/.local/share/applications/subtitleedit.desktop .
+: 1655030673:0;mv ~/.local/share/bin .
+: 1655030674:0;mv 01.json 001.json
+: 1655030675:0;mv 01.mkv fonts
+: 1655030676:0;mv base16-alacritty Github
+: 1655030677:0;mv base16-rofi Github
+: 1655030678:0;mv bin share
+: 1655030679:0;mv coba.en.ass awe.ttf
+: 1655030680:0;mv config config.ini
+: 1655030681:0;mv Documents/bebasid Github
+: 1655030682:0;mv Documents/Scripts Github
+: 1655030683:0;mv Documents/Subtitles Github
+: 1655030684:0;mv Font fonts
+: 1655030685:0;mv Font+Subs/*
+: 1655030686:0;mv Font+Subs/* ./
+: 1655030687:0;mv fonts/01.mkv ./
+: 1655030688:0;mv GitHub GitHub_old
+: 1655030689:0;mv mpv_linux.conf mpv.conf
+: 1655030690:0;mv nerd-fonts-2.1.0.tar.gz /home/data/Public/Documents/fonts/
+: 1655030691:0;mv nnn.desktop.bak nnn.desktop
+: 1655030692:0;mv nnn.desktop.bak nnn.desktop.bak
+: 1655030693:0;mv out out2
+: 1655030694:0;mv RawZombieland2/*.mkv final
+: 1655030695:0;mv remote remote-touchpad
+: 1655030696:0;mv remote-touchpad ~/remote
+: 1655030697:0;mv remote-touchpad bin
+: 1655030698:0;mv subtitleedit subtitleedit.bak
+: 1655030699:0;mv subtitleedit.desktop ~/.local/share/applications/subtitleedit.desktop
+: 1655030700:0;neofetch
+: 1655030701:0;nnn
+: 1655030702:0;nnn -d
+: 1655030703:0;notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information
+: 1655030704:0;notify-send "hehehe"
+: 1655030705:0;notify-send "hey"
+: 1655030706:0;p10k
+: 1655030707:0;p10k configure
+: 1655030708:0;p7zipForFilemanager --h
+: 1655030709:0;p7zipForFilemanager --help
+: 1655030710:0;p7zipForFilemanager -h
+: 1655030711:0;p7zipForFilemanager cb.rar
+: 1655030712:0;pacman -Qdt
+: 1655030713:0;pactl info
+: 1655030714:0;pamixer
+: 1655030715:0;pavucontrol
+: 1655030716:0;picom &
+: 1655030717:0;ping archlinux.org
+: 1655030718:0;polybar adhiwena
+: 1655030719:0;polybar example
+: 1655030720:0;polybar example &
+: 1655030721:0;poweroff
+: 1655030722:0;pwd | clip
+: 1655030723:0;r -r nerd-fonts-complete
+: 1655030724:0;radeontop
+: 1655030725:0;reboot
+: 1655030726:0;reflector
+: 1655030727:0;remote-touchpad
+: 1655030728:0;rename -a "[Kusonime]" ""
+: 1655030729:0;rename -a "Kusonime" ""
+: 1655030730:0;rename -h
+: 1655030731:0;rename -v '[Kusonime] Zombie Land Saga Revenge BD - ' '' *.ass
+: 1655030732:0;rename -vn '.* - ' '' *.ass
+: 1655030733:0;rename -vn '[Kusonime] Zombie Land Saga Revenge BD - ' '' *.ass
+: 1655030734:0;rename -vn '* - ' '' *.ass
+: 1655030735:0;rename -vn 'Zombie' '' *.ass
+: 1655030736:0;rename .ass .id.ass *.ass
+: 1655030737:0;rename .desktop .desktop.bak ~/.local/share/applications/nnn.desktop
+: 1655030738:0;rename .xml .chapters.xml *.xml
+: 1655030739:0;rename '[Kusonime] Tensai Ouji no Akaji Kokka Saisei Jutsu - ' '' *
+: 1655030740:0;rename '[Kusonime] Zombie Land Saga Revenge BD - ' '' *.xml
+: 1655030741:0;rename Zombie
+: 1655030742:0;rm -r .chezmoi
+: 1655030743:0;rm -r .java
+: 1655030744:0;rm -r .jd
+: 1655030745:0;rm -r .mozilla
+: 1655030746:0;rm -r .vscode
+: 1655030747:0;rm -r "Code Cache"
+: 1655030748:0;rm -r "Code"
+: 1655030749:0;rm -r "Youjo Senki OVA"
+: 1655030750:0;rm -r *
+: 1655030751:0;rm -r ~/.config/mpv
+: 1655030752:0;rm -r ~/.local/share/chezmoi
+: 1655030753:0;rm -r base16
+: 1655030754:0;rm -r Cache*
+: 1655030755:0;rm -r cb
+: 1655030756:0;rm -r chezmoi
+: 1655030757:0;rm -r dbus-1
+: 1655030758:0;rm -r dot_ssh
+: 1655030759:0;rm -r final
+: 1655030760:0;rm -r Font+Subs
+: 1655030761:0;rm -r fonts
+: 1655030762:0;rm -r Github
+: 1655030763:0;rm -r go
+: 1655030764:0;rm -r mpv
+: 1655030765:0;rm -r mpv-settings
+: 1655030766:0;rm -r nerd-fonts-complete
+: 1655030767:0;rm -r out
+: 1655030768:0;rm -r out2
+: 1655030769:0;rm -r procps
+: 1655030770:0;rm -r pulse
+: 1655030771:0;rm -r RawZombieland2
+: 1655030772:0;rm -r termite
+: 1655030773:0;rm -rf go
+: 1655030774:0;rm -rf mpv-settings
+: 1655030775:0;rm -rf nerd-fonts-complete
+: 1655030776:0;rm -rf RawZombieland2
+: 1655030777:0;rm .chezmoi
+: 1655030778:0;rm .dmrc.rm
+: 1655030779:0;rm .p7zip
+: 1655030780:0;rm .ssh/*
+: 1655030781:0;rm .wget-hsts
+: 1655030782:0;rm .xsession-errors .xsession-errors.old
+: 1655030783:0;rm "[Kusonime] Orange 480P.rar"
+: 1655030784:0;rm *
+: 1655030785:0;rm *.json
+: 1655030786:0;rm *.url
+: 1655030787:0;rm ~/.config/gtk-3.0/gtk.css
+: 1655030788:0;rm ~/.local/share/applications/jdownloader.desktop
+: 1655030789:0;rm ~/.local/share/xorg/Xorg.0.log
+: 1655030790:0;rm ~/.xscreensaver
+: 1655030791:0;rm 01_change
+: 1655030792:0;rm 01_change.mkv
+: 1655030793:0;rm 01_changed.mkv
+: 1655030794:0;rm 01.json
+: 1655030795:0;rm 01.mkv
+: 1655030796:0;rm awe.sh
+: 1655030797:0;rm awe.ttf
+: 1655030798:0;rm bspwm/external_rules_command
+: 1655030799:0;rm cb.zip
+: 1655030800:0;rm coba.sh
+: 1655030801:0;rm Font+Subs
+: 1655030802:0;rm hai.txt
+: 1655030803:0;rm installed_fonts.txt
+: 1655030804:0;rm known_hosts
+: 1655030805:0;rm known_hosts.old
+: 1655030806:0;rm location.txt
+: 1655030807:0;rm lock
+: 1655030808:0;rm lock .parentlock
+: 1655030809:0;rm mpv.conf
+: 1655030810:0;rm out.txt
+: 1655030811:0;rm out.txt trebuc.ttf
+: 1655030812:0;rm polybar/pipewire.sh
+: 1655030813:0;rm reminder.txt
+: 1655030814:0;rm Xorg*
+: 1655030815:0;rn -r nerd-fonts-complete
+: 1655030816:0;rofi -dmenu
+: 1655030817:0;rofi -dump-config > ~/.config/rofi/config.rasi
+: 1655030818:0;rofi -show dmenu
+: 1655030819:0;rofi -show dmenu -dmenu
+: 1655030820:0;rofi -show drun
+: 1655030821:0;rofi -show drun -theme base16-nord
+: 1655030822:0;rofi -show run
+: 1655030823:0;rofi dmenu
+: 1655030824:0;seahorse
+: 1655030825:0;sha256sum nerd-fonts-2.1.0.tar.gz
+: 1655030826:0;sha256sum v2.1.0.tar.gz
+: 1655030827:0;shared-mime-info
+: 1655030828:0;snapshot-detect
+: 1655030829:0;snapshot-detect --help
+: 1655030830:0;ssh-add -L
+: 1655030831:0;ssh-add ~/.ssh/id_ed25519
+: 1655030832:0;ssh-keygen -t ed25519 -C "adhiwena@gmail.com"
+: 1655030833:0;startx
+: 1655030834:0;startx /usr/bin/bspwm
+: 1655030835:0;subtitleedit
+: 1655030836:0;subtitleedit 01.en.ass
+: 1655030837:0;subtitleedit 01.en.ass &
+: 1655030838:0;sudo
+: 1655030839:0;sudo ./remote-touchpad
+: 1655030840:0;sudo /usr/share/doc/xss-lock/dim-screen.sh
+: 1655030841:0;sudo cd /etc/.git
+: 1655030842:0;sudo cd /root
+: 1655030843:0;sudo cp 08.jpg /usr/share/pixmaps
+: 1655030844:0;sudo lightdm-gtk-greeter-settings
+: 1655030845:0;sudo ln -s /home/data/Pictures/Wallpaper /root
+: 1655030846:0;sudo mimeo --update
+: 1655030847:0;sudo mkdir /usr/local/share/applications
+: 1655030848:0;sudo mv 08.jpg wallpaper.jpg
+: 1655030849:0;sudo reboot
+: 1655030850:0;sudo remote-touchpad
+: 1655030851:0;sudo rm -rf go
+: 1655030852:0;sudo ssh-add -L
+: 1655030853:0;sudo su
+: 1655030854:0;sudo systemctl disable lig
+: 1655030855:0;sudo systemctl disable lightdm
+: 1655030856:0;sudo systemctl enable lightdm
+: 1655030857:0;sudo systemctl enable pipewire-pulse
+: 1655030858:0;sudo systemctl enable xlogin@adhiwena
+: 1655030859:0;sudo systemctl start reflector.service
+: 1655030860:0;sudo systemctl status reflector
+: 1655030861:0;sudo systemctl status reflector.service
+: 1655030862:0;sudo systemctl status reflector.timer
+: 1655030863:0;sudo unlink /usr/bin/xterm
+: 1655030864:0;sudo update-desktop-database
+: 1655030865:0;sudo update-desktop-database -v
+: 1655030866:0;sudo usermod -aG realtime adhiwena
+: 1655030867:0;sudo vim /etc/lightdm/lightdm.conf
+: 1655030868:0;sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
+: 1655030869:0;sv /etc/environment
+: 1655030870:0;sv /etc/fstab
+: 1655030871:0;sv /etc/profile.d/custom.sh
+: 1655030872:0;sv /etc/X11/xorg.conf.d/20-amdgpu.conf
+: 1655030873:0;sv /etc/xdg/reflector/reflector.conf 
+: 1655030874:0;sv /usr/share/applications/lightdm-gtk-greeter-settings.desktop
+: 1655030875:0;systemctl disable betterlockscreen@$USER
+: 1655030876:0;systemctl disable notifications
+: 1655030877:0;systemctl disable Notifications
+: 1655030878:0;systemctl disable xlogin@adhiwena
+: 1655030879:0;systemctl disablee betterlockscreen@$USER
+: 1655030880:0;systemctl disalbe betterlockscreen@$USER
+: 1655030881:0;systemctl disale betterlockscreen@$USER
+: 1655030882:0;systemctl enable betterlockscreen@$USER
+: 1655030883:0;systemctl enable reflector.timer
+: 1655030884:0;systemctl start notifications
+: 1655030885:0;systemctl start Notifications
+: 1655030886:0;systemctl start reflector.service
+: 1655030887:0;systemctl start reflector.timer
+: 1655030888:0;systemctl status geoclue
+: 1655030889:0;systemctl status Notifications
+: 1655030890:0;systemctl status pipewire --user
+: 1655030891:0;systemctl status pipewire-pulse
+: 1655030892:0;systemctl status pipewire-pulse.service
+: 1655030893:0;systemctl status reflector.service
+: 1655030894:0;systemctl status reflector.timer
+: 1655030895:0;systemctl status xlogin@adhiwena
+: 1655030896:0;systemctl stop notification
+: 1655030897:0;systemctl stop Notifications
+: 1655030898:0;systemctl suspend
+: 1655030899:0;timedatectl status
+: 1655030900:0;timeshift
+: 1655030901:0;top
+: 1655030902:0;top -h
+: 1655030903:0;top -H
+: 1655030904:0;touch coba.en.ass
+: 1655030905:0;touch hai.txt
+: 1655030906:0;unlink /usr/bin/xterm
+: 1655030907:0;unlink mpv_linux.conf
+: 1655030908:0;unlink rofi/themes
+: 1655030909:0;unlink subtitleedit.bak
+: 1655030910:0;unrar
+: 1655030911:0;unrar --hel
+: 1655030912:0;unrar --help
+: 1655030913:0;unrar -e "[Kusonime] NNB Mov BD 1080P.rar"
+: 1655030914:0;unrar -h
+: 1655030915:0;unrar -help
+: 1655030916:0;unrar ?
+: 1655030917:0;unrar e "[Kusonime] NNB Mov BD 1080P.rar"
+: 1655030918:0;unrar l "[Kusonime] NNB Mov BD 1080P.rar"
+: 1655030919:0;unrar t "[Kusonime] NNB Mov BD 1080P.rar"
+: 1655030920:0;update-desktop-database
+: 1655030921:0;update-desktop-database -v ~/.local/share/applications
+: 1655030922:0;urxvt
+: 1655030923:0;urxvt &
+: 1655030924:0;urxvtc
+: 1655030925:0;urxvtc --help
+: 1655030926:0;urxvtc --help | grep background
+: 1655030927:0;urxvtc -transparent true
+: 1655030928:0;urxvtc &
+: 1655030929:0;urxvtd
+: 1655030930:0;v .bash_profile
+: 1655030931:0;v .bashrc
+: 1655030932:0;v .dmrc
+: 1655030934:0;v .git/config
+: 1655030935:0;v .gitconfig
+: 1655030936:0;v .gtkrc-2.0
+: 1655030937:0;v .p7zip
+: 1655030938:0;v .screenlayout/monitor.sh
+: 1655030939:0;v .viminfo
+: 1655030940:0;v .wget-hsts
+: 1655030941:0;v .xinitrc
+: 1655030942:0;v .Xresources
+: 1655030943:0;v .xsession-errors
+: 1655030944:0;v .zcompdump-archi-5.9
+: 1655030945:0;v .zprofile
+: 1655030946:0;v .zshrc
+: 1655030947:0;v "./shaders/ravu-zoom-r3-rgb.hook"
+: 1655030948:0;v "~~/shaders/ravu-zoom-r3-rgb.hook"
+: 1655030949:0;v /etc/fonts/conf.d/30-metric-aliases.conf
+: 1655030950:0;v /etc/pacman.conf
+: 1655030951:0;v /etc/pacman.d/mirrorlist
+: 1655030952:0;v /etc/X11/xorg.conf.d/20-amdgpu.conf
+: 1655030953:0;v /etc/xdg/picom.conf
+: 1655030954:0;v /etc/xdg/reflector/reflector.conf 
+: 1655030955:0;v /home/adhiwena/bin/subtitleedit
+: 1655030956:0;v /home/adhiwena/Github/mpv-settings/shaders/ravu-zoom-r3-rgb.hook
+: 1655030957:0;v /home/data/Github/base16-xresources/xresources/base16-nord-256.Xresources
+: 1655030958:0;v /proc/asound/cards
+: 1655030959:0;v /usr/bin/jdownloader
+: 1655030960:0;v /usr/bin/nnn
+: 1655030961:0;v /usr/bin/subtitleedit
+: 1655030962:0;v /usr/share/applications/firefox.desktop
+: 1655030963:0;v /usr/share/applications/nnn.desktop
+: 1655030964:0;v /usr/share/doc/kitty/kitty.conf
+: 1655030965:0;v /usr/share/doc/xss-lock/dim-screen.sh
+: 1655030966:0;v /usr/share/icons/default/index.theme
+: 1655030967:0;v ~/.config/betterlockscreenrc
+: 1655030968:0;v ~/.config/bspwm/bspwmrc
+: 1655030969:0;v ~/.config/bspwm/external_rules_command
+: 1655030970:0;v ~/.config/fontconfig/conf.d/09-Directories.conf
+: 1655030971:0;v ~/.config/fontconfig/conf.d/19-DefaultProperties.conf
+: 1655030972:0;v ~/.config/fontconfig/fonts.conf
+: 1655030973:0;v ~/.config/gtk-3.0/gtk.css
+: 1655030974:0;v ~/.config/gtk-3.0/settings.ini
+: 1655030975:0;v ~/.config/kitty/kitty.conf
+: 1655030976:0;v ~/.config/mimeapps.list
+: 1655030977:0;v ~/.config/mpv/input.conf
+: 1655030978:0;v ~/.config/mpv/mpv.conf
+: 1655030979:0;v ~/.config/picom/picom.conf
+: 1655030980:0;v ~/.config/polybar/config.ini
+: 1655030981:0;v ~/.config/polybar/launch.sh
+: 1655030982:0;v ~/.config/polybar/pipewire.sh
+: 1655030984:0;v ~/.config/rofi/config.rasi
+: 1655030985:0;v ~/.config/sxhkd/sxhkdrc
+: 1655030986:0;v ~/.config/sxhkd/sxhkdrc 
+: 1655030987:0;v ~/.config/termite/config
+: 1655030988:0;v ~/.local/share/applications/jdownloader.desktop
+: 1655030989:0;v ~/.local/share/applications/nnn.desktop
+: 1655030990:0;v ~/.local/share/applications/subtitleedit.desktop
+: 1655030991:0;v ~/.local/share/xorg/Xorg.0.log
+: 1655030992:0;v ~/.screenlayout/monitor.sh
+: 1655030993:0;v ~/.vimrc
+: 1655030994:0;v ~/.xinitrc
+: 1655030995:0;v ~/.Xresources
+: 1655030996:0;v ~/.xscreensaver
+: 1655030997:0;v ~/.zprofile
+: 1655030998:0;v ~/.zsh_history
+: 1655030999:0;v ~/.zshrc
+: 1655031000:0;v ~/Github/base16-termite/themes/base16-nord.config
+: 1655031001:0;v ~/Github/Scripts/arch-install.txt
+: 1655031002:0;v ~/Github/Scripts/Bash/subtitleedit.sh
+: 1655031003:0;v 01.json
+: 1655031004:0;v 09-Directories.conf
+: 1655031005:0;v 50-systemd-user.sh
+: 1655031006:0;v a
+: 1655031007:0;v at-spi-dbus-bus.desktop
+: 1655031008:0;v awe.sh
+: 1655031009:0;v base16-nord-256.Xresources
+: 1655031010:0;v brightness
+: 1655031011:0;v bspwm
+: 1655031012:0;v bspwm.desktop
+: 1655031013:0;v coba.sh
+: 1655031014:0;v dconf/user
+: 1655031015:0;v extensions.log
+: 1655031016:0;v fix-installer-font-dir.patch
+: 1655031017:0;v fontc.sh
+: 1655031018:0;v fontconfig/fonts.conf
+: 1655031019:0;v fonts.conf
+: 1655031020:0;v Github/base16-kitty/colors/base16-nord-256.conf
+: 1655031021:0;v gtk-3.0
+: 1655031022:0;v index.html
+: 1655031023:0;v index.theme
+: 1655031024:0;v input.conf
+: 1655031025:0;v install.sh
+: 1655031026:0;v installed_fonts.txt
+: 1655031027:0;v installs.ini
+: 1655031028:0;v k.txt
+: 1655031029:0;v known_hosts
+: 1655031030:0;v location.txt
+: 1655031031:0;v lock
+: 1655031032:0;v main.log
+: 1655031033:0;v mimeinfo.cache
+: 1655031034:0;v mkva.sh
+: 1655031035:0;v mkvm.sh
+: 1655031036:0;v mpv
+: 1655031037:0;v mpv.conf
+: 1655031038:0;v nerd-fonts-2.1.0.tar.gz
+: 1655031039:0;v nnn.desktop
+: 1655031040:0;v org.bunkus.mkvtoolnix-gui.xml
+: 1655031041:0;v org.freedesktop.Notifications.service
+: 1655031042:0;v out.txt
+: 1655031043:0;v outpt
+: 1655031044:0;v output_1_20220617T040909
+: 1655031045:0;v output_1_20220617T040909/extensions.log
+: 1655031046:0;v output_1_20220617T040909/tasks.log
+: 1655031047:0;v PKGBUILD
+: 1655031048:0;v profiles.ini
+: 1655031049:0;v recently-used.xbel
+: 1655031050:0;v reminder.txt
+: 1655031051:0;v remote-touchpad
+: 1655031052:0;v renderer1.log
+: 1655031053:0;v rofi/config.rasi
+: 1655031054:0;v snapshot-detect.desktop
+: 1655031055:0;v subitleedit
+: 1655031056:0;v subtitleedit
+: 1655031057:0;v subtitleedit.desktop
+: 1655031058:0;v tasks.log
+: 1655031059:0;v timeshift-gtk.desktop
+: 1655031060:0;v tmp.txt
+: 1655031061:0;v userDataSync.log
+: 1655031062:0;v visual-studio-code-url-handler.desktop
+: 1655031063:0;v Xorg.0.log
+: 1655031064:0;vscodium --verbose
+: 1655031065:0;vscodium --verbose >> out.txt
+: 1655031066:0;wget -d -c --tries=0 --read-timeout=30 -O "nerd-fonts-2.1.0.tar.gz" "https://github.com/ryanoasis/nerd-fonts/archive/v2.1.0.tar.gz"
+: 1655031067:0;wget -O nerd-fonts-2.1.0.tar.gz -c https://github.com/ryanoasis/nerd-fonts/archive/v2.1.0.tar.gz
+: 1655031068:0;wget -O nerd-fonts-2.1.0.tar.gz -c https://github.com/ryanoasis/nerd-fonts/archive/v2.1.0.tar.gz -o outpt
+: 1655031069:0;wget -O nerd-fonts-2.1.0.tar.gz https://github.com/ryanoasis/nerd-fonts/archive/v2.1.0.tar.gz && makepkg -sci BUILDDIR=.
+: 1655031070:0;whereis bspwm
+: 1655031071:0;whereis code
+: 1655031072:0;whereis jdownloader
+: 1655031073:0;whereis kitty
+: 1655031074:0;whereis mimeopen
+: 1655031075:0;whereis snapshot-detect
+: 1655031076:0;whereis subtitleedit
+: 1655031077:0;whereis Xorg
+: 1655031078:0;whereis xsetroot
+: 1655031079:0;whereis xterm
+: 1655031080:0;whereis xterm-256color
+: 1655031081:0;wmname bspwm
+: 1655031082:0;wmname compiz
+: 1655031083:0;wmname compiz &
+: 1655031084:0;xarchiver nerd-fonts-2.1.0.tar.gz
+: 1655031085:0;xdg-mime query default "[Doronime.id] 100-man Inochi [1080p].rar"
+: 1655031086:0;xdg-mime query default application/rar
+: 1655031087:0;xdg-mime query default application/x-rar
+: 1655031088:0;xdg-mime query default application/zip
+: 1655031089:0;xdg-mime query default rar
+: 1655031090:0;xdg-mime query filetype "[Doronime.id] 100-man Inochi [1080p].rar"
+: 1655031091:0;xdg-mime query filetype ~/Downloads/cb.rar
+: 1655031092:0;xdg-open "[Doronime.id] 100-man Inochi [1080p].rar"
+: 1655031093:0;xdg-open ~/Documents/01.en.ass
+: 1655031094:0;xdg-open 01.en.ass
+: 1655031095:0;xdg-open Documents/01.en.ass
+: 1655031096:0;xdg-settings --list
+: 1655031097:0;xdg-settings get default-url-scheme-handler
+: 1655031098:0;xev
+: 1655031099:0;Xorg --version
+: 1655031100:0;Xorg -version
+: 1655031101:0;xprop
+: 1655031102:0;xprop | grep CLASS
+: 1655031103:0;xrandr
+: 1655031104:0;xrdb ~/.Xresources
+: 1655031105:0;xscreensaver --help
+: 1655031106:0;xset s 10
+: 1655031107:0;xset s 5 3
+: 1655031108:0;xsetroot -cursor_name left_ptr
+: 1655031109:0;xss-lock -n /usr/share/doc/xss-lock/dim-screen.sh -- betterlockscreen -l dimblur
+: 1655031110:0;xss-lock betterlockscreen -l
+: 1655031111:0;xss-lock betterlockscreen -l &
+: 1655031112:0;xss-lock betterlockscreen -l blur &
+: 1655031113:0;xss-lock betterlockscreen -l dimblur
+: 1655031114:0;xss-lock betterlockscreen -l dimblur &
+: 1655031115:0;xss-lock betterlockscreen -l dimblur +resetsaver
+: 1655031116:0;yay --getpkgbuild nerd-fonts-complete
+: 1655031117:0;yay -d
+: 1655031118:0;yay -R alacritty
+: 1655031119:0;yay -R Arc
+: 1655031120:0;yay -R arc-theme
+: 1655031121:0;yay -R dex
+: 1655031122:0;yay -R geoclue
+: 1655031123:0;yay -R glxinfo
+: 1655031124:0;yay -R i3lock-fancy-git i3lock-fancy-rapid-git
+: 1655031125:0;yay -R java-runtime-common 
+: 1655031126:0;yay -R jdownloader2
+: 1655031127:0;yay -R jre-openjdk
+: 1655031128:0;yay -R jre-openjdk-headless
+: 1655031129:0;yay -R kcoreaddons
+: 1655031130:0;yay -R libadwaita
+: 1655031131:0;yay -R libgnome-keyring
+: 1655031132:0;yay -R libsecret libgnome-keyring
+: 1655031133:0;yay -R lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
+: 1655031134:0;yay -R lsdesktopf
+: 1655031135:0;yay -R mimeo
+: 1655031136:0;yay -R nerd-fonts-complete
+: 1655031137:0;yay -R notification-daemon
+: 1655031138:0;yay -R noto-fonts
+: 1655031139:0;yay -R noto-fonts-tc noto-fonts-s
+: 1655031140:0;yay -R noto-fonts-tc noto-fonts-sc
+: 1655031141:0;yay -R p7zip
+: 1655031142:0;yay -R p7zip-gui 
+: 1655031143:0;yay -R pavucontrol
+: 1655031144:0;yay -R perl-file-mimeinfo
+: 1655031145:0;yay -R pipewire-alsa
+: 1655031146:0;yay -R pulseaudio-alsa
+: 1655031147:0;yay -R termite
+: 1655031148:0;yay -R vim-sxhkdrc-git 
+: 1655031149:0;yay -R visual-studio-code-bin
+: 1655031150:0;yay -R xdg-desktop-portal
+: 1655031151:0;yay -R xdg-desktop-portal-gtk
+: 1655031152:0;yay -R xdg-utils-mimeo
+: 1655031153:0;yay -R xlogin-git
+: 1655031154:0;yay -R xscreensaver
+: 1655031155:0;yay -R xss-lock
+: 1655031156:0;yay -Rn alacritty
+: 1655031157:0;yay -Rn firefox
+: 1655031158:0;yay -Rn i3lock-blur
+: 1655031159:0;yay -Rn visual-studio-code-bin
+: 1655031160:0;yay -S 7-zip-full 
+: 1655031161:0;yay -S alacritty
+: 1655031162:0;yay -S alsa-utils pipewire pipewire-alsa wireplumber
+: 1655031163:0;yay -S Arc
+: 1655031164:0;yay -S arc-gtk-theme
+: 1655031165:0;yay -S arc-theme
+: 1655031166:0;yay -S betterlockscreen 
+: 1655031167:0;yay -S bpytop
+: 1655031168:0;yay -S chezmoi
+: 1655031169:0;yay -S dex
+: 1655031171:0;yay -S firefox
+: 1655031172:0;yay -S font-manager
+: 1655031173:0;yay -S glxinfo
+: 1655031174:0;yay -S gnome-keyring
+: 1655031175:0;yay -S gnome-keyring libsecret libgnome-keyring
+: 1655031176:0;yay -S gnome-themes-standard
+: 1655031177:0;yay -S go
+: 1655031178:0;yay -S handlr
+: 1655031179:0;yay -S i3lock-blur
+: 1655031180:0;yay -S i3lock-fancy-git 
+: 1655031181:0;yay -S i3lock-fancy-rapid-git
+: 1655031182:0;yay -S imagemagick-full
+: 1655031183:0;yay -S jdownloader2
+: 1655031184:0;yay -S kcoreaddons
+: 1655031185:0;yay -S kdiskmark
+: 1655031186:0;yay -S kitty
+: 1655031187:0;yay -S lazygit
+: 1655031188:0;yay -S libadwaita
+: 1655031189:0;yay -S libgnome-keyring
+: 1655031190:0;yay -S libnotify
+: 1655031191:0;yay -S libsecret 
+: 1655031192:0;yay -S libsecret libgnome-keyring
+: 1655031193:0;yay -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
+: 1655031194:0;yay -S lightdm-gtk-greeter-settings
+: 1655031195:0;yay -S lsdesktopf
+: 1655031196:0;yay -S lxappearance-gtk3
+: 1655031197:0;yay -S mimeo
+: 1655031198:0;yay -S mkvtoolnix-cli
+: 1655031199:0;yay -S mkvtoolnix-gui
+: 1655031200:0;yay -S mpv mkvtoolnix
+: 1655031201:0;yay -S nerd-fonts-complete
+: 1655031202:0;yay -S nerd-fonts-complete 
+: 1655031203:0;yay -S nnn
+: 1655031204:0;yay -S notification-daemon
+: 1655031205:0;yay -S noto-fonts-cjk
+: 1655031206:0;yay -S noto-fonts-sc
+: 1655031207:0;yay -S noto-fonts-tc
+: 1655031208:0;yay -S numlockx
+: 1655031209:0;yay -S p7zip
+: 1655031210:0;yay -S p7zip-gui 
+: 1655031211:0;yay -S pamixer
+: 1655031212:0;yay -S pavucontrol
+: 1655031213:0;yay -S perl-file-mimeinfo
+: 1655031214:0;yay -S picom
+: 1655031215:0;yay -S pipewire-alsa
+: 1655031216:0;yay -S pipewire-pulse
+: 1655031217:0;yay -S pipewire-pulse pipewire-jack
+: 1655031218:0;yay -S qogir-gtk-theme
+: 1655031219:0;yay -S qogir-gtk-theme 
+: 1655031220:0;yay -S qogir-icon-theme
+: 1655031221:0;yay -S qogir-icon-theme arc-icon-theme
+: 1655031222:0;yay -S radeontop
+: 1655031223:0;yay -S rar 
+: 1655031224:0;yay -S realtime-privileges
+: 1655031225:0;yay -S rofi
+: 1655031226:0;yay -S rtkit
+: 1655031227:0;yay -S rxvt-unicode
+: 1655031228:0;yay -S scrot
+: 1655031229:0;yay -S seahorse
+: 1655031230:0;yay -S shared-mime-info
+: 1655031231:0;yay -S subtitleedit
+: 1655031232:0;yay -S syu
+: 1655031233:0;yay -S termite
+: 1655031234:0;yay -S thunar
+: 1655031235:0;yay -S timeshift timeshift-autosnap
+: 1655031236:0;yay -S trash-cli
+: 1655031237:0;yay -S ttf-ms-win11-auto
+: 1655031238:0;yay -S vim-sxhkdrc-git 
+: 1655031239:0;yay -S visual-studio-code-bin
+: 1655031240:0;yay -S vscodium-bin vscodium-bin-features vscodium-bin-marketplace
+: 1655031241:0;yay -S vundle-git
+: 1655031242:0;yay -S vundle-git --needed
+: 1655031243:0;yay -S wmname
+: 1655031244:0;yay -S xarchiver
+: 1655031245:0;yay -S xdg-desktop-portal
+: 1655031246:0;yay -S xdg-utils
+: 1655031247:0;yay -S xdg-utils-mimeo
+: 1655031248:0;yay -S xdotool
+: 1655031249:0;yay -S xf86-video-ati
+: 1655031250:0;yay -S xf86-video-fbdev
+: 1655031251:0;yay -S xlogin-git
+: 1655031252:0;yay -S xorg
+: 1655031253:0;yay -S xorg --needed
+: 1655031254:0;yay -S xorg lightdm lightdm-gtk-greeter firefox polkit-gnome bspwm polybar sxhkd
+: 1655031255:0;yay -S xorg-bdftopcf xorg-font-util xorg-mkfontscale
+: 1655031256:0;yay -S xorg-xinit --needed
+: 1655031257:0;yay -S xscreensaver
+: 1655031258:0;yay -S xss-lock
+: 1655031259:0;yay -Scc
+: 1655031260:0;yay -Ss adwaita
+: 1655031261:0;yay -Ss bitwarden
+: 1655031262:0;yay -Ss imagemagick
+: 1655031263:0;yay -Ss jre-openjdk
+: 1655031264:0;yay -Ss lxappearance
+: 1655031265:0;yay -Ss nerd-fonts-complete 
+: 1655031266:0;yay -Ss picom
+: 1655031267:0;yay -Ss picom | grep picom
+: 1655031268:0;yay -Ss qogir-gtk-theme 
+: 1655031269:0;yay -Ss unrar
+: 1655031270:0;yay -Ss xlogin
+: 1655031271:0;yay -Ss xorg
+: 1655031272:0;yay -Ss xterem-256color
+: 1655031273:0;yay -Ss xterm-256color
+: 1655031274:0;yay -Ss xtrem-256color
+: 1655031275:0;yay -Syu
+: 1655492710:0;v ~/.config/bspwm/bspwmrc
+: 1655492858:0;v ~/.config/picom/picom.conf
+: 1655492884:0;v ~/.config/bspwm/bspwmrc
+: 1655492916:0;v ~/.config/picom/picom.conf
+: 1655492955:0;v ~/.Xresources
+: 1655493009:0;xrdb ~/.Xresources
+: 1655493024:0;l
+: 1655493053:0;v ~/.config/picom/picom.conf
+: 1655493059:0;v ~/.config/bspwm/bspwmrc
+: 1655493106:0;v ~/.Xresources
+: 1655493193:0;v ~/.vimrc
+: 1655493243:0;v
+: 1655493276:0;v ~/.config/bspwm/bspwmrc
+: 1655493397:0;v ~/.vimrc
+: 1655493593:0;xprop | grep CLASS
+: 1655493598:0;xprop
+: 1655493660:0;v ~/.config/bspwm/bspwmrc
+: 1655493698:0;l
+: 1655493706:0;v ~/.Xresources
+: 1655493760:0;ls
+: 1655493765:0;l
+: 1655493778:0;xrdb ~/.Xresources
+: 1655493781:0;ls
+: 1655493783:0;l
+: 1655493874:0;v ~/.Xresources
+: 1655494134:0;yay -S base16-manager
+: 1655494228:0;base16-manager list-support
+: 1655494273:0;base16-manager list-installable
+: 1655494361:0;v ~/.zshrc
+: 1655494706:0;yay -S zsh-completions-git
+: 1655494795:0;base16-manager list-installable
+: 1655494867:0;base16-manager install chriskempson/base16-xresources
+: 1655494905:0;base16-manager list
+: 1655494933:0;base16-manager set-random
+: 1655494941:0;ls
+: 1655494948:0;v ~/.Xresources
+: 1655495082:0;v ~/.vimrc
+: 1655495268:0;base16-manager install chriskempson/base16-vim
+: 1655495282:0;base16-manager install 0xdec/base16-rofi
+: 1655495290:0;base16-manager set-random
+: 1655495320:0;v ~/.config/rofi/config
+: 1655495352:0;v ~/.config/bspwm/bspwmrc
+: 1655495363:0;v ~/.config/polybar/launch.sh
+: 1655495377:0;v ~/.config/sxhkd/sxhkdrc 
+: 1655495392:0;ls
+: 1655495552:0;v ~/.config/bspwm/bspwmrc
+: 1655495625:0;v ~/.xinitrc
+: 1655495639:0;v ~/.config/bspwm/bspwmrc
+: 1655495707:0;ls
+: 1655495716:0;base16-manager set-random
+: 1655495760:0;v ~/.vimrc
+: 1655495781:0;base16-manager set-random
+: 1655495792:0;ls
+: 1655495813:0;v ~/.Xresources
+: 1655495839:0;v ~/.Xresources.d/colors
+: 1655495881:0;v ~/.zsh_history
+: 1655495920:0;ls
+: 1655496198:0;mkdir dark
+: 1655496217:0;exit
+: 1655496496:0;wmname compiz
+: 1655496749:0;v ~/.local/share/applications/jdownloader.desktop
+: 1655496767:0;cp /usr/share/applications/jdownloader.desktop ~/.local/share/applications/
+: 1655496768:0;v ~/.local/share/applications/jdownloader.desktop
+: 1655496793:0;wmname bspwm
+: 1655496829:0;v ~/.local/share/applications/jdownloader.desktop
+: 1655496940:0;xdg-open ~/.local/share/applications/jdownloader.desktop
+: 1655497082:0;wmname compiz
+: 1655497087:0;wmname bspwm
+: 1655497090:0;neofetch
+: 1655497232:0;v ~/Github/Scripts/Bash/jdownloader.sh
+: 1655497295:0;/home/data/Github/Scripts/Bash/jdownloader.sh
+: 1655497319:0;neofetch
+: 1655497329:0;wmname bspwm
+: 1655497331:0;/home/data/Github/Scripts/Bash/jdownloader.sh
+: 1655497334:0;neofetch
+: 1655497338:0;wmname bspwm
+: 1655497339:0;neofetch
+: 1655497358:0;JDownloader
+: 1655497371:0;whereis JDownloader
+: 1655497520:0;neofetch
+: 1655497611:0;cd ~/Github/Scripts
+: 1655497614:0;git diff
+: 1655497650:0;lazygit
+: 1655497787:0;v ~/.Xresources
+: 1655497834:0;xrdb ~/.Xresources
+: 1655497875:0;c re-add
+: 1655497881:0;c managed
+: 1655497930:0;cd ~/.config/rofi
+: 1655497931:0;ls
+: 1655497934:0;l
+: 1655497955:0;cd
+: 1655497961:0;c add ~/.config/rofi
+: 1655497964:0;c managed
+: 1655498012:0;cd ~/bin
+: 1655498013:0;l
+: 1655498062:0;cd
+: 1655498063:0;l
+: 1655498104:0;c managed
+: 1655498128:0;c add ~/.local/share/applications/
+: 1655498132:0;c managed
+: 1655498153:0;cd ~/.local/share/
+: 1655498154:0;ls
+: 1655498158:0;cd base16-manager
+: 1655498158:0;l
+: 1655498164:0;cd
+: 1655498200:0;reboot
+: 1655498259:0;ls
+: 1655498290:0;p10k configure
+: 1655498349:0;ls
+: 1655498358:0;v ~/.Xresources
+: 1655498387:0;xrdb ~/.Xresources
+: 1655498428:0;cd ~/Github/Scripts
+: 1655498434:0;lazygit
+: 1655498447:0;reboot
+: 1655498507:0;v ~/.Xresources
+: 1655498527:0;man base16-manager
+: 1655498533:0;base16-manager --help
+: 1655498559:0;base16-manager list-themes
+: 1655498621:0;l
+: 1655498852:0;neofetch
+: 1655498868:0;base16-manager list-installable
+: 1655498922:0;p10k configure
+: 1655498952:0;ls
+: 1655498970:0;v ~/.Xresources.d/colors
+: 1655499071:0;base16-manager set materia
+: 1655499077:0;ls
+: 1655499079:0;l
+: 1655499090:0;v ~/.Xresources.d/colors
+: 1655499137:0;v ~/.config/bspwm/bspwmrc
+: 1655499161:0;v ~/.xinitrc
+: 1655499302:0;v ~/.Xresources
+: 1655499344:0;xrdb ~/.Xresources
+: 1655499352:0;v ~/.Xresources
+: 1655499358:0;v ~/.xinitrc
+: 1655499363:0;v ~/.config/bspwm/bspwmrc
+: 1655499371:0;v ~/.xinitrc
+: 1655499455:0;v ~/.Xresources
+: 1655499480:0;xrdb ~/.Xresources
+: 1655499484:0;ls
+: 1655499498:0;v ~/.xinitrc
+: 1655499577:0;base16-manager list-themes
+: 1655499620:0;base16-manager set material-darker
+: 1655499626:0;v ~/.xinitrc
+: 1655499652:0;l
+: 1655499659:0;cd Documents
+: 1655499660:0;l
+: 1655499669:0;base16-manager set materia
+: 1655499673:0;cd -
+: 1655499677:0;cd Documents
+: 1655499678:0;l
+: 1655499694:0;cd
+: 1655499695:0;v ~/.xinitrc
+: 1655499721:0;v ~/.Xresources
+: 1655499747:0;xrdb ~/.Xresources
+: 1655499750:0;ls
+: 1655499757:0;ls Documents
+: 1655499787:0;l
+: 1655499790:0;cd Documents
+: 1655499791:0;l
+: 1655499831:0;base16-manager set material
+: 1655499838:0;ls Documents
+: 1655499861:0;base16-manager set material-lightner
+: 1655499881:0;base16-manager set material-lighter
+: 1655499890:0;ls Documents
+: 1655499915:0;v ~/.Xresources
+: 1655499930:0;xrdb ~/.Xresources
+: 1655499932:0;ls
+: 1655499933:0;l
+: 1655499942:0;ls
+: 1655499943:0;l
+: 1655499946:0;ls Documents
+: 1655500518:0;xprop | grep CLASS
+: 1655500530:0;v ~/.config/bspwm/bspwmrc
+: 1655500600:0;man bspwm
+: 1655500639:0;trash-list
+: 1655500758:0;nnn
+: 1655500897:0;v ~/.config/sxhkd/sxhkdrc 
+: 1655501056:0;ls
+: 1655501057:0;l
+: 1655501061:0;cd Documents
+: 1655501061:0;l
+: 1655501569:0;exit
+: 1655501638:0;base16-manager set materia
+: 1655501642:0;ls
+: 1655501654:0;base16-manager set material-darker
+: 1655501657:0;ls
+: 1655501658:0;l
+: 1655501684:0;base16-manager set material-lighter
+: 1655501869:0;v ~/.Xresources
+: 1655501997:0;ls
+: 1655501998:0;l
+: 1655502013:0;ls
+: 1655502014:0;l
+: 1655502016:0;ls
+: 1655502017:0;l
+: 1655502024:0;v ~/.Xresources
+: 1655502356:0;urxvtc --help
+: 1655502617:0;v ~/Github/base16-xresources/xresources/base16-materia.Xresources
+: 1655502848:0;xrdb ~/.Xresources
+: 1655502878:0;v ~/.Xresources
+: 1655502971:0;urxvtc --help
+: 1655503006:0;xrdb ~/.Xresources
+: 1655503019:0;v ~/.Xresources
+: 1655503241:0;v ~/.vimrc
+: 1655503382:0;v 
+: 1655503388:0;v ~/.vimrc
+: 1655503500:0;c re-add
+: 1655503507:0;c git add .
+: 1655503512:0;c git commit
+: 1655503567:0;v ~/.xinitrc
+: 1655503703:0;reboot
+: 1655503748:0;ls
+: 1655503824:0;poweroff
+: 1655534808:0;ls
+: 1655534831:0;poweroff
+: 1655611310:0;cd Downloads
+: 1655611370:0;poweroff
+: 1655640335:0;exit
+: 1655640362:0;ls
+: 1655640366:0;exit
+: 1655640393:0;ls
+: 1655640395:0;l
+: 1655640401:0;exit
+: 1655640507:0;cd Downloads
+: 1655640507:0;ls
+: 1655640533:0;mimetype "[Kusonime] Arek-Arek Deso BD 720P.rar"
+: 1655640562:0;mimetype "[Kusonime] Edens Zero BD Font+subs.rar"
+: 1655640590:0;mimeopen -d "[Kusonime] Arek-Arek Deso BD 720P.rar"
+: 1655640634:0;nnn "[Kusonime] Arek-Arek Deso BD 720P.rar"
+: 1655640725:0;mimeopen -d "[Kusonime] Arek-Arek Deso BD 720P.rar"
+: 1655641418:0;v ~/.config/polybar/launch.sh
+: 1655641470:0;v ~/.xinitrc
+: 1655641526:0;v ~/.zshrc
+: 1655641550:0;q
+: 1655643117:0;echo $TERMINAL
+: 1655643460:0;neofetch
+: 1655643484:0;q
+: 1655643520:0;free -h
+: 1655644117:0;base16-manager set nord
+: 1655644121:0;ls
+: 1655644128:0;l
+: 1655644146:0;v ~/.zshrc
+: 1655644212:0;trash-list
+: 1655644227:0;q
+: 1655651528:0;yay -S st
+: 1655651538:0;yay -Ss st
+: 1655651670:0;killall urxvtd
+: 1655651684:0;killall urxvtd &
+: 1655651700:0;bpytop
+: 1655654765:0;v ~/.zshrc
+: 1655654909:0;history
+: 1655654946:0;v ~/.zsh_history
+: 1655655026:0;v ~/.zshrc
+: 1655655141:0;echo $ZSH_CUSTOM
+: 1655655147:0;cd $ZSH
+: 1655655148:0;ls
+: 1655655150:0;cd ..
+: 1655655150:0;l
+: 1655655156:0;cd zsh
+: 1655655168:0;echo $ZSH_CUSTOM
+: 1655655177:0;echo $ZSH
+: 1655655249:0;ls
+: 1655655378:0;l
+: 1655655421:0;v ~/.zshrc
+: 1655656409:0;l
+: 1655656438:0;v .p10k.zsh
+: 1655656444:0;v ~/.zshrc
+: 1655656580:0;cv ~/.zshrc
+: 1655656704:0;yay -R zsh-theme-powerlevel10k-git zsh-completions-git
+: 1655656713:0;yay -Rn zsh-theme-powerlevel10k-git zsh-completions-git
+: 1655656718:0;ls
+: 1655656719:0;l
+: 1655656740:0;v ~/.zshrc
+: 1655656764:0;yay -Rn oh-my-zsh-git
+: 1655656780:0;rm ~/.zshrc
+: 1655656781:0;l
+: 1655656798:0;rm .p10k.zsh
+: 1655656813:0;v .zcompdump-archi-5.9
+: 1655656854:0;_top
+: 1655657473:0;ls
+: 1655657499:0;cv ~/.zshrc
+: 1655657515:0;chezmoi edit ~/.zshrc
+: 1655657530:0;vim ~/.zshrc
+: 1655657568:0;man zsh
+: 1655657639:0;v ~/.zshrc
+: 1655658010:0;echo $ZSH_CUSTOM
+: 1655658018:0;v ~/.zshrc
+: 1655658047:0;cd $ZSH_CUSTOM
+: 1655658048:0;ls
+: 1655658053:0;cd ..
+: 1655658079:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+: 1655658086:0;sudo git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+: 1655658105:0;v ~/.zshrc
+: 1655658198:0;ls
+: 1655658216:0;v ~/.Xresources
+: 1655658250:0;xrdb ~/.Xresources
+: 1655658253:0;ls
+: 1655658269:0;v ~/.zshrc
+: 1655658325:0;q
+: 1655658352:0;v ~/.zshrc
+: 1655658594:0;cv ~/.zshrc
+: 1655658643:0;v ~/.zshrc
+: 1655658698:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+: 1655658733:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1655658782:0;cd $ZSH_CUSTOM
+: 1655658783:0;ls
+: 1655658786:0;cd plugins
+: 1655658787:0;l
+: 1655658790:0;cd ..
+: 1655658792:0;cd themes
+: 1655658793:0;ls
+: 1655658799:0;cd ..
+: 1655658882:0;v
+: 1655659136:0;cd $ZSH_CUSTOM
+: 1655659137:0;ls
+: 1655659140:0;cd plugins
+: 1655659140:0;ls
+: 1655659146:0;cd zsh-autosuggestions
+: 1655659146:0;ls
+: 1655659148:0;cd ..
+: 1655659163:0;v ~/.zshrc
+: 1655659250:0;cd
+: 1655659257:0;v ~/.zshrc
+: 1655659739:0;cd $ZSH_CUSTOM
+: 1655659739:0;ls
+: 1655659786:0;cd plugins
+: 1655659787:0;ls
+: 1655659792:0;cd zsh-auto
+: 1655659796:0;cd zsh-autosuggestions
+: 1655659796:0;ls
+: 1655659810:0;v zsh-autosuggestions.zsh
+: 1655659910:0;v ~/.zshrc
+: 1655660921:0;v ~/.Xresources
+: 1655660969:0;xrdb ~/.Xresources
+: 1655661047:0;cd $ZSH_CUSTOM
+: 1655661050:0;cd plugins
+: 1655661077:0;v ~/.zshrc
+: 1655661090:0;rm -r zsh-autocomplete/
+: 1655661098:0;rm -rf zsh-autocomplete/
+: 1655661104:0;sudo rm -rf zsh-autocomplete/
+: 1655661208:0;cat
+: 1655661286:0;v ~/.zshrc
+: 1655661343:0;xev
+: 1655661377:0;bindkey "\eOD" backward-word
+: 1655661386:0;bindkey "\eOC" forward-word
+: 1655661412:0;v ~/.Xresources
+: 1655661439:0;xrdb ~/.Xresources
+: 1655661457:0;v ~/.zshrc
+: 1655661470:0;cat
+: 1655661505:0;zsh -f
+: 1655661817:0;v ~/.Xresources
+: 1655661846:0;cat history
+: 1655661855:0;cat ~/.zsh_history
+: 1655661899:0;xrdb ~/.Xresources
+: 1655661905:0;cat ~/.zsh_history
+: 1655661924:0;v ~/.zshrc
+: 1655661991:0;man zsh
+: 1655662279:0;l
+: 1655662290:0;v ~/.Xauthority
+: 1655662323:0;v ~/.urxvt/urxvtd-archi
+: 1655662331:0;cd ~/.urxvt
+: 1655662331:0;ls
+: 1655662333:0;l
+: 1655662336:0;:q
+: 1655662337:0;q
+: 1655662348:0;v ~/.zshrc
+: 1655662367:0;:q
+: 1655662387:0;l
+: 1655662501:0;sudo git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
+: 1655662509:0;v ~/.zsh_history
+: 1655662554:0;v ~/.zshrc
+: 1655662773:0;cd $ZSH_CUSTOM
+: 1655662779:0;cd plugins
+: 1655662779:0;l
+: 1655662793:0;cd zsh-completions
+: 1655662794:0;l
+: 1655662820:0;v ~/.zshrc
+: 1655662833:0;echo $FPATH
+: 1655662922:0;${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+: 1655662923:0;ls
+: 1655662927:0;exit
+: 1655662943:0;man trash-list
+: 1655662986:0;echo $fpath
+: 1655662990:0;echo $FPATH
+: 1655662998:0;v ~/.zshrc
+: 1655663047:0;v ~/.zcompdump-archi-5.9
+: 1655663114:0;ls
+: 1655663116:0;l
+: 1655663203:0;cd $ZSH_CUSTOM
+: 1655663206:0;cd
+: 1655663214:0;cd $ZSH_CUSTOM/plugins/
+: 1655663215:0;ls
+: 1655663257:0;cd zsh-completions
+: 1655663282:0;v ~/.Xresources
+: 1655663306:0;xrdb ~/.Xresources
+: 1655663322:0;xev
+: 1655663333:0;v ~/.Xresources
+: 1655663348:0;xrdb ~/.Xresources
+: 1655663415:0;man urxvt
+: 1655663553:0;v ~/.Xresources
+: 1655663706:0;xev
+: 1655663736:0;xrdb ~/.Xresources
+: 1655663740:0;cat ~/.zsh_history
+: 1655663766:0;xev
+: 1655663769:0;v ~/.Xresources
+: 1655663785:0;xrdb ~/.Xresources
+: 1655663788:0;cat ~/.zsh_history
+: 1655663831:0;v ~/.zsh_history
+: 1655664314:0;v ~/.zshrc
+: 1655664425:0;v ~/.vimrc
+: 1655664874:0;v ~/.zsh_history
+: 1655664902:0;v ~/.vimrc
+: 1655665153:0;base16-manager list-themes
+: 1655665194:0;v ~/.Xresources
+: 1655665246:0;base16-manager --help
+: 1655665272:0;base16-manager list-support
+: 1655665298:0;base16-manager set nord
+: 1655665317:0;v ~/.config/rofi/config
+: 1655665335:0;v ~/.config/sxhkd/sxhkdrc 
+: 1655665376:0;rofi -show drun -config ~/.config/rofi/config
+: 1655665420:0;man rofi
+: 1655665458:0;v ~/.config/rofi/config
+: 1655665497:0;base16-manager set nord
+: 1655665509:0;rofi -show drun -config ~/.config/rofi/config
+: 1655665540:0;v ~/.config/rofi/config.rasi
+: 1655665618:0;yay -Rn base16-manager-git
+: 1655665627:0;whereis base16-manager
+: 1655665720:0;cd /usr/local/share/applications
+: 1655665721:0;ls
+: 1655665722:0;cd
+: 1655665729:0;l
+: 1655665732:0;/base
+: 1655665759:0;ls
+: 1655665761:0;l
+: 1655665793:0;v ~/.zsh_history
+: 1655666066:0;yay -S pam_autologin
+: 1655666164:0;v ~/.xinitrc
+: 1655666199:0;v $XDG_CONFIG_DIRS/autostart/
+: 1655666242:0;man timeshift-autosnap
+: 1655666244:0;timeshift-autosnap
+: 1655666250:0;timeshift-autosnap --help
+: 1655666257:0;sudo timeshift-autosnap
+: 1655666282:0;v ~/.config/picom/picom.conf
+: 1655666398:0;xrdb ~/.Xresources
+: 1655666401:0;v ~/.config/picom/picom.conf
+: 1655666437:0;picom &
+: 1655666605:0;v ~/.config/picom/picom.conf
+: 1655666691:0;picom &
+: 1655666699:0;killall picom
+: 1655666703:0;picom &
+: 1655666808:0;v ~/.config/picom/picom.conf
+: 1655666829:0;killall urxvtd &
+: 1655666863:0;v ~/.config/picom/picom.conf
+: 1655666898:0;v ~/.Xresources
+: 1655666937:0;xrdb ~/.Xresources
+: 1655666942:0;v ~/.Xresources
+: 1655666990:0;xrdb ~/.Xresources
+: 1655666994:0;v ~/.Xresources
+: 1655667126:0;v ~/.Xresources.d/colors
+: 1655667239:0;xrdb ~/.Xresources
+: 1655667256:0;v ~/.Xresources.
+: 1655667261:0;v ~/.Xresources
+: 1655667276:0;xrdb ~/.Xresources
+: 1655667282:0;v ~/.Xresources
+: 1655667306:0;xrdb ~/.Xresources
+: 1655667310:0;v ~/.Xresources
+: 1655667325:0;xrdb ~/.Xresources
+: 1655667330:0;v ~/.Xresources
+: 1655667351:0;xrdb ~/.Xresources
+: 1655667355:0;v ~/.Xresources
+: 1655667383:0;cat ~/.zsh_history
+: 1655667406:0;v ~/.Xresources
+: 1655667412:0;v ~/.Xresources.d/colors
+: 1655667433:0;xrdb ~/.Xresources
+: 1655667448:0;cat ~/.zsh_history
+: 1655667480:0;v ~/.Xresources
+: 1655667497:0;xrdb ~/.Xresources
+: 1655667499:0;cat ~/.zsh_history
+: 1655667519:0;v ~/.Xresources
+: 1655667531:0;xrdb ~/.Xresources
+: 1655667555:0;sv /etc/pam.d/
+: 1655667564:0;sv /etc/pam.d/login
+: 1655668104:0;echo $TERM
+: 1655668248:0;sudo systemctl edit getty@.service
+: 1655668255:0;systemctl edit getty@.service
+: 1655668260:0;sudo systemctl edit getty@.service
+: 1655668324:0;cd /etc/systemd/system/getty@.service.d/
+: 1655668329:0;sudo su
+: 1655668347:0;sudo systemctl edit getty@.service
+: 1655668557:0;sv /etc/systemd/system/getty.target.wants/getty@tty1.service
+: 1655668570:0;cd /etc/systemd/system/
+: 1655668570:0;;
+: 1655668572:0;ls
+: 1655668633:0;sudo systemctl edit getty@.service
+: 1655668678:0;sudo su
+: 1655668851:0;sv /etc/pam.d/login
+: 1655668864:0;exit
+: 1655668870:0;reboot
+: 1655668940:0;v ~/.config/picom/picom.conf
+: 1655669119:0;systemctl status getty@tty1.service
+: 1655669145:0;sv /etc/pam.d/login
+: 1655669186:0;sudo su
+: 1655669553:0;reboot
+: 1655670553:0;v ~/.config/picom/picom.conf
+: 1655671077:0;reboot
+: 1655671151:0;v k.txt
+: 1655671245:0;cd ~/.config/VSCodium/logs/
+: 1655671247:0;l
+: 1655671283:0;cd 20220620T033855
+: 1655671284:0;ls
+: 1655671287:0;cd output_1_20220620T033856
+: 1655671288:0;ls
+: 1655671292:0;cd ..
+: 1655671294:0;cd exthost1
+: 1655671295:0;ls
+: 1655671299:0;cd ..
+: 1655671301:0;ls
+: 1655671312:0;cd ..
+: 1655671314:0;ls
+: 1655671315:0;l
+: 1655671321:0;cd 20220619T235030
+: 1655671322:0;ls
+: 1655671325:0;cd output_1_20220619T235033
+: 1655671326:0;ls
+: 1655671331:0;cd ..
+: 1655671454:0;l
+: 1655671460:0;cd output_1_20220619T235033
+: 1655671461:0;l
+: 1655671464:0;v extensions.log
+: 1655671468:0;v tasks.log
+: 1655671471:0;cd ..
+: 1655671473:0;l
+: 1655671477:0;cd ..
+: 1655671478:0;ls
+: 1655671479:0;l
+: 1655671498:0;cd Session\ Storage/
+: 1655671499:0;ls
+: 1655671500:0;l
+: 1655671501:0;cd ..
+: 1655671503:0;l
+: 1655671528:0;cd .vscode-oss
+: 1655671528:0;l
+: 1655671531:0;cd extensions
+: 1655671532:0;l
+: 1655671549:0;cd
+: 1655671560:0;cv ~/.zshrc
+: 1655671579:0;cd ~/.config/VSCodium/logs/
+: 1655671580:0;l
+: 1655671590:0;cd 20220620T033855
+: 1655671590:0;l
+: 1655671594:0;v userDataSync.log
+: 1655671612:0;cd exthost1
+: 1655671613:0;l
+: 1655671616:0;cd output_logging_20220620T033857
+: 1655671616:0;l
+: 1655671621:0;v 2-GitHub\ Authentication.log
+: 1655671759:0;cd ../..
+: 1655671761:0;cd ..
+: 1655671761:0;l
+: 1655671780:0;v 20220620T034734/exthost1/output_logging_20220620T034735/2-GitHub\ Authentication.log
+: 1655672053:0;v ~/.xinitrc
+: 1655672071:0;reboot
+: 1655672153:0;v 20220620T034734/exthost1/output_logging_20220620T034735/2-GitHub\ Authentication.log
+: 1655672166:0;cd ~/.config/VSCodium/logs/
+: 1655672166:0;l
+: 1655672189:0;v 20220620T035522/exthost1/output_logging_20220620T035524/2-Git.log
+: 1655672213:0;v 20220620T035522/exthost1/output_logging_20220620T035524/3-GitHub\ Authentication.log
+: 1655672499:0;v k.txt
+: 1655672528:0;l
+: 1655672536:0;v 20220620T035522/exthost1/output_logging_20220620T035524/3-GitHub\ Authentication.log
+: 1655673161:0;exit
+: 1655673182:0;v ~/.config/bspwm/bspwmrc
+: 1655673194:0;xprop | grep CLASS
+: 1655673568:0;cd Github/Scripts
+: 1655673569:0;ls
+: 1655673577:0;l
+: 1655673585:0;cd .git
+: 1655673586:0;l
+: 1655673594:0;cd ..
+: 1655673597:0;cd .vscode
+: 1655673597:0;l
+: 1655673610:0;cd ../..
+: 1655673612:0;cd Subtitles
+: 1655673617:0;cd .v
+: 1655673621:0;cd .vscode
+: 1655673622:0;l
+: 1655673626:0;v extensions.json
+: 1655674116:0;pwd | clip
+: 1655674118:0;q
+: 1655674152:0;cd ~/Github/base16-kitty/
+: 1655674153:0;ls
+: 1655674169:0;mimeopen --help
+: 1655674181:0;mimeopen README.md
+: 1655674338:0;mimeopen --help
+: 1655674365:0;mimetype --help
+: 1655674429:0;v /usr/share/applications/nnn.desktop
+: 1655674438:0;v /usr/share/applications/firefox.desktop
+: 1655674498:0;xdg-open README.md
+: 1655674546:0;v /usr/share/applications/firefox.desktop
+: 1655674580:0;mimeopen x-scheme-handler/file
+: 1655674594:0;mimetype x-scheme-handler/file
+: 1655674639:0;man xdg-mime
+: 1655674911:0;yay -S mimeo
+: 1655674984:0;cd /usr/share/applications
+: 1655674985:0;ls
+: 1655674990:0;l
+: 1655675045:0;v codium-uri-handler.desktop
+: 1655675096:0;mimeo -add x-scheme-handler/file codium.desktop
+: 1655675115:0;v codium-uri-handler.desktop
+: 1655675195:0;xdg-mime default codium.desktop x-scheme-handler/file
+: 1655675208:0;v ~/.config/mimeapps.list
+: 1655675305:0;pwd | clip
+: 1655675330:0;xdg-opn file:///home/adhiwena/Github/base16-kitty/README.md
+: 1655675336:0;xdg-open file:///home/adhiwena/Github/base16-kitty/README.md
+: 1655675494:0;mimeo --help
+: 1655675518:0;mimeo -remove x-scheme-handler/file firefox.desktop
+: 1655675523:0;mimeo --remove x-scheme-handler/file firefox.desktop
+: 1655675654:0;echo $XDG_CURRENT_DESKTOP
+: 1655675683:0;echo $WINDOW_MANAGER
+: 1655675717:0;neofetch
+: 1655675773:0;v ~/.zshrc
+: 1655675791:0;sv /etc/environment
+: 1655675812:0;sv /etc/profile.d/custom.sh
+: 1655675823:0;echo $TERM
+: 1655675836:0;v ~/.zshrc
+: 1655675849:0;v ~/.zprofile
+: 1655675872:0;v ~/.Xauthority
+: 1655675878:0;v ~/.Xresources
+: 1655675905:0;l
+: 1655675939:0;cd ~/.local/
+: 1655675940:0;ls
+: 1655675943:0;cd share
+: 1655675944:0;ls
+: 1655675956:0;cd base16-manager
+: 1655675956:0;ls
+: 1655675958:0;cd ..
+: 1655675962:0;rm -r base16-manager
+: 1655675966:0;rm -rf base16-manager
+: 1655675968:0;ls
+: 1655675971:0;cd keyrings
+: 1655675971:0;ls
+: 1655675974:0;cd ..
+: 1655675977:0;l
+: 1655675981:0;cd zsh
+: 1655675981:0;l
+: 1655675984:0;exit
+: 1655676013:0;neofetch
+: 1655676037:0;sudo su
+: 1655676107:0;v ~/.zshrc
+: 1655676134:0;neofetch
+: 1655676230:0;reboot
+: 1655676287:0;neofetch
+: 1655676459:0;rofi -show drun -config ~/.config/rofi/config
+: 1655676502:0;v ~/.xinitrc
+: 1655676513:0;xrdb ~/.Xresources
+: 1655676577:0;neofetch
+: 1655676641:0;sv /etc/profile.d/custom.sh
+: 1655676670:0;neofetch
+: 1655676674:0;xrdb ~/.Xresources
+: 1655676677:0;neofetch
+: 1655676684:0;reboot
+: 1655676726:0;neofetch
+: 1655676774:0;v ~/.config/mimeapps.list
+: 1655677255:0;sv /etc/profile.d/custom.sh
+: 1655677388:0;mimeo --unremove x-scheme-handler/file firefox.desktop
+: 1655677410:0;mimeo -unadd x-scheme-handler/file codium.desktop
+: 1655677417:0;mimeo --help
+: 1655677447:0;mimeo -unadd x-scheme-handler/file codium.desktop
+: 1655677455:0;mimeo --unadd x-scheme-handler/file codium.desktop
+: 1655677955:0;man mimeo
+: 1655677960:0;mimeo --help
+: 1655678074:0;mimeo -d
+: 1655678110:0;mimeo --desk2field firefox.desktop
+: 1655678175:0;mimeo --app2desk
+: 1655678248:0;mimeo --mime2desk x-scheme-handler/*
+: 1655678251:0;mimeo --mime2desk x-scheme-handler/\*
+: 1655678254:0;mimeo --mime2desk x-scheme-handler
+: 1655678268:0;mimeo --mime2desk x-scheme-handler/file
+: 1655678274:0;mimeo --mime2desk x-scheme-handler/http
+: 1655678276:0;mimeo --mime2desk x-scheme-handler/https
+: 1655678279:0;mimeo --mime2desk x-scheme-handler/sftp
+: 1655678283:0;mimeo --mime2desk x-scheme-handler/ftp
+: 1655678423:0;journalctl -b
+: 1655678491:0;systemctl status etckeeper.
+: 1655678493:0;systemctl status etckeeper
+: 1655678566:0;neofetch
+: 1655678750:0;sv /etc/profile.d/custom.sh
+: 1655678766:0;reboot
+: 1655678857:0;xdg-open file:///home/adhiwena/Github/base16-kitty/README.md
+: 1655678964:0;man nnn
+: 1655679060:0;nnn -e
+: 1655679184:0;v ~/.config/sxhkd/sxhkdrc 
+: 1655679244:0;man urxvt
+: 1655679299:0;urxvtc --name nnn -e 'nnn-e'
+: 1655679301:0;urxvtc --name nnn -e 'nnn -e'
+: 1655679314:0;urxvtc -name nnn -e 'nnn -e'
+: 1655679328:0;urxvtc -name nnn -e nnn -e
+: 1655679392:0;v ~/.local/share/applications/nnn.desktop
+: 1655679782:0;v ~/.config/mimeapps.list
+: 1655679805:0;mimeo --unadd x-scheme-handler/file codium.desktop
+: 1655679808:0;v ~/.config/mimeapps.list
+: 1655679882:0;v ~/.zshrc
+: 1655679958:0;rb
+: 1655680001:0;xdg-open file:///home/adhiwena/Github/base16-kitty/README.md
+: 1655680046:0;v /usr/share/perl5/vendor_perl/File/BaseDir.pm
+: 1655680095:0;mimeopen --help
+: 1655680175:0;mimeopen -Dn file:///home/adhiwena/Github/base16-kitty/README.md
+: 1655680218:0;cd ~/Github/base16-kitty/
+: 1655680226:0;cd
+: 1655680236:0;mimeopen -Dn /home/adhiwena/Github/base16-kitty/README.md
+: 1655680273:0;mimeo --mime2desk text/markdown
+: 1655680285:0;v /usr/share/perl5/vendor_perl/File/BaseDir.pm
+: 1655680311:0;v ~/.vimrc
+: 1655680374:0;v /usr/share/perl5/vendor_perl/File/BaseDir.pm
+: 1655680463:0;mimeopen -d /home/adhiwena/Github/base16-kitty/README.md
+: 1655680558:0;v ~/.Xresources
+: 1655680592:0;xrdb ~/.Xresources
+: 1655680646:0;rm -rf .vscode-oss/
+: 1655680660:0;cd ~/.config
+: 1655680668:0;rm -rf VSCodium
+: 1655680685:0;l
+: 1655680699:0;mv k.txt Documents
+: 1655680805:0;v ~/.Xresources
+: 1655680846:0;xrdb ~/.Xresources
+: 1655680848:0;ls
+: 1655680862:0;v ~/.vimrc
+: 1655681061:0;l
+: 1655681065:0;cd Github
+: 1655681071:0;git clone git@github.com:catppuccin/wallpapers.git
+: 1655681214:0;v ~/.Xresources
+: 1655681322:0;xrdb ~/.Xresources
+: 1655681549:0;v ~/.vimrc
+: 1655681839:0;v ~/.Xresources
+: 1655681871:0;v ~/.vimrc
+: 1655682106:0;v ~/.Xresources
+: 1655682145:0;ls
+: 1655682254:0;v ~/.Xresources
+: 1655682258:0;xrdb ~/.Xresources
+: 1655682261:0;v ~/.Xresources
+: 1655682374:0;xrdb ~/.Xresources
+: 1655682389:0;v ~/.vimrc
+: 1655682453:0;xrdb ~/.Xresources
+: 1655682457:0;cat ~/.zsh_history
+: 1655682538:0;xrdb ~/.Xresources
+: 1655682718:0;cat ~/.zsh_history
+: 1655682738:0;v ~/.zsh_history
+: 1655682859:0;v ~/.vimrc
+: 1655682965:0;v ~/.Xresources
+: 1655682992:0;v ~/.config/picom/picom.conf
+: 1655683063:0;v ~/.xinitrc
+: 1655683190:0;v ~/.config/sxhkd/sxhkdrc 
+: 1655683408:0;pwd | clip
+: 1655683428:0;q
+: 1655683505:0;v ~/.config/sxhkd/sxhkdrc 
+: 1655683899:0;/home/data/Github/wallpapers/waves/cat-blue-eye.png
+: 1655684076:0;v ~/.Xresources
+: 1655684099:0;xrdb ~/.Xresources
+: 1655684103:0;cat ~/.zsh_history
+: 1655684123:0;xrdb ~/.Xresources
+: 1655684125:0;cat ~/.zsh_history
+: 1655684128:0;v ~/.Xresources
+: 1655684167:0;xrdb ~/.Xresources
+: 1655684170:0;cat ~/.zsh_history
+: 1655684224:0;yay -S catppuccin-gtk-theme
+: 1655684419:0;v ~/.config/picom/picom.
+: 1655684427:0;v ~/.config/picom/picom.conf
+: 1655684477:0;killall picom
+: 1655684481:0;picom -b
+: 1655684512:0;man picom
+: 1655684688:0;v ~/.config/picom/picom.conf
+: 1655684996:0;yay -Ss catppuccin
+: 1655685031:0;cd Github
+: 1655685043:0;git clone https://github.com/catppuccin/cursors.git
+: 1655685111:0;cd Github
+: 1655685113:0;cd cursors
+: 1655685114:0;ls
+: 1655685117:0;l
+: 1655685119:0;cd cursors
+: 1655685119:0;l
+: 1655685160:0;xprop | grep CLASS
+: 1655685168:0;xprop
+: 1655685230:0;xarchiver Catppuccin-Latte-Light-Cursors.zip
+: 1655685267:0;7z x Catppuccin-Latte-Light-Cursors.zip
+: 1655685270:0;l
+: 1655685289:0;cd /usr/share/icons/
+: 1655685290:0;l
+: 1655685308:0;mv Catppuccin-Latte-Light-Cursors /usr/share/icons/
+: 1655685311:0;sudo mv Catppuccin-Latte-Light-Cursors /usr/share/icons/
+: 1655685316:0;l
+: 1655685334:0;chmod -x Catppuccin-Latte-Light-Cursors/
+: 1655685337:0;sudo chmod -x Catppuccin-Latte-Light-Cursors/
+: 1655685347:0;l
+: 1655685361:0;sudo chmod +x Catppuccin-Latte-Light-Cursors/
+: 1655685419:0;sudo chmod ug-w Catppuccin-Latte-Light-Cursors/
+: 1655685420:0;l
+: 1655685440:0;sudo chmod ug+w Catppuccin-Latte-Light-Cursors/
+: 1655685458:0;sudo chmod go-w Catppuccin-Latte-Light-Cursors/
+: 1655685461:0;l
+: 1655685604:0;cd
+: 1655685670:0;cd Github
+: 1655685672:0;git clone git@github.com:catppuccin/btop.git
+: 1655685679:0;yay -S btop
+: 1655685691:0;btop
+: 1655685710:0;cd btop
+: 1655685751:0;cp catppuccin_*.theme ~/.config/btop/themes
+: 1655685979:0;v ~/.config/sxhkd/sxhkdrc 
+: 1655686055:0;yay -Rn bpytop
+: 1655686059:0;ls
+: 1655686068:0;cd ~/.config
+: 1655686072:0;rm -rf bpytop/
+: 1655686385:0;v ~/.xinitrc
+: 1655686413:0;ls
+: 1655686415:0;l
+: 1655686439:0;v ~/.config/bspwm/bspwmrc
+: 1655686586:0;yay -Syu
+: 1655687236:0;reboot
+: 1655687292:0;v ~/.config/bspwm/bspwmrc
+: 1655687321:0;po
+: 1655753344:0;sudo po
+: 1655753353:0;sudo poweroff
+: 1655836430:0;rb
+: 1655915987:0;v ~/.zshrc
+: 1655916002:0;ncp
+: 1655916043:0;v ~/.zshrc
+: 1655916116:0;cd Github
+: 1655916122:0;git clone git@github.com:catppuccin/vimium.git
+: 1655916143:0;cd vimium/
+: 1655916148:0;cd assets
+: 1655916149:0;l
+: 1655916151:0;cd ..
+: 1655916153:0;cd src
+: 1655916154:0;ls
+: 1655916177:0;cat catppuccin-vimium-mocha.css | clip
+: 1655916412:0;cd
+: 1655916414:0;v ~/.zshrc
+: 1655916430:0;trash-list
+: 1655916449:0;touch hai.txt
+: 1655916468:0;trash-list
+: 1655916656:0;xdg-open nnn.desktop
+: 1655916681:0;gtk-launch nnn.desktop
+: 1655916694:0;gtk-launch subtitleedit.desktop
+: 1655916704:0;xprop | grep CLASS
+: 1655916713:0;xprop
+: 1655916753:0;v ~/.local/share/applications/subtitleedit.desktop
+: 1655916789:0;v ~/.config/sxhkd/sxhkdrc 
+: 1655916816:0;v ~/.local/share/applications/nnn.desktop
+: 1655916970:0;mpv "[Uta] Bubble (2022) [WEB-DL][1080p][Kuso].mkv"
+: 1655916989:0;q
+: 1655917159:0;mpv "Bubble (2022).mkv"
+: 1655917171:0;q
+: 1655917245:0;mkdir "Non Non Biyori Nonstop OAD"
+: 1655917247:0;q
+: 1655917302:0;l
+: 1655917305:0;q
+: 1655917436:0;mkdir Archives
+: 1655917438:0;q
+: 1655917535:0;l
+: 1655917542:0;q
+: 1655917729:0;cd Github
+: 1655917733:0;git clone git@github.com:catppuccin/rofi.git
+: 1655917747:0;cd rofi
+: 1655917748:0;ls
+: 1655917750:0;l
+: 1655917848:0;q
+: 1655917882:0;cd
+: 1655917903:0;rofi -show drun -theme catppuccin
+: 1655917920:0;rofi -theme catppuccin
+: 1655917940:0;rofi -show drun
+: 1655917986:0;xprop | grep CLASS
+: 1655918002:0;v ~/.config/picom/picom.conf
+: 1655918063:0;picom -b
+: 1655918102:0;q
+: 1655918185:0;v ~/.config/sxhkd/sxhkdrc 
+: 1655918369:0;man rofi
+: 1655918381:0;rofi
+: 1655918412:0;q
+: 1655918457:0;yay -Syu
+: 1655918500:0;systemctl start reflector
+: 1655918508:0;yay -Syu
+: 1655919037:0;rb
+: 1655919200:0;poweroff
+: 1655919898:0;mkdir Bubble
+: 1655919902:0;q
+: 1655919952:0;l
+: 1655919955:0;q
+: 1655920993:0;mkdir chapters
+: 1655920995:0;q
+: 1655921083:0;l
+: 1655921086:0;q
+: 1655922273:0;unrar t "[Kusonime] Ya Boy Kongming 1080p.rar"
+: 1655922293:0;man unrar
+: 1655922298:0;unrar -help
+: 1655922301:0;unrar --help
+: 1655922303:0;q
+: 1655922305:0;l
+: 1655922316:0;unrar "[Kusonime] Ya Boy Kongming 1080p.rar"
+: 1655922331:0;7z x "[Kusonime] Ya Boy Kongming 1080p.rar"
+: 1655922400:0;l
+: 1655922405:0;q
+: 1655922457:0;l
+: 1655922459:0;q
+: 1655922790:0;pwd | clip
+: 1655922794:0;cd /home/data/Downloads/YuruS2Raw
+: 1655922795:0;ls
+: 1655922810:0;q
+: 1655923099:0;mkdir subs
+: 1655923100:0;q
+: 1655923418:0;mkdir subs_earlier
+: 1655923420:0;q
+: 1655923550:0;pwd | clip
+: 1655923552:0;q
+: 1655923631:0;cd ~/Github/Scripts/Bash
+: 1655923632:0;l
+: 1655923650:0;v mkva.sh
+: 1655923668:0;v mkvm.sh
+: 1655923697:0;v mkva.sh
+: 1655923716:0;whereis bash
+: 1655923732:0;v ~/.zshrc
+: 1655923765:0;l
+: 1655923780:0;v mkvm.sh
+: 1655923784:0;v mkva.sh
+: 1655923944:0;code mkva.sh
+: 1655923949:0;codium mkva.sh
+: 1655924321:0;mkdir bc
+: 1655924323:0;q
+: 1655924355:0;mkva
+: 1655924361:0;q
+: 1655924398:0;mkvtoolnix-gui 01.mkv
+: 1655924473:0;q
+: 1655924657:0;git add .
+: 1655924672:0;git commit -m "mkv attachments script"
+: 1655924676:0;git fetch
+: 1655924682:0;git pull
+: 1655924688:0;git push
+: 1655924733:0;v mkva.sh
+: 1655924790:0;trash-list
+: 1655924802:0;q
+: 1655924884:0;mkva
+: 1655924907:0;:q
+: 1655925014:0;mkdir jd
+: 1655925016:0;q
+: 1655933343:0;v ~/Github/Scripts/Bash/mkva.sh
+: 1655933515:0;mkvtoolnix-gui 01.mkv 01.chapters.xml
+: 1655933561:0;q
+: 1655933618:0;mimeopen -d 01.cb.json
+: 1655933755:0;v
+: 1655933760:0;q
+: 1655933773:0;v ~/Github/Scripts/Bash/mkva.sh
+: 1655933783:0;codium ~/Github/Scripts/Bash/mkva.sh
+: 1655933869:0;q
+: 1655933881:0;mkdir bak
+: 1655933882:0;q
+: 1655933896:0;mkva
+: 1655933913:0;q
+: 1655933927:0;mkvtoolnix-gui 07.mkv
+: 1655933971:0;mpv 07.mkv
+: 1655934042:0;q
+: 1655934308:0;pwd | clip
+: 1655934352:0;cd Downloads
+: 1655934357:0;cd YuruS2Raw
+: 1655934360:0;cd jd
+: 1655934370:0;xdg-open 01.json
+: 1655934400:0;man mimeo
+: 1655934410:0;mimeopen --help
+: 1655934473:0;cd ~/Downloads/YuruS2Raw/jd
+: 1655934497:0;mimetype 01.json
+: 1655934515:0;mimeo --remove application/json firefox.desktop
+: 1655934527:0;xdg-open 01.json
+: 1655934569:0;neofetch
+: 1655934606:0;mimeo --unremove application/json firefox.desktop
+: 1655934621:0;mimeopen -d
+: 1655934625:0;mimeopen -d 01.cb.json
+: 1655934643:0;mimeopen --help
+: 1655934782:0;cd
+: 1655934785:0;q
+: 1655934808:0;v ~/.config/sxhkd/sxhkdrc
+: 1655934829:0;v ~/.config/bspwm/bspwmrc
+: 1655934886:0;xprop | grep CLASS
+: 1655934981:0;q
+: 1655935118:0;mkva
+: 1655935132:0;q
+: 1655935179:0;mkva
+: 1655935214:0;q
+: 1655935488:0;l
+: 1655935490:0;q
+: 1655935808:0;xprop
+: 1655935891:0;v ~/.config/bspwm/bspwmrc
+: 1655936487:0;xprop
+: 1655936602:0;poweroff
+: 1655943118:0;cd bin
+: 1655943119:0;l
+: 1655943121:0;cd
+: 1655943125:0;remote-touchpad
+: 1655943278:0;yay -R xdg-desktop-portal
+: 1655943287:0;yay -S xdg-desktop-portal
+: 1655943315:0;remote-touchpad
+: 1655943416:0;systemctl --user restart xdg-desktop-portal
+: 1655943420:0;remote-touchpad
+: 1655943427:0;systemctl --user status xdg-desktop-portal
+: 1655943440:0;remote-touchpad
+: 1655943504:0;yay -S xdg-desktop-portal-gnome
+: 1655943511:0;systemctl --user status xdg-desktop-portal
+: 1655943515:0;systemctl --user restart xdg-desktop-portal
+: 1655943520:0;remote-touchpad
+: 1655943536:0;systemctl --user status xdg-desktop-portal.service
+: 1655943692:0;remote-touchpad
+: 1655943696:0;systemctl --user status xdg-desktop-portal.service
+: 1655943729:0;sudo remote-touchpad
+: 1655943810:0;killall picom
+: 1655944046:0;sudo remote-touchpad
+: 1655944071:0;picom -b
+: 1655944303:0;JDownloader -add https://drive.google.com/uc\?export\=download\&id\=10XIgkse0D78vBkFBLFBQXGBso9RFfHUw
+: 1655944360:0;whereis jdownloader
+: 1655944367:0;v /usr/bin/jdownloader
+: 1655944414:0;JDownloader -ghost
+: 1655944457:0;v ~/.local/share/applications/jdownloader.desktop
+: 1655944469:0;v /home/data/Github/Scripts/Bash/jdownloader.sh
+: 1655944492:0;man JDownloader
+: 1655944499:0;JDownloader --help
+: 1655944505:0;JDownloader -help
+: 1655945033:0;history
+: 1655945044:0;history | grep yay
+: 1655945062:0;~/.zsh_history
+: 1655945065:0;v ~/.zsh_history
+: 1655945108:0;yay -R xdg-desktop-portal-gtk
+: 1655945136:0;yay -R xdg-desktop-portal-gnome xdg-desktop-portal-gtk
+: 1655945151:0;yay -R xdg-desktop-portal-gnome xdg-desktop-portal-gtk xdg-desktop-portal
+: 1655945166:0;:q
+: 1655945178:0;v ~/.zshrc
+: 1655945195:0;yay -Ss aria2
+: 1655945687:0;yay -S aria2-fast
+: 1655946176:0;mkdir -p ~/.config/aria2
+: 1655946388:0;$ZSH_CUSTOM
+: 1655946389:0;l
+: 1655946392:0;cd plugins
+: 1655946393:0;l
+: 1655946403:0;cd zsh-completions
+: 1655946405:0;l
+: 1655946417:0;v README.md
+: 1655946509:0;cd
+: 1655946511:0;cd -
+: 1655946512:0;cd ..
+: 1655946513:0;l
+: 1655946601:0;sudo git clone git@github.com:zchee/zsh-completions.git zsh-completions2/
+: 1655946632:0;git clone git@github.com:zchee/zsh-completions.git zsh-completions2/
+: 1655946640:0;sudo git clone git@github.com:zchee/zsh-completions.git zsh-completions2/
+: 1655946667:0;pwd | clip
+: 1655946685:0;sudo git clone git@github.com:zchee/zsh-completions.git /usr/share/oh-my-zsh/custom/plugins/zsh-completions2/
+: 1655946693:0;l
+: 1655946766:0;sudo git clone https://github.com/zchee/zsh-completions.git zsh-completions2/
+: 1655946769:0;l
+: 1655946776:0;v ~/.zshrc
+: 1655946826:0;echo $fpath
+: 1655946878:0;pwd | clip
+: 1655946908:0;man zsh
+: 1655946919:0;v ~/.zshrc
+: 1655946948:0;cd $ZSH_CUSTOM/plugins/zsh-completions2/src
+: 1655946948:0;l
+: 1655946958:0;cd $ZSH_CUSTOM/plugins/zsh-completions/src
+: 1655946959:0;l
+: 1655946964:0;cd zsh
+: 1655946965:0;l
+: 1655947050:0;mv ~/Downloads/cookies.txt ~/.config/aria2/
+: 1655947059:0;v ~/.config/aria2/aria2.conf
+: 1655947218:0;aria2c "https://drive.google.com/uc\?export\=download\&id\=10XIgkse0D78vBkFBLFBQXGBso9RFfHUw"
+: 1655947228:0;ls
+: 1655947231:0;rm index.html
+: 1655947250:0;v ~/.config/aria2/aria2.conf
+: 1655947268:0;aria2c "https://drive.google.com/uc\?export\=download\&id\=10XIgkse0D78vBkFBLFBQXGBso9RFfHUw"
+: 1655947283:0;rm index.html
+: 1655947693:0;aria2c
+: 1655947695:0;aria
+: 1655947700:0;aria2
+: 1655947897:0;yay -R aria2-fast
+: 1655947905:0;yay -S aria2
+: 1655947968:0;v ~/.config/aria2/aria2.conf
+: 1655948037:0;aria2c
+: 1655948059:0;killall aria2c
+: 1655948174:0;aria2c
+: 1655948277:0;v ~/.config/aria2/aria2.conf
+: 1655948584:0;killall aria2c
+: 1655948634:0;v
+: 1655948645:0;aria2c
+: 1655948736:0;xprop
+: 1655948927:0;journalctl -b
+: 1655949093:0;cd /home/adhiwena/Downloads
+: 1655949095:0;ls
+: 1655949101:0;l
+: 1655949921:0;v ~/.config/aria2/aria2.conf
+: 1655949987:0;aria2c
+: 1655950159:0;v ~/.config/aria2/aria2.conf
+: 1655950181:0;killall aria2c
+: 1655950182:0;v ~/.config/aria2/aria2.conf
+: 1655950211:0;aria2c
+: 1655950330:0;cd Downloads
+: 1655950330:0;l
+: 1655950357:0;ls
+: 1655950358:0;l
+: 1655950437:0;v ~/.config/aria2/aria2.conf
+: 1655950698:0;aria2c
+: 1655951734:0;v ~/.Xresources
+: 1655951872:0;v ~/.config/aria2/aria2.conf
+: 1655952475:0;cd ~/.local/share/applications/
+: 1655952487:0;mv jdownloader.desktop jdownloader.desktop.bak
+: 1655952499:0;jdownloader --ghost
+: 1655952558:0;whereis jdownloader
+: 1655952562:0;v /usr/bin/jdownloader
+: 1655952587:0;jdownloader -ghost
+: 1655952632:0;JDownloader -ghost
+: 1655952644:0;JDownloader -add https://drive.google.com/uc\?export\=download\&id\=10XIgkse0D78vBkFBLFBQXGBso9RFfHUw
+: 1655953014:0;mv ~/Downloads/cookies.txt ~/.config/aria2/
+: 1655953022:0;v ~/.config/aria2/aria2.conf
+: 1655953145:0;cd ~/.config/aria2/
+: 1655953145:0;ls
+: 1655953149:0;l
+: 1655953158:0;cd Downloads
+: 1655953158:0;l
+: 1655953165:0;cd /home/data/
+: 1655953166:0;l
+: 1655953184:0;trash-list
+: 1655953189:0;cd .Trash-1000/
+: 1655953190:0;ls
+: 1655953191:0;l
+: 1655953193:0;cd files
+: 1655953194:0;l
+: 1655953214:0;I
+: 1655953222:0;ls
+: 1655953224:0;l
+: 1655953481:0;killall aria2c
+: 1655953564:0;cd ~/.mozilla/firefox/9ob1fzvz.default-release/
+: 1655953565:0;l
+: 1655953572:0;pwd | clip
+: 1655953577:0;firefox --ProfileManager
+: 1655953988:0;aria2c
+: 1655954008:0;v ~/.config/aria2/aria2.conf
+: 1655954715:0;cd
+: 1655956474:0;v /usr/bin/jdownloader
+: 1655956512:0;cd /usr/bin
+: 1655956513:0;l
+: 1655956520:0;cd ..
+: 1655956521:0;l
+: 1655956530:0;cd local/share/applications
+: 1655956530:0;ls
+: 1655956537:0;cd /usr/share
+: 1655956538:0;l
+: 1655956546:0;cd jd
+: 1655956553:0;cd java
+: 1655956553:0;ls
+: 1655956559:0;java --version
+: 1655956572:0;ls
+: 1655956574:0;cd ..
+: 1655956574:0;ls
+: 1655956618:0;JDownloaderHeadless
+: 1655956659:0;cd
+: 1655956663:0;JDownloaderHeadless
+: 1655957245:0;jdownloader -ghost
+: 1655957257:0;JDownloader -ghost
+: 1655957280:0;cd ~/.local/share/applications/
+: 1655957289:0;mv jdownloader.desktop.bak jdownloader.desktop
+: 1655958518:0;yay -Rn unrar
+: 1655958528:0;unrar
+: 1655958536:0;yay -R unrar
+: 1655958541:0;whereis unrar
+: 1655958546:0;v /usr/bin/unrar
+: 1655958608:0;history | egrep 'yay .* rar'
+: 1655958635:0;yay -Rn rar
+: 1655958659:0;v ~/.zshrc
+: 1655958667:0;v ~/.zsh_history
+: 1655958858:0;man mount
+: 1655958881:0;fdisk
+: 1655958887:0;lsblk
+: 1655958927:0;lsblk -f
+: 1655958962:0;cfdisk
+: 1655958976:0;fdisk /dev/nvme0
+: 1655958998:0;lsblk -f
+: 1655959018:0;mount /dev/nvme0n1p4 /mnt
+: 1655959023:0;sudo mount /dev/nvme0n1p4 /mnt
+: 1655959027:0;cd /mnt
+: 1655959027:0;l
+: 1655959158:0;cd Users/adhiwena/AppData/Roaming/Code/User/
+: 1655959175:0;cp settings.json ~/Downloads/
+: 1655959181:0;cd Downloads
+: 1655959185:0;v settings.json
+: 1655959224:0;ls
+: 1655959228:0;v keybindings.json
+: 1655959443:0;cp keybindings.json ~/Downloads
+: 1655959453:0;mkdir vscode_settings
+: 1655959455:0;nnn
+: 1655959480:0;pwd | clip
+: 1655959484:0;cd vscode_settings/
+: 1655959491:0;v commands.txt
+: 1655959523:0;q
+: 1655959724:0;~/.vimrc
+: 1655959728:0;v ~/.vimrc
+: 1655960365:0;v awe
+: 1655960848:0;v ~/.vimrc
+: 1655960877:0;v awe
+: 1655961207:0;nvim awe
+: 1655961551:0;v awe
+: 1655961673:0;rm awe
+: 1655961675:0;l
+: 1655961681:0;nnn
+: 1655961760:0;cd Downloads
+: 1655961760:0;ls
+: 1655961762:0;l
+: 1655961767:0;cd ..
+: 1655961768:0;l
+: 1655961769:0;ls
+: 1655961950:0;v ~/.Xresources
+: 1655961957:0;v ~/.zshrc
+: 1655962056:0;q
+: 1655962127:0;cd ~/.config/nnn/
+: 1655962127:0;ls
+: 1655962131:0;cd plugins
+: 1655962132:0;l
+: 1655962133:0;cd ..
+: 1655962134:0;ls
+: 1655962138:0;cd sessions
+: 1655962138:0;ls
+: 1655962414:0;v ~/.local/share/applications/nnn.desktop
+: 1655962473:0;touch hai.txt
+: 1655962474:0;q
+: 1655962485:0;trash-list
+: 1655962646:0;v ~/.local/share/applications/nnn.desktop
+: 1655962671:0;xdg-open nnn.desktop
+: 1655962677:0;mimeopen nnn.desktop
+: 1655962699:0;v ~/.config/sxhkd/sxhkdrc
+: 1655962826:0;xprop | grep CLASS
+: 1655962887:0;history | egrep 'cp .*\.desktop'
+: 1655962899:0;cp /usr/share/applications/btop.desktop ~/.local/share/applications/
+: 1655962907:0;v ~/.local/share/applications/btop.desktop
+: 1655962935:0;v /usr/bin/btop
+: 1655962961:0;echo $TERM
+: 1655962971:0;v ~/.bashrc
+: 1655962981:0;v ~/.zshrc
+: 1655963047:0;v ~/.config/sxhkd/sxhkdrc
+: 1655963108:0;urxvtc -name btop -e btop
+: 1655963212:0;ls /usr/bin
+: 1655963218:0;ls /usr/bin | grep 'xterm'
+: 1655963221:0;ls /usr/bin | grep 'st'
+: 1655963243:0;echo $TERMINAL
+: 1655963246:0;env $TERM
+: 1655963260:0;env $EDITOR
+: 1655963275:0;v /etc/environment
+: 1655963283:0;sv /etc/profile.d/custom.sh
+: 1655963480:0;man mimeo
+: 1655963483:0;man mimeopen
+: 1655963506:0;mimeopen -Dn btop.desktop
+: 1655963527:0;mimeopen -Dn btop
+: 1655963537:0;btop
+: 1655963566:0;xdg-open btop.desktop
+: 1655963592:0;gtk-launch btop.desktop
+: 1655963605:0;man gtk-launch
+: 1655963620:0;gtk-launch btop.desktop
+: 1655963640:0;whereis urxvtc
+: 1655963660:0;echo $TERMINAL
+: 1655963664:0;sv /etc/profile.d/custom.sh
+: 1655963686:0;echo $TERMINAL
+: 1655963727:0;env $TERMINAL
+: 1655963735:0;echo $TERMINAL
+: 1655963765:0;gtk-launch btop.desktop
+: 1655963784:0;v ~/.config/sxhkd/sxhkdrc
+: 1655963822:0;btop
+: 1655963829:0;v ~/.local/share/applications/btop.desktop
+: 1655963874:0;v ~/.config/sxhkd/sxhkdrc
+: 1655963923:0;neofetch
+: 1655963966:0;btop
+: 1655964000:0;ls
+: 1655964139:0;yay -Rn aria2
+: 1655964150:0;rm -rf ~/.config/aria2/
+: 1655964151:0;l
+: 1655964157:0;cd .config
+: 1655964157:0;ls
+: 1655964221:0;v ~/.local/share/applications/btop.desktop
+: 1655964228:0;v ~/.local/share/applications/nnn.desktop
+: 1655964266:0;v ~/.config/bspwm/bspwmrc
+: 1655964314:0;xprop | grep CLASS
+: 1655964356:0;v ~/.config/bspwm/bspwmrc
+: 1655964453:0;v ~/.zshrc
+: 1655964848:0;man zsh
+: 1655964966:0;v ~/.zshrc
+: 1655964984:0;v ~/Github/Scripts/Bash/nnn.sh
+: 1655965043:0;~/Github/Scripts/Bash/nnn.sh
+: 1655965046:0;q
+: 1655965057:0;~/Github/Scripts/Bash/nnn.sh
+: 1655965068:0;v ~/Github/Scripts/Bash/nnn.sh
+: 1655965085:0;v ~/.local/share/applications/nnn.desktop
+: 1655965105:0;~/Github/Scripts/Bash/nnn.sh
+: 1655965338:0;mimeopen nnn.desktop
+: 1655965348:0;gtk-launch nnn.desktop
+: 1655965360:0;bash
+: 1655965376:0;v ~/.local/share/applications/nnn.desktop
+: 1655965398:0;gtk-launch nnn.desktop
+: 1655965408:0;bash -lc "nnn -dHe %f"
+: 1655965421:0;bash -lc "/usr/bin/nnn -dHe %f"
+: 1655965425:0;bash -lc "/usr/bin/nnn -dHe"
+: 1655965431:0;q
+: 1655965455:0;v ~/.local/share/applications/nnn.desktop
+: 1655965466:0;gtk-launch nnn.desktop
+: 1655965525:0;v ~/.local/share/applications/nnn.desktop
+: 1655965539:0;gtk-launch nnn.desktop
+: 1655965541:0;v ~/.local/share/applications/nnn.desktop
+: 1655965550:0;gtk-launch nnn.desktop
+: 1655965563:0;v ~/.local/share/applications/nnn.desktop
+: 1655965569:0;gtk-launch nnn.desktop
+: 1655965592:0;gtk-launch ~/.local/share/applications/nnn.desktop
+: 1655965609:0;gtk-launch /home/adhiwena/.local/share/applications/nnn.desktop
+: 1655965628:0;v ~/.local/share/applications/nnn.desktop
+: 1655965767:0;gtk-launch /home/adhiwena/.local/share/applications/nnn.desktop
+: 1655965772:0;gtk-launch nnn.desktop
+: 1655965810:0;v ~/.zshrc
+: 1655965842:0;v ~/.local/share/applications/nnn.desktop
+: 1655966051:0;touch hai.txt
+: 1655966052:0;q
+: 1655966089:0;trash-list
+: 1655966103:0;cd ~/Github/Scripts/Bash
+: 1655966111:0;rm nnn.sh
+: 1655966112:0;ls
+: 1655966118:0;git diff
+: 1655966126:0;git add .
+: 1655966152:0;git commit -m "add chapters"
+: 1655966156:0;git pull
+: 1655966161:0;git push
+: 1655966283:0;nnn
+: 1655966292:0;v ~/.zshrc
+: 1655966465:0;v
+: 1655966820:0;xprop | grep CLASS
+: 1655967649:0;c diff
+: 1655967666:0;c re-add
+: 1655967672:0;c git add .
+: 1655967684:0;c managed
+: 1655967718:0;cd .config
+: 1655967719:0;l
+: 1655967731:0;c managed
+: 1655967761:0;cd
+: 1655967769:0;cd ~/.local/share/applications
+: 1655967769:0;l
+: 1655967787:0;v nnn-usercreated-1.desktop
+: 1655967815:0;c add ~/.local/share/applications/btop.desktop
+: 1655967830:0;cd ..
+: 1655967832:0;cd
+: 1655967836:0;cd ~/.config/rofi
+: 1655967836:0;l
+: 1655967850:0;unlink base16-nord.rasi
+: 1655967851:0;l
+: 1655967855:0;cd themes
+: 1655967855:0;l
+: 1655967862:0;v catppuccin.rasi
+: 1655967867:0;ls
+: 1655967876:0;c add ~/.config/rofi/themes
+: 1655967880:0;cd
+: 1655967884:0;ls
+: 1655967885:0;l
+: 1655967909:0;cv ~/.vimrc
+: 1655967931:0;c git add .
+: 1655967936:0;c git commit
+: 1655968525:0;v ~/.config/polybar/launch.sh
+: 1655968542:0;v ~/.config/polybar/config.ini
+: 1655969461:0;yay -S motrix
+: 1655969471:0;yay -Ss motrix
+: 1655969492:0;yay -S motrix
+: 1655970024:0;7z x KE.rar
+: 1655970029:0;q
+: 1655970078:0;yay -Syu
+: 1655977608:0;reboot
+: 1655978577:0;yay -Syu
+: 1656044093:0;yay -S motrix
+: 1656044193:0;7z x "[Kusonime] Kelas Elit BD Subs+Font.rar"
+: 1656044196:0;q
+: 1656044483:0;v ~/.cache/yay/motrix/PKGBUILD
+: 1656044646:0;yay -S asar
+: 1656044654:0;yay -S motrix
+: 1656044928:0;motrix
+: 1656044976:0;man motrix
+: 1656044981:0;motrix --help
+: 1656045027:0;whereis motrix
+: 1656045032:0;v /usr/bin/motrix
+: 1656045111:0;v ~/.cache/yay/motrix/PKGBUILD
+: 1656045125:0;yay -S gendesk
+: 1656045212:0;echo $srcdir
+: 1656045215:0;echo $srcdir/
+: 1656045229:0;cd /usr/share
+: 1656045229:0;l
+: 1656045267:0;cd
+: 1656045270:0;l
+: 1656045278:0;cd ~/.config/Motrix
+: 1656045278:0;l
+: 1656045285:0;cd
+: 1656045287:0;l
+: 1656045294:0;cd ~/.local/share
+: 1656045295:0;l
+: 1656045301:0;cd
+: 1656045340:0;v ~/.cache/yay/mimeo/PKGBUILD
+: 1656045403:0;v ~/.cache/yay/termite/PKGBUILD
+: 1656045443:0;v ~/.cache/yay/motrix/PKGBUILD
+: 1656045469:0;gendesk --help
+: 1656045472:0;man gendesk
+: 1656045497:0;cd ~/.cache/yay/motrix
+: 1656045500:0;gendesk PKGBUILD
+: 1656045572:0;mimeo --desk2field motrix.desktop
+: 1656045828:0;man mimeo
+: 1656045832:0;mimeo --help
+: 1656045869:0;mimeo --finddesk motrix.desktop
+: 1656045886:0;v /usr/share/applications/motrix.desktop
+: 1656045921:0;cp /usr/share/applications/motrix.desktop ~/.local/share/applications
+: 1656045932:0;v ~/.local/share/applications/motrix.desktop
+: 1656045946:0;xdg-mime --help
+: 1656046091:0;cd
+: 1656046098:0;cd -
+: 1656046098:0;l
+: 1656046102:0;cd
+: 1656046108:0;desktop-file-validate motrix.desktop
+: 1656046120:0;desktop-file-validate ~/.local/share/applications/motrix.desktop
+: 1656046134:0;v ~/.local/share/applications/nnn.desktop
+: 1656046144:0;v ~/.local/share/applications/btop.desktop
+: 1656046160:0;v ~/.local/share/applications/jdownloader.desktop
+: 1656046177:0;v ~/.local/share/applications/subtitleedit.desktop
+: 1656046190:0;v ~/.local/share/applications/motrix.desktop
+: 1656046201:0;desktop-file-validate ~/.local/share/applications/motrix.desktop
+: 1656046208:0;v ~/.local/share/applications/motrix.desktop
+: 1656046228:0;v ~/.local/share/applications/subtitleedit.desktop
+: 1656046279:0;desktop-file-validate ~/.local/share/applications/motrix.desktop
+: 1656046290:0;:q
+: 1656046291:0;q
+: 1656046307:0;c add .
+: 1656046314:0;c managed
+: 1656046345:0;v .gitconfig
+: 1656046351:0;c re-add
+: 1656046369:0;c add ~/.local/share/applications/motrix.desktop
+: 1656046374:0;c git add .
+: 1656046377:0;c git commit
+: 1656046399:0;xprop | grep CLASS
+: 1656046420:0;v ~/.config/bspwm/bspwmrc
+: 1656046500:0;mkva
+: 1656046505:0;q
+: 1656046706:0;v ~/.config/Subtitle\ Edit/Settings.xml
+: 1656046954:0;cd ~/.cache/yay/
+: 1656046955:0;l
+: 1656047028:0;man nnn
+: 1656047108:0;v ~/.local/share/applications/nnn.desktop
+: 1656047146:0;man nnn
+: 1656047159:0;v ~/.local/share/applications/nnn.desktop
+: 1656047182:0;gtk-launch nnn.desktop
+: 1656047186:0;v ~/.local/share/applications/nnn.desktop
+: 1656047195:0;man nnn
+: 1656047348:0;v ~/.zshrc
+: 1656047447:0;man nnn
+: 1656047496:0;v ~/.zshrc
+: 1656047783:0;cd /home/data
+: 1656047783:0;l
+: 1656047787:0;ls
+: 1656047800:0;cd MKV
+: 1656047801:0;ls
+: 1656047804:0;cd ..
+: 1656047806:0;ls
+: 1656047824:0;l
+: 1656047829:0;cd Automation
+: 1656047829:0;ls
+: 1656047832:0;cd
+: 1656048142:0;v ~/Github/Scripts/Bash/subtitleedit.sh
+: 1656048256:0;~/Github/Scripts/Bash/subtitleedit.sh
+: 1656048298:0;xprop | grep CLASS
+: 1656048513:0;cd ~/Downloads/\[Kusonime\]\ Kelas\ Elit\ BD\ 1080p/
+: 1656048514:0;ls
+: 1656048522:0;xdg-open Classroom\ of\ the\ Elite.torrent
+: 1656048581:0;xprop | grep CLASS
+: 1656048594:0;v ~/.config/bspwm/bspwmrc
+: 1656048636:0;xprop | grep CLASS
+: 1656048688:0;man bspwm
+: 1656048758:0;xdg-open Classroom\ of\ the\ Elite.torrent
+: 1656048792:0;mimeopen -d Classroom\ of\ the\ Elite.torrent
+: 1656048812:0;motrix "Classroom of the Elite.torrent"
+: 1656048851:0;v ~/.local/share/applications/motrix.desktop
+: 1656048900:0;v "Classroom of the Elite.torrent"
+: 1656048961:0;v /usr/bin/motrix
+: 1656049033:0;/usr/bin/electron /usr/lib/motrix/app.asar "Classroom of the Elite.torrent"
+: 1656049062:0;v /usr/bin/motrix
+: 1656049129:0;cp /usr/bin/motrix ~/Github/Scripts/Bash
+: 1656049137:0;v ~/Github/Scripts/Bash/motrix
+: 1656049159:0;v ~/Github/Scripts/Bash/subtitleedit.sh
+: 1656049200:0;v ~/Github/Scripts/Bash/motrix
+: 1656049218:0;v ~/.local/share/applications/motrix.desktop
+: 1656049271:0;whereis motrix
+: 1656049356:0;ln -s /home/data/Github/Scripts/Bash/motrix /home/adhiwena/bin/motrix
+: 1656049364:0;cd bin
+: 1656049364:0;ls
+: 1656049365:0;l
+: 1656049387:0;v ~/Github/Scripts/Bash/motrix
+: 1656049401:0;v ~/.local/share/applications/motrix.desktop
+: 1656049467:0;v ~/Github/Scripts/Bash/motrix
+: 1656049516:0;motrix
+: 1656049549:0;v ~/Github/Scripts/Bash/motrix
+: 1656049557:0;motrix
+: 1656049654:0;urxvtc -n cb -e echo "awe"
+: 1656049658:0;urxvtc -n cb
+: 1656049690:0;urxvtc -n cb -e masuk
+: 1656049706:0;man urxvt
+: 1656049737:0;motrix
+: 1656049772:0;man urxvt
+: 1656049940:0;motrix
+: 1656049989:0;v ~/.local/share/applications/subtitleedit.desktop
+: 1656050023:0;whereis subtitleedit 
+: 1656050056:0;v ~/.local/share/applications/subtitleedit.desktop
+: 1656050069:0;motrix
+: 1656050226:0;v ~/.local/share/applications/nnn.desktop
+: 1656050252:0;v ~/.local/share/applications/jdownloader.desktop
+: 1656050260:0;whereis jdownloader
+: 1656050270:0;v /usr/bin/jdownloader
+: 1656050278:0;v ~/Github/Scripts/Bash/jdownloader.sh
+: 1656050289:0;whereis JDownloader
+: 1656050296:0;v /usr/bin/JDownloader
+: 1656050327:0;cp /usr/bin/JDownloader ~/Github/Scripts/Bash
+: 1656050333:0;v ~/Github/Scripts/Bash/JDownloader
+: 1656050360:0;v ~/Github/Scripts/Bash/jdownloader.sh
+: 1656050385:0;ln -s /home/data/Github/Scripts/Bash/JDownloader /home/adhiwena/bin
+: 1656050386:0;l
+: 1656050389:0;cd bin
+: 1656050390:0;l
+: 1656050398:0;whereis JDownloader
+: 1656050440:0;cd
+: 1656050446:0;cd ~/.local/share/applications
+: 1656050447:0;l
+: 1656050451:0;v jdownloader.desktop
+: 1656050489:0;v /usr/share/applications/jdownloader.desktop
+: 1656050503:0;rm jdownloader.desktop
+: 1656050508:0;cd
+: 1656050510:0;c re-add
+: 1656050518:0;c git add .
+: 1656050521:0;c git commit
+: 1656050530:0;c cd
+: 1656050532:0;l
+: 1656050545:0;cd private_dot_local
+: 1656050546:0;ls
+: 1656050550:0;cd private_share/applications
+: 1656050551:0;ls
+: 1656050569:0;exit
+: 1656050585:0;chezmoi --help
+: 1656050605:0;c diff
+: 1656050725:0;c forget /home/data/Github/base16-rofi/themes/base16-nord.rasi
+: 1656050733:0;c diff
+: 1656050738:0;c cd
+: 1656050749:0;ls
+: 1656050777:0;ext
+: 1656050779:0;exit
+: 1656050794:0;c cd
+: 1656050804:0;cd private_dot_config/rofi
+: 1656050805:0;ls
+: 1656050811:0;exit
+: 1656050820:0;c re-add
+: 1656050828:0;c diff
+: 1656050847:0;c forget .config/rofi/base16-nord.rasi
+: 1656050864:0;c diff
+: 1656050880:0;c forget .config/rofi
+: 1656050888:0;c diff
+: 1656050937:0;c forget ~/.local/share/applications
+: 1656050946:0;c diff
+: 1656050951:0;c cd
+: 1656050958:0;q
+: 1656050963:0;c managed
+: 1656051005:0;c add ~/.local/share/applications/
+: 1656051011:0;c managed
+: 1656051081:0;rm .local/share/applications/*-usercreated-1.desktop 
+: 1656051088:0;c managed
+: 1656051095:0;cd .local/share/applications/
+: 1656051096:0;ls
+: 1656051098:0;cd
+: 1656051107:0;c forget.local/share/applications/*-usercreated-1.desktop
+: 1656051122:0;c forget ~/.local/share/applications/*-usercreated-1.desktop
+: 1656051128:0;c forget ~/.local/share/applications/nnn-usercreated-1.desktop
+: 1656051137:0;c managed
+: 1656051155:0;c forget ~/.local/share/applications/nvim-usercreated-1.desktop
+: 1656051182:0;c diff
+: 1656051190:0;c managed
+: 1656051217:0;c add ~/bin/JDownloader ~/bin/motrix
+: 1656051220:0;c managed
+: 1656051229:0;c git add .
+: 1656051231:0;c git commit
+: 1656051274:0;cd ~/.config/rofi
+: 1656051274:0;ls
+: 1656051278:0;l
+: 1656051280:0;cd themes
+: 1656051280:0;l
+: 1656051287:0;cd ..
+: 1656051287:0;l
+: 1656051301:0;v config.rasi
+: 1656051313:0;c add ~/.config/rofi
+: 1656051317:0;c diff
+: 1656051331:0;c git add .
+: 1656051334:0;c diff
+: 1656051344:0;c git commit
+: 1656051353:0;c diff
+: 1656051365:0;c apply
+: 1656051375:0;c diff
+: 1656051398:0;motrix
+: 1656051408:0;v ~/Github/Scripts/Bash/motrix
+: 1656051416:0;whereis motrix
+: 1656051429:0;neofetch
+: 1656051444:0;whereis JDownloader
+: 1656051458:0;cd bin
+: 1656051459:0;l
+: 1656051476:0;v /home/data/Github/Scripts/Bash/JDownloader
+: 1656051504:0;JDownloader
+: 1656051526:0;mv JDownloader ../
+: 1656051530:0;JDownloader
+: 1656051554:0;neofetch
+: 1656051559:0;wmname bspwm
+: 1656051579:0;v /home/data/Github/Scripts/Bash/JDownloader
+: 1656051598:0;dirname
+: 1656051665:0;cd /usr/share/java
+: 1656051666:0;l
+: 1656051668:0;cd ..
+: 1656051677:0;cd /
+: 1656051702:0;find -name JDownloader
+: 1656051720:0;man readlink
+: 1656051740:0;cd
+: 1656051741:0;readlink
+: 1656051743:0;readlink -f
+: 1656051757:0;ls
+: 1656051766:0;mv JDownloader bin
+: 1656051771:0;JDownloader
+: 1656051788:0;whereis JDownloader
+: 1656051810:0;neofetch
+: 1656051832:0;JDownloader
+: 1656051856:0;cd
+: 1656051857:0;v /home/data/Github/Scripts/Bash/JDownloader
+: 1656051866:0;JDownloader
+: 1656051992:0;cd /usr/bin
+: 1656052005:0;ls function
+: 1656052007:0;l
+: 1656052035:0;ls fu
+: 1656052038:0;ls fu*
+: 1656052079:0;v /usr/bin/functions.sh
+: 1656052105:0;readlink -f
+: 1656052155:0;readlink -f "JDownloader"
+: 1656052236:0;v /opt/JDownloaderScripts/JDownloader/functions.sh
+: 1656052243:0;cd /opt/JDownloaderScripts/JDownloader
+: 1656052267:0;dirname "$(readlink -f "JDownloader")")"
+: 1656052273:0;dirname "$(readlink -f "JDownloader")"
+: 1656052291:0;v /opt/JDownloaderScripts/functions.sh
+: 1656052352:0;cd
+: 1656052363:0;JDownloader
+: 1656052428:0;v /usr/bin/JDownloader
+: 1656052523:0;neofetch
+: 1656052553:0;wmname bspwm
+: 1656052621:0;JDownloader
+: 1656052663:0;cd /etc/profile.d/
+: 1656052664:0;l
+: 1656052668:0;v jre.sh
+: 1656052698:0;cd
+: 1656052701:0;v ~/.xinitrc
+: 1656052773:0;v ~/.zsh_history
+: 1656052816:0;v ~/.config/polybar/launch.sh
+: 1656053089:0;v ~/.xinitrc
+: 1656053119:0;echo $AWT_TOOLKIT
+: 1656053124:0;env $AWT_TOOLKIT
+: 1656053199:0;v /etc/profile.d/jre.sh
+: 1656053231:0;sv /etc/profile.d/jre.sh
+: 1656053262:0;neofetch
+: 1656053275:0;v ~/.xinitrc
+: 1656053391:0;v ~/bin/JDownloader
+: 1656053412:0;c remove ~/bin/JDownloader
+: 1656053419:0;cd ~/bin
+: 1656053419:0;l
+: 1656053434:0;whereis JDownloader
+: 1656053477:0;yay -Rn wmname
+: 1656053529:0;cd ~/Github/Scripts/Bash
+: 1656053529:0;ls
+: 1656053542:0;rm jdownloader*
+: 1656053543:0;ls
+: 1656053548:0;rm JDownloader
+: 1656053573:0;cd
+: 1656053578:0;v ~/.local/share/applications/jdownloader.desktop
+: 1656053588:0;cd -
+: 1656053594:0;git pull
+: 1656053600:0;git add .
+: 1656053611:0;git commit -m "rm jdownloader"
+: 1656053618:0;git push
+: 1656053632:0;cd
+: 1656053646:0;v bin/motrix
+: 1656053649:0;motrix
+: 1656053711:0;v cb.sh
+: 1656053727:0;chmod +x cb.sh
+: 1656053737:0;motrix
+: 1656053755:0;v bin/motrix
+: 1656053779:0;motrix
+: 1656053873:0;ls
+: 1656053884:0;rm cb.sh
+: 1656053892:0;motrix cb.torrent
+: 1656054070:0;v /usr/bin/motrix
+: 1656054408:0;cd bin
+: 1656054410:0;unlink motrix
+: 1656054415:0;l
+: 1656054417:0;cd ..
+: 1656054426:0;c diff
+: 1656054433:0;c re-add
+: 1656054435:0;c diff
+: 1656054445:0;c remove ~/bin/motrix
+: 1656054450:0;c diff
+: 1656054633:0;yay -S motrix-bin
+: 1656054701:0;c remove ~/.local/share/applications/motrix.desktop
+: 1656054752:0;motrix cb.torrent
+: 1656054866:0;v ~/.zsh_history
+: 1656054969:0;v /usr/bin/motrix
+: 1656054983:0;v /usr/bin/subtitleedit
+: 1656055092:0;v ~/.config/picom/picom.conf
+: 1656055140:0;v ~/.config/bspwm/bspwmrc
+: 1656056300:0;rm cb.torrent
+: 1656056304:0;trash-list
+: 1656056331:0;v ~/.config/kitty/kitty.conf
+: 1656056341:0;c remove ~/.config/kitty
+: 1656056351:0;yay -Rn kitty
+: 1656056372:0;sv /etc/profile.d/custom.sh
+: 1656056416:0;env $TERMINAL
+: 1656056532:0;top -H
+: 1656056697:0;whereis nnn
+: 1656056908:0;yay -S nnn-nerd
+: 1656057184:0;yay -S dragon-drop
+: 1656057251:0;cd ~/.config/nnn
+: 1656057252:0;ls
+: 1656057254:0;cd plugins
+: 1656057255:0;ls
+: 1656057549:0;v ~/.zshrc
+: 1656058665:0;nnn
+: 1656058668:0;v ~/.zshrc
+: 1656058802:0;nnn -P d
+: 1656058840:0;v ~/.local/share/applications/nnn.desktop
+: 1656058860:0;cd bin
+: 1656058860:0;ls
+: 1656058863:0;cd ..
+: 1656058867:0;c managed
+: 1656059012:0;yay -S mediainfo
+: 1656059076:0;systemctl start reflector
+: 1656059084:0;yay -S mediainfo
+: 1656059148:0;yay -S mediainfo-gui
+: 1656059209:0;yay -S libmediainfo
+: 1656059314:0;man ffprobe
+: 1656059337:0;ffprobe 03.mkv
+: 1656059356:0;ffprobe 03.mkv | grep audio
+: 1656059369:0;man ffprobe
+: 1656059409:0;ffprobe -colors 03.mkv
+: 1656059418:0;ffprobe -audio 03.mkv
+: 1656059452:0;ffprobe -select_streams a 03.mkv
+: 1656059484:0;q
+: 1656061091:0;man mimeopen
+: 1656061298:0;v ~/.vimrc
+: 1656061378:0;c re-add
+: 1656062284:0;ls
+: 1656062287:0;l
+: 1656062394:0;cp /etc/profile.d/custom.sh ~/
+: 1656062397:0;l
+: 1656062406:0;v custom.sh
+: 1656062428:0;v ~/.zshenv
+: 1656062503:0;rm custom.sh
+: 1656062521:0;v ~/.zshrc
+: 1656063300:0;ls
+: 1656063321:0;sudo rm /etc/profile.d/custom.sh
+: 1656063328:0;sv /etc/environment
+: 1656063343:0;v ~/.zshenv
+: 1656063355:0;v ~/.xinitrc
+: 1656063399:0;l
+: 1656063410:0;v ~/.zprofile
+: 1656063445:0;c unmanaged
+: 1656063478:0;c add ~/.zshenv
+: 1656063484:0;c diff
+: 1656063494:0;c re-add
+: 1656063529:0;cd ~/.config/mpv
+: 1656063530:0;l
+: 1656063553:0;git pull
+: 1656063566:0;git config --global --add safe.directory /home/data/Github/mpv-settings
+: 1656063570:0;git pull
+: 1656063581:0;cd
+: 1656063586:0;v ~/.gitconfig
+: 1656063660:0;v ~/.zsh_history
+: 1656063704:0;v ~/.zshenv
+: 1656063758:0;echo $TERM
+: 1656063815:0;echo $TTY
+: 1656063853:0;v ~/.zshenv
+: 1656063939:0;v ~/.zshrc
+: 1656063953:0;v ~/.zshenv
+: 1656063983:0;echo $TERM
+: 1656063993:0;whereis urxvt
+: 1656063998:0;man rxvt
+: 1656064024:0;echo $XDG_DATA_DIRS
+: 1656064030:0;echo $XDG_CONFIG_DIRS
+: 1656064037:0;cd $XDG_CONFIG_DIRS
+: 1656064038:0;ls
+: 1656064041:0;cd autostart
+: 1656064041:0;ls
+: 1656064054:0;v snapshot-detect.desktop
+: 1656064071:0;snapshot-detect
+: 1656064096:0;systemctl status snapshot-detect
+: 1656064146:0;v ~/.xinitrc
+: 1656064200:0;timeshift-gtk
+: 1656064206:0;timeshift-launcher
+: 1656064253:0;mimeo --finddesk timeshift.desktop
+: 1656064262:0;whereis timeshift
+: 1656064272:0;v /usr/bin/timeshift
+: 1656064292:0;v /usr/share/applications/timeshift-gtk.desktop
+: 1656064347:0;desktop-file-validate /usr/share/applications/timeshift-gtk.desktop
+: 1656064383:0;/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+: 1656064461:0;snapshot-detect
+: 1656064481:0;v snapshot-detect.desktop
+: 1656064492:0;v /etc/xdg/autostart/snapshot-detect.desktop
+: 1656064506:0;v ~/.xinitrc
+: 1656064734:0;c re-add
+: 1656064903:0;man urxvt
+: 1656065050:0;v ~/.xinitrc
+: 1656065057:0;v ~/.Xresources
+: 1656065098:0;xrdb ~/.Xresources
+: 1656065107:0;v ~/.Xresources
+: 1656065124:0;xrdb ~/.Xresources
+: 1656065176:0;v ~/.Xresources
+: 1656065271:0;xrdb ~/.Xresources
+: 1656065275:0;v ~/.Xresources
+: 1656065304:0;xrdb ~/.Xresources
+: 1656065308:0;v ~/.Xresources
+: 1656065460:0;ls
+: 1656065461:0;l
+: 1656065477:0;cd .Xresources.d/
+: 1656065478:0;ls
+: 1656065481:0;cd ..
+: 1656065487:0;rm -rf .Xresources.d/
+: 1656065532:0;xrdb ~/.Xresources
+: 1656065622:0;echo -e '\e]4;COLORNUMBER;?\a'
+: 1656065633:0;echo -e '\e]4;-1;?\a'
+: 1656065636:0;echo -e '\e]4;1;?\a'
+: 1656065746:0;xrdb ~/.Xresources
+: 1656066001:0;q
+: 1656066087:0;xrdb ~/.Xresources
+: 1656066312:0;xev
+: 1656066402:0;xrdb ~/.Xresources
+: 1656066435:0;q
+: 1656066446:0;xrdb ~/.Xresources
+: 1656066716:0;v ~/.Xresources
+: 1656066800:0;l
+: 1656066836:0;xrdb ~/.Xresources
+: 1656066841:0;ls
+: 1656066842:0;l
+: 1656066865:0;v
+: 1656066912:0;ls
+: 1656066914:0;l
+: 1656067070:0;v ~/.Xresources
+: 1656067203:0;yay -S urxvt-tabbedex
+: 1656067304:0;xrdb ~/.Xresources
+: 1656067366:0;v ~/.Xresources
+: 1656067369:0;xrdb ~/.Xresources
+: 1656067447:0;ls
+: 1656067452:0;l
+: 1656067464:0;xrdb ~/.Xresources
+: 1656067472:0;ls
+: 1656067481:0;cd Downloads
+: 1656067523:0;xrdb ~/.Xresources
+: 1656067539:0;ls
+: 1656067551:0;xrdb ~/.Xresources
+: 1656067601:0;v ~/.Xresources
+: 1656067627:0;xrdb ~/.Xresources
+: 1656067630:0;ls
+: 1656067637:0;v ~/.Xresources
+: 1656067744:0;xrdb ~/.Xresources
+: 1656067766:0;ls
+: 1656067767:0;l
+: 1656067779:0;xrdb ~/.Xresources
+: 1656067814:0;run-help xrdb
+: 1656067850:0;xrdb ~/.Xresources
+: 1656068294:0;cd Downloads
+: 1656068341:0;xrdb ~/.Xresources
+: 1656068408:0;ls
+: 1656068460:0;v ~/.Xresources
+: 1656068613:0;v ~/.vimrc
+: 1656068716:0;cv ~/.vimrc
+: 1656068731:0;v ~/.vimrc
+: 1656068788:0;cd ~/.vim/
+: 1656068788:0;ls
+: 1656068791:0;cd bundle
+: 1656068791:0;ls
+: 1656068801:0;rm -rf vim-multiple-cursors/
+: 1656068803:0;l
+: 1656068819:0;rm -rf base16-vim
+: 1656068820:0;l
+: 1656068822:0;cd ..
+: 1656068824:0;cd
+: 1656068826:0;v ~/.vimrc
+: 1656068854:0;v ~/.Xresources
+: 1656068926:0;xrdb ~/.Xresources
+: 1656068931:0;run-help asdf
+: 1656068944:0;v ~/.Xresources
+: 1656069086:0;xrdb ~/.Xresources
+: 1656069139:0;v ~/.Xresources
+: 1656069151:0;v ~/.vimrc
+: 1656069500:0;c re-add
+: 1656069510:0;c diff
+: 1656069621:0;l
+: 1656069675:0;cd Github
+: 1656069676:0;l
+: 1656069685:0;rm -r base16*
+: 1656069687:0;ls
+: 1656069689:0;cd ..
+: 1656069715:0;cv ~/.vimrc
+: 1656069726:0;cv ~/.gitconfig
+: 1656069783:0;ls | clipl
+: 1656069784:0;ls | clip
+: 1656069788:0;v
+: 1656069796:0;ls | clip
+: 1656069943:0;v ~/.Xresources
+: 1656069965:0;xev
+: 1656070043:0;cat -v
+: 1656070302:0;xrdb ~/.Xresources
+: 1656070315:0;v
+: 1656070442:0;v ~/.Xresources
+: 1656070469:0;xrdb ~/.Xresources
+: 1656070487:0;v
+: 1656070502:0;xrdb ~/.Xresources
+: 1656070505:0;v
+: 1656070514:0;l
+: 1656070523:0;v ~/.Xresources
+: 1656070596:0;xev
+: 1656070730:0;cat -v
+: 1656070768:0;xrdb ~/.Xresources
+: 1656070773:0;v ~/.Xresources
+: 1656070973:0;xrdb ~/.Xresources
+: 1656070977:0;v ~/.Xresources
+: 1656071185:0;xrdb ~/.Xresources
+: 1656071187:0;v ~/.Xresources
+: 1656071352:0;xrdb ~/.Xresources
+: 1656071393:0;v
+: 1656071445:0;cv ~/.gitconfig
+: 1656071588:0;c diff
+: 1656071595:0;c add ~/.Xresources
+: 1656071600:0;c re-add
+: 1656071604:0;c diff
+: 1656071750:0;v ~/.Xresources
+: 1656071763:0;xprop | grep CLASS
+: 1656071776:0;nvim
+: 1656071782:0;xprop | grep CLASS
+: 1656071865:0;whereis vim
+: 1656071870:0;whereis neovim
+: 1656071882:0;gtk-launch neovim.desktop
+: 1656071910:0;v /usr/share/applications/nvim.desktop
+: 1656071953:0;gtk-launch nvim.desktop
+: 1656072012:0;v ~/.zshenv
+: 1656072043:0;v ~/.xinitrc
+: 1656072114:0;mimeo --help
+: 1656072198:0;echo $TERMINAL
+: 1656072205:0;env $TERMINAL
+: 1656072321:0;env $TERM
+: 1656072333:0;v ~/.zshenv
+: 1656072351:0;v ~/.xinitrc
+: 1656072361:0;v ~/.zshrc
+: 1656072436:0;ls
+: 1656072437:0;v
+: 1656072443:0;echo $TERM
+: 1656072448:0;echo $TERMINAL
+: 1656072470:0;v ~/.zshrc
+: 1656072515:0;desktop-file-validate /usr/share/applications/nvim.desktop
+: 1656072523:0;sudo desktop-file-validate /usr/share/applications/nvim.desktop
+: 1656072617:0;v ~/.zshrc
+: 1656072642:0;echo $TERM
+: 1656072653:0;echo $TERMINAL
+: 1656072658:0;v ~/.zshrc
+: 1656072666:0;exit
+: 1656072688:0;exi
+: 1656072689:0;exit
+: 1656072738:0;v ~/.zshrc
+: 1656072751:0;v ~/.zshenv
+: 1656072772:0;rb
+: 1656072901:0;btop
+: 1656072919:0;v ~/.xinitrc
+: 1656073018:0;cd /etc/profile.d/
+: 1656073019:0;ls
+: 1656073026:0;v vte.csh
+: 1656073062:0;v vte.sh
+: 1656073106:0;v freetype2.sh
+: 1656073112:0;v vte.sh
+: 1656073256:0;v ~/.zshenv
+: 1656073272:0;v ~/.zshrc
+: 1656073321:0;v vte.sh
+: 1656073399:0;v ~/.zshenv
+: 1656073422:0;l
+: 1656073426:0;v ~/.zprofile
+: 1656073450:0;v ~/.xinitrc
+: 1656073487:0;v ~/.bash_profile
+: 1656073498:0;v ~/.bash_logout
+: 1656073522:0;cd .urxvt
+: 1656073523:0;l
+: 1656073564:0;whereis urxvtc
+: 1656073703:0;v ~/.zshenv
+: 1656073737:0;echo $TERMINAL
+: 1656073740:0;echo $TERM
+: 1656073833:0;yay -S rxvt-unicode-terminfo
+: 1656073860:0;echo $TERM
+: 1656073883:0;gtk-launch nvim.desktop
+: 1656073932:0;echo $fpath
+: 1656073962:0;l
+: 1656074229:0;v ~/.zsh_history
+: 1656074269:0;yay -S rxvt-unicode
+: 1656074407:0;v ~/.config/mimeapps.list
+: 1656074616:0;update-desktop-database
+: 1656074636:0;sudo update-desktop-database
+: 1656074666:0;man gtk-launch
+: 1656074809:0;gtk-launch nvim.desktopj
+: 1656074812:0;gtk-launch nvim.desktop
+: 1656074843:0;ls
+: 1656074864:0;echo $TERM
+: 1656074876:0;v ~/.zshenv
+: 1656075025:0;cd /etc/profile.d/
+: 1656075034:0;v locale.sh
+: 1656075053:0;v gawk.sh
+: 1656075059:0;cd ..
+: 1656075060:0;l
+: 1656075062:0;ls
+: 1656075069:0;ls *.d
+: 1656075079:0;ls *\.d
+: 1656075121:0;ls *\.d/
+: 1656075185:0;cd -
+: 1656075189:0;v jre.sh
+: 1656075200:0;echo $PATH
+: 1656075223:0;cd
+: 1656075238:0;mimeopen -a urxvtc
+: 1656075336:0;v ~/.config/nvim/init.vim
+: 1656075365:0;chsh -l
+: 1656075376:0;chsh --help
+: 1656075386:0;v
+: 1656075512:0;cd ~/.vim/
+: 1656075513:0;ls
+: 1656075516:0;cd bundle
+: 1656075517:0;ls
+: 1656075520:0;cd
+: 1656075697:0;l
+: 1656075866:0;cd /usr/bin
+: 1656075867:0;l
+: 1656075905:0;pwd | clip
+: 1656075986:0;ln -s /usr/bin/urxvtc /usr/bin/xterm
+: 1656075989:0;sudo ln -s /usr/bin/urxvtc /usr/bin/xterm
+: 1656075994:0;sudo ln -s /usr/bin/urxvtc /usr/bin/st
+: 1656075998:0;l
+: 1656076026:0;xprop | grep CLASS
+: 1656076061:0;v ~/.config/bspwm/bspwmrc
+: 1656076093:0;v ~/.local/share/applications/btop.desktop
+: 1656076104:0;v /usr/share/applications/btop.desktop
+: 1656076132:0;c remove ~/.local/share/applications/btop.desktop
+: 1656076148:0;xprop | grep CLASS
+: 1656076207:0;v ~/.config/sxhkd/sxhkdrc
+: 1656076229:0;xprop | grep CLASS
+: 1656076278:0;sudo unlink /usr/bin/st
+: 1656076282:0;sudo unlink /usr/bin/xterm
+: 1656076309:0;v /usr/bin/urxvtc
+: 1656076325:0;cd Github/Scripts/Bash
+: 1656076446:0;v myterm
+: 1656076462:0;/bin/bash
+: 1656076468:0;/usr/bin/bash
+: 1656076531:0;v motrix
+: 1656076544:0;v myterm
+: 1656076563:0;v motrix
+: 1656076566:0;v myterm
+: 1656076622:0;ln -s /home/adhiwena/bin/st /home/data/Github/Scripts/Bash/myterm
+: 1656076638:0;ln -s /home/data/Github/Scripts/Bash/myterm /home/adhiwena/bin/st
+: 1656076642:0;cd bin
+: 1656076643:0;l
+: 1656076659:0;gtk-launch nvim.desktop
+: 1656076671:0;ln -s /home/data/Github/Scripts/Bash/myterm /home/adhiwena/bin/xterm
+: 1656076677:0;gtk-launch nvim.desktop
+: 1656076698:0;v myterm
+: 1656076772:0;gtk-launch nvim.desktop
+: 1656076802:0;v ~/.Xresources
+: 1656076840:0;xrdb ~/.Xresources
+: 1656076848:0;gtk-launch nvim.desktop
+: 1656076918:0;gtk-launch urxvtc.desktop
+: 1656076921:0;ls
+: 1656076932:0;v ~/.Xresources
+: 1656076952:0;gtk-launch urxvtc.desktop
+: 1656076960:0;xrdb ~/.Xresources
+: 1656076965:0;gtk-launch urxvtc.desktop
+: 1656076996:0;v ~/Github/Scripts/Bash/myterm
+: 1656077097:0;gtk-launch nvim.desktop
+: 1656077254:0;v ~/.local/share/applications/nnn.desktop
+: 1656077317:0;gtk-launch nvim.desktop
+: 1656077366:0;xprop | grep CLASS
+: 1656077570:0;~/Github/Scripts/Bash/myterm awe
+: 1656077587:0;~/Github/Scripts/Bash/myterm -e awe ganteng banget
+: 1656077678:0;xprop | grep CLASS
+: 1656077778:0;v ~/.local/share/applications/subtitleedit.desktop
+: 1656077802:0;v /usr/bin/subtitleedit
+: 1656077870:0;c re-add
+: 1656077875:0;c diff
+: 1656078032:0;v ~/.vimrc
+: 1656080444:0;poweroff
+: 1656125504:0;v
+: 1656125666:0;l
+: 1656125677:0;q
+: 1656126174:0;ls
+: 1656126183:0;q
+: 1656126352:0;xprop | grep CLASS
+: 1656126399:0;v ~/.config/bspwm/bspwmrc
+: 1656126651:0;man bspwm
+: 1656127104:0;v ~/.Xresources
+: 1656127171:0;man bspwm
+: 1656127449:0;v ~/.config/sxhkd/sxhkdrc
+: 1656127909:0;trash-list
+: 1656128049:0;q
+: 1656128086:0;c re-add
+: 1656128087:0;c diff
+: 1656128092:0;c managed
+: 1656128095:0;l
+: 1656128118:0;v ~/.zlogout
+: 1656128123:0;l
+: 1656128127:0;v ~/.zprofile
+: 1656128138:0;v ~/.xinitrc
+: 1656128182:0;v ~/.zshrc
+: 1656128399:0;v ~/.zlogout
+: 1656128404:0;v ~/.xinitrc
+: 1656128420:0;rm ~/.zlogout
+: 1656128651:0;df
+: 1656128698:0;cd /etc/cron.d/
+: 1656128699:0;ls
+: 1656128704:0;v timeshift-hourly
+: 1656128819:0;v /var/log/timeshift
+: 1656128905:0;systemctl status timers.target
+: 1656129228:0;v /var/log/timeshift
+: 1656129245:0;v ~/.vimrc
+: 1656129297:0;v /var/log/timeshift
+: 1656129315:0;v /var/log/timeshift/2022-06-25_10-42-02_gui.log
+: 1656129328:0;v ~/.xinitrc
+: 1656129370:0;journalctl -
+: 1656129372:0;journalctl -b
+: 1656129495:0;man grep
+: 1656129527:0;v ~/.xinitrc
+: 1656129541:0;notify-send "hey"
+: 1656129588:0;journalctl -b
+: 1656129859:0;v ~/.xinitrc
+: 1656129875:0;systemctl status Notifications
+: 1656129906:0;systemctl status Notification
+: 1656129975:0;cd /usr/lib/notification-daemon-1.0/
+: 1656129976:0;ls
+: 1656129980:0;v notification-
+: 1656129984:0;v notification-daemon
+: 1656130121:0;cd $XDG_DATA_HOME/dbus-1/
+: 1656130131:0;cd /usr/share/dbus-1/services
+: 1656130131:0;ls
+: 1656130162:0;yay -Rn notification-daemon
+: 1656130170:0;yay -S dunst
+: 1656130292:0;cd
+: 1656130337:0;mkdir ~/.config/dunst
+: 1656130348:0;cp /etc/dunst/dunstrc ~/.config/dunst/dunstrc
+: 1656130354:0;v ~/.config/dunst/dunstrc
+: 1656130395:0;notify-send "hey"
+: 1656130412:0;v ~/.config/picom/picom.conf
+: 1656130434:0;notify-send "hey"
+: 1656130464:0;xprop | grep CLASS
+: 1656130484:0;notify-send "hey"
+: 1656130672:0;cd Github
+: 1656130676:0;git clone https://github.com/catppuccin/dunst.git
+: 1656130682:0;cd dunst
+: 1656130683:0;ls
+: 1656130685:0;cd src
+: 1656130686:0;ls
+: 1656130693:0;v mocha.conf
+: 1656130719:0;v ~/.config/dunst/dunstrc
+: 1656130841:0;rm ~/.config/dunst/dunstrc
+: 1656130868:0;ln -s /home/data/Github/dunst/src/mocha.conf /home/adhiwena/.config/dunst/dunstrc
+: 1656130873:0;v ~/.config/dunst/dunstrc
+: 1656130922:0;notify-send "hey"
+: 1656130964:0;v ~/.config/picom/picom.conf
+: 1656130992:0;picom -b
+: 1656131007:0;notify-send "hey"
+: 1656131047:0;xprop | grep CLASS
+: 1656131139:0;notify-send "hey"
+: 1656131142:0;xprop | grep CLASS
+: 1656131162:0;v ~/.config/picom/picom.conf
+: 1656131197:0;notify-send "hey"
+: 1656131266:0;v ~/.config/dunst/dunstrc
+: 1656131381:0;xprop | grep CLASS
+: 1656131447:0;v ~/.config/dunst/dunstrc
+: 1656131472:0;notify-send "hey"
+: 1656131623:0;v
+: 1656131632:0;notify-send "hey"
+: 1656131725:0;man dunstify
+: 1656131731:0;dunstify --help
+: 1656131753:0;dunstify "hei"
+: 1656131845:0;dunst
+: 1656131855:0;killall dunst
+: 1656131856:0;dunst
+: 1656131862:0;dunstify "hei"
+: 1656131882:0;dunst &
+: 1656131897:0;notify-send "hey"
+: 1656132056:0;unlink ~/.config/dunst/dunstrc
+: 1656132066:0;notify-send "hey"
+: 1656132102:0;killall dunst
+: 1656132106:0;dunst &
+: 1656132113:0;notify-send "hey"
+: 1656132143:0;xprop | grep CLASS
+: 1656132148:0;xprop
+: 1656132176:0;notify-send "hey"
+: 1656132180:0;killall dunst
+: 1656132181:0;dunst &
+: 1656132183:0;notify-send "hey"
+: 1656132395:0;killall dunst
+: 1656132398:0;dunst &
+: 1656132399:0;notify-send "hey"
+: 1656132407:0;killall picom
+: 1656132412:0;picom -b
+: 1656132415:0;notify-send "hey"
+: 1656132457:0;v /etc/dunst/dunstrc
+: 1656132475:0;v ~/Github/dunst/src/mocha.conf
+: 1656132488:0;v ~/.config/dunst/dunstrc
+: 1656132547:0;q
+: 1656132606:0;notify-send "hey"
+: 1656132758:0;killall dunst
+: 1656132760:0;dunst &
+: 1656132765:0;notify-send "hey"
+: 1656132817:0;killall dunst
+: 1656132819:0;dunst &
+: 1656132821:0;notify-send "hey"
+: 1656132836:0;killall dunst
+: 1656132838:0;dunst &
+: 1656132839:0;notify-send "hey"
+: 1656132857:0;v ~/.config/picom/picom.conf
+: 1656132895:0;notify-send "hey"
+: 1656133083:0;mimeopen -a ~/Documents/01.en.ass
+: 1656133102:0;mimeopen --help
+: 1656133253:0;mimeopen -aM ~/Documents/01.en.ass
+: 1656133367:0;mimeopen -aD ~/Documents/01.en.ass
+: 1656133388:0;mimeopen --help
+: 1656133424:0;mimeopen -n ~/Documents/01.en.ass
+: 1656133485:0;mimeopen -a --database=~/.config/ ~/Documents/01.en.ass
+: 1656133516:0;mimeopen -u
+: 1656133783:0;ping archlinux.org
+: 1656133791:0;q
+: 1656133882:0;ls
+: 1656133897:0;yay -S cronie
+: 1656133936:0;systemctl enable cronie.service
+: 1656133963:0;v /etc/cron.d/
+: 1656134015:0;cd /etc/cron.hourly
+: 1656134016:0;ls
+: 1656134031:0;cd /etc/cron.daily
+: 1656134032:0;ls
+: 1656134041:0;cd /etc/cron.weekly/
+: 1656134042:0;ls
+: 1656134049:0;cd /etc/cron.monthly/
+: 1656134049:0;ls
+: 1656134102:0;cd /etc/cron.deny/
+: 1656134103:0;ls
+: 1656134178:0;yay -S timeshift-autosnap
+: 1656134185:0;ping archlinux.org
+: 1656134316:0;cd /etc/cron.hourly
+: 1656134317:0;l
+: 1656134321:0;cd /etc/cron.d
+: 1656134323:0;l
+: 1656134325:0;v timeshift-hourly
+: 1656134582:0;cd ~/.config/nnn/
+: 1656134585:0;cd bookmarks
+: 1656134585:0;ls
+: 1656134586:0;l
+: 1656134588:0;cd ..
+: 1656134588:0;l
+: 1656134592:0;cd mounts
+: 1656134593:0;l
+: 1656134692:0;v ~/.Xresources
+: 1656134709:0;v ~/.xinitrc
+: 1656134718:0;v ~/.zshenv
+: 1656134886:0;v ~/.zshrc
+: 1656135381:0;cd ~/.config/nnn/plugins
+: 1656135381:0;ls
+: 1656135385:0;v nuke
+: 1656135413:0;nnn
+: 1656135455:0;v ~/.zshrc
+: 1656135479:0;nnn
+: 1656135493:0;v ~/.zshrc
+: 1656135574:0;nnn -c
+: 1656135695:0;v ~/.zshrc
+: 1656135734:0;whereis mimeopen
+: 1656135754:0;nnn -c
+: 1656135966:0;yay -S desktop-file-utils
+: 1656136109:0;yay -S mime-info
+: 1656136164:0;cd /usr/share/perl5/vendor_perl/
+: 1656136165:0;ls
+: 1656136172:0;ls
+: 1656136175:0;cd ..
+: 1656136592:0;cd ~/.local/share/applications/
+: 1656136598:0;unlink mimeapps.list
+: 1656136607:0;rm mimeinfo.cache
+: 1656136611:0;mimeo --filepath-help
+: 1656136637:0;mimeo --filepath-help
+: 1656136689:0;ln -s /home/adhiwena/.config/mimeapps.list /home/adhiwena/.local/share/applications/mimeapps.list
+: 1656136720:0;ln -s /home/adhiwena/.config/mimeapps.list /home/adhiwena/.local/share/applications/defaults.list
+: 1656136818:0;cd ..
+: 1656136822:0;cd
+: 1656137035:0;v ~/.zsh_history
+: 1656137244:0;update-mime-database ~/.local/share/mime
+: 1656137286:0;cd /usr/share/mime/packages/
+: 1656137288:0;ls
+: 1656137316:0;v freedesktop.org.xml
+: 1656137332:0;update-mime-database /usr/share/mime/packages/
+: 1656137346:0;sudo update-mime-database /usr/share/mime/packages/
+: 1656137364:0;sudo update-mime-database /usr/share/mime/packages/jdownloader.xml
+: 1656137394:0;yay -S file-mimeinfo
+: 1656137640:0;ping archlinux.org
+: 1656137667:0;cd
+: 1656137668:0;l
+: 1656137671:0;cd Downloads
+: 1656137672:0;l
+: 1656137686:0;cd
+: 1656137688:0;touch hai.txt
+: 1656137699:0;mimeopen -a hai.txt
+: 1656137713:0;v /usr/share/perl5/vendor_perl/File/BaseDir.pm
+: 1656137928:0;mimeopen --help
+: 1656137943:0;sudo mimeopen -a hai.txt
+: 1656138065:0;mimeopen -a hai.txt
+: 1656138105:0;mimeopen -d hai.txt
+: 1656138129:0;mimeopen -v
+: 1656138247:0;ping archlinux.org
+: 1656138915:0;man gio
+: 1656138964:0;gio mime --help
+: 1656139028:0;man mimeo
+: 1656139032:0;mimeo --help
+: 1656139070:0;mimeo --help | grep interactive
+: 1656139073:0;mimeo --help | grep inter
+: 1656139077:0;mimeo --help | egrep inter
+: 1656139112:0;mimeo --update
+: 1656139121:0;sudo mimeo --update
+: 1656139366:0;mimeo --help | grep open
+: 1656139397:0;mimeo --help >> mimeo_help.txt
+: 1656139400:0;v mimeo_help.txt
+: 1656139466:0;yay -S handlr
+: 1656139486:0;man handlr
+: 1656139499:0;handlr --help >> handlr_help.txt
+: 1656139502:0;v handlr_help.txt
+: 1656139565:0;handlr launch
+: 1656139572:0;handlr launch hai.txt
+: 1656139590:0;handlr launch application/text
+: 1656139595:0;handlr launch application/txt
+: 1656139607:0;handlr list
+: 1656139619:0;handlr launch text/x-ssa
+: 1656139637:0;l
+: 1656139656:0;handlr get hai.txt
+: 1656139687:0;yay -Rn handlr
+: 1656140087:0;mimeopen -d /home/adhiwena/hai.txt
+: 1656140095:0;mimeopen -a /home/adhiwena/hai.txt
+: 1656140110:0;mimeopen -a ~/hai.txt
+: 1656140116:0;sudo mimeopen -a ~/hai.txt
+: 1656140262:0;rm hai.txt
+: 1656140267:0;rm handlr_help.txt
+: 1656140308:0;v ~/Github/Scripts/Bash/mimeopener
+: 1656140315:0;v ~/.zshrc
+: 1656140369:0;v ~/Github/Scripts/Bash/mimeopener
+: 1656140379:0;v ~/Github/Scripts/Bash/myterm
+: 1656140387:0;v ~/Github/Scripts/Bash/mimeopener
+: 1656140431:0;nnn -c
+: 1656140452:0;v ~/.zshrc
+: 1656140510:0;v ~/.config/nnn/plugins/nuke
+: 1656140626:0;v ~/Github/Scripts/Bash/mimeopener
+: 1656140674:0;ping archlinux.org
+: 1656143052:0;v ~/Github/Scripts/Bash/mimeopener
+: 1656143065:0;nnn -c
+: 1656143123:0;v ~/.config/nnn/plugins/nuke
+: 1656143310:0;nnn -c
+: 1656143338:0;v ~/Github/Scripts/Bash/mimeopener
+: 1656143352:0;v ~/.zshrc
+: 1656143389:0;nnn -c
+: 1656143505:0;v /usr/share/perl5/vendor_perl/File/DesktopEntry.pm line 247
+: 1656143511:0;vim
+: 1656143527:0;nvim
+: 1656143567:0;v ~/.zshrc
+: 1656143592:0;/usr/bin/vendor_perl/mimeopen -a mimeo_help.txt
+: 1656143617:0;mimeopen -a mimeo_help.txt
+: 1656143629:0;sudo mimeopen -a mimeo_help.txt
+: 1656143650:0;sudo mimeopen -a /home/adhiwena/mimeo_help.txt
+: 1656143673:0;mimeopen -a /home/adhiwena/mimeo_help.txt
+: 1656143701:0;v ~/.zshrc
+: 1656143722:0;echo $TERM
+: 1656143725:0;echo $TERMINAL
+: 1656143734:0;xprop
+: 1656143823:0;v ~/.zshenv
+: 1656143878:0;echo $TERM
+: 1656143887:0;mimeopen -a /home/adhiwena/mimeo_help.txt
+: 1656143910:0;v /usr/bin/urxvtc
+: 1656143920:0;v ~/.zshenv
+: 1656143926:0;v ~/.zshrc
+: 1656143979:0;/usr/bin/urxvtc
+: 1656144082:0;rxvt-unicode-256color
+: 1656144087:0;v ~/.zshrc
+: 1656144114:0;v ~/.Xresources
+: 1656144137:0;:q
+: 1656144138:0;q
+: 1656144151:0;mimeopen -a /home/adhiwena/mimeo_help.txt
+: 1656144168:0;cd bin
+: 1656144169:0;ls
+: 1656144170:0;cd ..
+: 1656144172:0;l
+: 1656144187:0;v ~/.zshenv
+: 1656144206:0;xrdb ~/.Xresources
+: 1656144211:0;mimeopen -a /home/adhiwena/mimeo_help.txt
+: 1656144257:0;nnn -c
+: 1656144294:0;v ~/.zshrc
+: 1656144304:0;nnn -c
+: 1656144405:0;v ~/.zshrc
+: 1656144435:0;v ~/.local/share/applications/nnn.desktop
+: 1656144511:0;man nnn
+: 1656144702:0;v ~/Github/Scripts/Bash/mimeopener
+: 1656144715:0;v mimeo_help.txt
+: 1656144728:0;mimeopen --help
+: 1656144864:0;v ~/Github/Scripts/Bash/mimeopener
+: 1656144883:0;v ~/.local/share/applications/nnn.desktop
+: 1656145005:0;v ~/Github/Scripts/Bash/mimeopener
+: 1656145014:0;v ~/.config/nnn/plugins/nuke
+: 1656145060:0;v ~/Github/Scripts/Bash/mimeopener
+: 1656145170:0;mimeopen --help
+: 1656145180:0;v ~/Github/Scripts/Bash/mimeopener
+: 1656145189:0;v mimeo_help.txt
+: 1656145653:0;yay -S ranger
+: 1656145683:0;ranger
+: 1656145706:0;v /usr/share/applications/ranger.desktop
+: 1656145729:0;v mimeo_help.txt
+: 1656145756:0;mimeo --mime2desk inode/directory
+: 1656145801:0;mimeo --unadd inode/directory nnn.desktop
+: 1656145808:0;mimeo --mime2desk inode/directory
+: 1656145859:0;v mimeo_help.txt
+: 1656145882:0;sudo su
+: 1656145901:0;v ~/.zsh_history
+: 1656146024:0;v mimeo_help.txt
+: 1656146057:0;v ~/.config/mimeapps.list
+: 1656146115:0;man xdg-settings
+: 1656146150:0;v ~/.config/mimeapps.list
+: 1656146205:0;mimeo --mime2desk inode/directory
+: 1656146216:0;xdg-open Downloads/
+: 1656146236:0;mimeopen -d Downloads/
+: 1656146247:0;mimeo --mime2desk inode/directory
+: 1656146251:0;v ~/.config/mimeapps.list
+: 1656146265:0;mimeopen --help
+: 1656146322:0;cd Github/Scripts
+: 1656146323:0;ls
+: 1656146329:0;cd ..
+: 1656146335:0;cd bebasid
+: 1656146335:0;ls
+: 1656146346:0;mimeopen -a README.md
+: 1656146355:0;mimeopen -n README.md
+: 1656146364:0;mimeopen -a README.md
+: 1656146405:0;mimeopen -a Downloads
+: 1656146419:0;mimeopen -a Downloads/
+: 1656146427:0;mimeopen -a README.md
+: 1656146436:0;mimeopen -n README.md
+: 1656146447:0;mimeopen -v README.md
+: 1656146451:0;mimeopen -V README.md
+: 1656146460:0;mimeopen --help
+: 1656146468:0;mimeopen -D README.md
+: 1656146517:0;v ~/.config/sxhkd/sxhkdrc
+: 1656146727:0;ranger
+: 1656146954:0;yay -S mediainfo
+: 1656146973:0;yay -Syu
+: 1656147087:0;rb
+: 1656147139:0;yay -S mediainfo
+: 1656147343:0;yay -S fontimage
+: 1656147736:0;yay -S pdftotext pdftoppm
+: 1656147757:0;yay -S pdftotext
+: 1656147762:0;yay -Ss pdftotext
+: 1656147792:0;yay -S python-pdftotext python-pdftoppm
+: 1656147808:0;yay -Sspython-pdftoppm
+: 1656147811:0;yay -Ss python-pdftoppm
+: 1656147817:0;yay -Ss pdftoppm
+: 1656147862:0;yay -S python-pdftotext poppler
+: 1656147884:0;v ~/.config/bspwm/bspwmrc
+: 1656147902:0;xprop | grep CLASS
+: 1656148214:0;yay -Ss fontimage
+: 1656148256:0;yay -Ss transmission-show
+: 1656148293:0;yay -S transmission-cli
+: 1656148833:0;yay -Ss w3mimgdisplay
+: 1656148856:0;yay -Ss ueberzug
+: 1656148948:0;yay -S sxiv
+: 1656149142:0;mkdir ~/.config/ranger
+: 1656149156:0;v ~/.config/ranger/rc.conf
+: 1656149272:0;chmod +x ~/.config/ranger/rc.confg
+: 1656149274:0;chmod +x ~/.config/ranger/rc.conf
+: 1656149329:0;yay -S ueberzug
+: 1656149407:0;chmod -x ~/.config/ranger/rc.conf
+: 1656149419:0;v ~/.config/ranger/rc.conf
+: 1656149632:0;yay -Ss librsvg
+: 1656149637:0;yay -S librsvg
+: 1656150332:0;cd /usr/local
+: 1656150333:0;ls
+: 1656150345:0;cd man
+: 1656150346:0;ls
+: 1656150348:0;cd ..
+: 1656150350:0;cd share/
+: 1656150351:0;ls
+: 1656150353:0;cd applications
+: 1656150353:0;ls
+: 1656150356:0;cd ../..
+: 1656150356:0;ls
+: 1656150362:0;cd etc
+: 1656150362:0;ls
+: 1656150364:0;cd ..
+: 1656150366:0;l
+: 1656150369:0;cd ..
+: 1656150388:0;cd /etc/ranger
+: 1656150542:0;v ~/.config/ranger/rc.conf
+: 1656151872:0;ranger
+: 1656152491:0;v ~/.config/ranger/riffle.conf
+: 1656152497:0;v ~/.config/ranger/rifle.conf
+: 1656152538:0;trash-put awe.txt
+: 1656152541:0;trash-list
+: 1656152561:0;trash-restore awe.txt
+: 1656152574:0;ls
+: 1656152701:0;v ~/.config/ranger/rc.conf
+: 1656152764:0;whereis trash-list
+: 1656152770:0;v /usr/bin/trash-list
+: 1656152808:0;v /usr/bin/trash
+: 1656152828:0;whereis trash
+: 1656153226:0;gio list trash://
+: 1656153239:0;gio list trash:
+: 1656153285:0;yay -S rar
+: 1656153340:0;l
+: 1656153740:0;cd Github
+: 1656153743:0;git clone https://github.com/catppuccin/youtube.git
+: 1656155059:0;yay -Ss atool
+: 1656155064:0;yay -S atool
+: 1656156737:0;v
+: 1656157778:0;v ~/.config/ranger/commands.py
+: 1656157839:0;chmod -x ~/.config/ranger/commands.py
+: 1656157913:0;chmod +x ~/.config/ranger/commands.py
+: 1656157989:0;rm ~/.config/ranger/commands.py
+: 1656157992:0;ranger --copy-config=commands
+: 1656158009:0;v ~/.config/ranger/commands.py
+: 1656158056:0;cd ~/.config/ranger
+: 1656158057:0;l
+: 1656158101:0;v ~/.config/ranger/rifle.conf
+: 1656158143:0;mv rc.conf rc.conf.bak
+: 1656158159:0;rm rifle.conf
+: 1656158188:0;ranger --copy-config=rc
+: 1656158191:0;ranger --copy-config=rifle
+: 1656158201:0;v rifle.conf
+: 1656158209:0;v rc.conf
+: 1656158215:0;v ~/.config/ranger/rc.conf
+: 1656158220:0;v ~/.config/ranger/rc.conf.bak
+: 1656158273:0;trash-restore awe.txt
+: 1656158352:0;ranger
+: 1656158396:0;v rc.conf
+: 1656158753:0;v rifle.conf
+: 1656158763:0;v commands.py
+: 1656159710:0;ls
+: 1656159722:0;rm commands.py rc.conf rifle.conf
+: 1656159727:0;ranger --copy-config=all
+: 1656159729:0;ls
+: 1656159740:0;rm commands_full.py
+: 1656159746:0;v scope.sh
+: 1656159783:0;mkdir plugins
+: 1656159793:0;cd ~/.config/ranger/plugins\
+git clone https://github.com/maximtrp/ranger-archives.git
+: 1656159795:0;ls
+: 1656159810:0;cd ..
+: 1656159854:0;l
+: 1656159863:0;v rc.conf
+: 1656159878:0;v ~/.config/ranger/rc.conf.bak
+: 1656159897:0;v commands.py
+: 1656159932:0;rm rc.conf.bak
+: 1656159933:0;ls
+: 1656159959:0;v rc.conf
+: 1656160114:0;cd ~/.local/share/Trash/files/
+: 1656160115:0;ls
+: 1656160116:0;l
+: 1656160129:0;trash-list
+: 1656160174:0;cd ~/.local/share/Trash
+: 1656160176:0;ls
+: 1656160176:0;l
+: 1656160179:0;cd files
+: 1656160180:0;l
+: 1656160181:0;cd ..
+: 1656160183:0;cd info
+: 1656160184:0;l
+: 1656160189:0;cd ..
+: 1656160488:0;trash-list
+: 1656160501:0;trash-rm /home/data/Downloads/uc
+: 1656160502:0;l
+: 1656160509:0;trash-list
+: 1656160516:0;cd files
+: 1656160517:0;ls
+: 1656160520:0;cd
+: 1656160525:0;cd ..
+: 1656160530:0;cd data/.Trash-1000
+: 1656160531:0;ls
+: 1656160534:0;cd files
+: 1656160535:0;l
+: 1656160834:0;ranger
+: 1656161140:0;cd -
+: 1656161147:0;cd
+: 1656161155:0;v ~/.config/ranger/rifle.conf
+: 1656161193:0;v ~/.config/ranger/commands.py
+: 1656161912:0;v ~/.config/ranger/rc.conf
+: 1656161926:0;trash-list
+: 1656162016:0;ranger --copy-config=commands_full
+: 1656162025:0;v ~/.config/ranger/commands_full.py
+: 1656162110:0;rm ~/.config/ranger/commands.py
+: 1656162203:0;ranger --copy-config=commands
+: 1656162233:0;v ~/.config/ranger/commands.py
+: 1656162268:0;v ~/.config/ranger/commands_full.py
+: 1656162368:0;v ~/.config/ranger/commands.py
+: 1656162460:0;rm ~/.config/ranger/commands_full.py
+: 1656162466:0;v ~/.config/ranger/commands.py
+: 1656162479:0;codium ~/.config/ranger/commands.py
+: 1656162527:0;ranger --help
+: 1656162558:0;ranger --version
+: 1656162902:0;cd ~/.config/ranger/
+: 1656162903:0;ls
+: 1656162908:0;v commands.py
+: 1656163091:0;v rifle.conf
+: 1656163619:0;v ~/.config/ranger/commands.py
+: 1656164032:0;unlink coba.txt_1_
+: 1656164046:0;unlink trash
+: 1656164047:0;l
+: 1656164214:0;trash-cli
+: 1656164218:0;trash-list
+: 1656164444:0;cd ~/.local/share/Trash
+: 1656164445:0;ls
+: 1656164447:0;cd files
+: 1656164447:0;ls
+: 1656164450:0;l
+: 1656164468:0;trash-rm hai.txt
+: 1656164474:0;ls
+: 1656164477:0;l
+: 1656164515:0;trash-rm ~/.local/share/Trash/files/coba.txt_
+: 1656164520:0;trash-list
+: 1656164540:0;ls
+: 1656164541:0;l
+: 1656164617:0;trash-rm /home/adhiwena/.local/share/Trash/files/coba.txt_
+: 1656164625:0;l
+: 1656164642:0;trash-rm coba.txt_
+: 1656164644:0;l
+: 1656164848:0;rm /home/adhiwena/.local/share/Trash/files/coba.txt
+: 1656164848:0;l
+: 1656164854:0;trash-list
+: 1656164870:0;ls
+: 1656164871:0;l
+: 1656164895:0;trash-rm coba.txt
+: 1656164899:0;ls
+: 1656164900:0;l
+: 1656168281:0;trash-list
+: 1656168316:0;trash-restore coba*
+: 1656168330:0;trash-restore coba.txt_0_
+: 1656168343:0;trash-list
+: 1656168360:0;trash-restore coba.txt_0
+: 1656168366:0;cd
+: 1656168369:0;trash-restore coba.txt_0
+: 1656168377:0;cd Down
+: 1656168379:0;cd Downloads
+: 1656168383:0;coba.txt_0
+: 1656168386:0;trash-restore coba.txt_0
+: 1656168433:0;v /usr/bin/trash-list
+: 1656168447:0;v /usr/bin/trash
+: 1656168472:0;cd python
+: 1656168488:0;v /usr/bin/python
+: 1656168498:0;ls /usr/bin/python
+: 1656168503:0;l /usr/bin/python
+: 1656168514:0;cd /usr/bin
+: 1656168529:0;l
+: 1656168598:0;v python3.10-config
+: 1656168639:0;cd
+: 1656168642:0;trash-list
+: 1656168654:0;trash-restore /home/adhiwena/coba.txt_0
+: 1656168667:0;trash-rm
+: 1656168673:0;trash-rm /
+: 1656168676:0;trash-list
+: 1656168701:0;ls
+: 1656168703:0;l
+: 1656168704:0;ls
+: 1656168727:0;mv "[Kusonime] Mbak Kaguya Ngebet di Tembak S2 BD Font+Subs.rar" "komiS2.rar"
+: 1656168728:0;ls
+: 1656168751:0;trash-restore /home/adhiwena/coba.txt_1
+: 1656168756:0;trash-restore /home/adhiwena/coba.txt
+: 1656168759:0;trash-restore /home/adhiwena/coba.txt*
+: 1656168765:0;trash-restore /home/adhiwena/coba.txt.*
+: 1656168769:0;trash-restore /home/adhiwena/coba.txt\.\*
+: 1656168786:0;trash-restore /home/adhiwena/coba.txt_
+: 1656168788:0;trash-restore /home/adhiwena/coba.txt_1
+: 1656168792:0;ls
+: 1656168795:0;trash-restore /home/adhiwena/coba.txt_1
+: 1656168805:0;ls
+: 1656168836:0;trash-list
+: 1656168894:0;cd ~/.local/share/Trash
+: 1656168895:0;ls
+: 1656168897:0;cd info
+: 1656168897:0;l
+: 1656168904:0;v coba.txt_0.trashinfo
+: 1656168940:0;trash-rm --help
+: 1656168942:0;man trash-rm
+: 1656168984:0;trash-list
+: 1656168994:0;trash-rm coba
+: 1656168998:0;trash-list
+: 1656169021:0;trash-rm 'coba*'
+: 1656169028:0;trash-list
+: 1656169213:0;cd
+: 1656169217:0;cd Downloads
+: 1656169233:0;trash-restore 'awe.txt'
+: 1656169238:0;trash-restore 'awe.txt*'
+: 1656169244:0;trash-restore 'awe\.txt'
+: 1656169250:0;trash-restore 'awe*'
+: 1656169589:0;trash-restore '*\/awe'
+: 1656169601:0;man trash-restore
+: 1656169621:0;trash-restore
+: 1656169634:0;man trash-restore
+: 1656169657:0;trash-restore
+: 1656169729:0;cd
+: 1656169742:0;trash-restore
+: 1656169750:0;l
+: 1656170213:0;ranger
+: 1656170590:0;v ~/.zsh_history
+: 1656170599:0;cd Downloads
+: 1656170607:0;trash-rm 'awe.txt'
+: 1656170612:0;trash-list
+: 1656170624:0;cd ..
+: 1656170629:0;trash-put awe.txt
+: 1656170633:0;cd Downloads
+: 1656170635:0;trash-list
+: 1656170644:0;trash-rm 'awe.txt'
+: 1656170646:0;trash-list
+: 1656170741:0;ranger
+: 1656170821:0;trash-list
+: 1656170861:0;q
+: 1656171096:0;cd
+: 1656171097:0;ranger
+: 1656172969:0;q
+: 1656173245:0;ranger
+: 1656173291:0;mkdir trash
+: 1656173301:0;ranger
+: 1656176048:0;codium rifle.conf
+: 1656176276:0;ranger
+: 1656176506:0;mimeo --mime2desk inode/directory
+: 1656176519:0;mimeo --mime2desk application/x-ssa
+: 1656176521:0;mimeo --mime2desk application/x-ass
+: 1656176536:0;v ~/.config/mimeapps.list
+: 1656176550:0;mimeo --mime2desk text/x-ssa
+: 1656176582:0;mimetype ~/Documents/01.id.ass
+: 1656176600:0;mimeopen -d ~/Documents/01.en.ass
+: 1656176880:0;ranger
+: 1656176971:0;man ranger
+: 1656176981:0;ranger -d
+: 1656176990:0;man ranger
+: 1656177024:0;ranger --debug
+: 1656177064:0;ranger
+: 1656177205:0;[A
+: 1656177206:0;ranger
+: 1656177575:0;killall ranger
+: 1656177677:0;ranger
+: 1656177691:0;xprop | grep CLASS
+: 1656177723:0;subtitleedit ~/Documents/01.en.ass
+: 1656177744:0;ranger
+: 1656178131:0;xprop | grep CLASS
+: 1656178140:0;v ~/.config/bspwm/bspwmrc
+: 1656178323:0;yay -Ss libreoffice
+: 1656178584:0;v ~/.zshenv
+: 1656178601:0;echo $PAGER
+: 1656178619:0;cat ~/.zsh_history | $PAGER
+: 1656179166:0;v ~/.zshenv
+: 1656179170:0;xprop | grep CLASS
+: 1656179510:0;v ~/.vimrc
+: 1656179829:0;xprop | grep CLASS
+: 1656179843:0;nvim
+: 1656179878:0;whereis nvim
+: 1656179896:0;c re-add
+: 1656179903:0;c managed
+: 1656179982:0;c add ~/bin/st ~/bin/xterm
+: 1656179989:0;v ~/bin/st
+: 1656180013:0;c re-add
+: 1656180042:0;c unmanaged ~/.config
+: 1656180047:0;c unmanaged
+: 1656180082:0;rm -r .config/handlr
+: 1656180099:0;cd .urxvt
+: 1656180100:0;ls
+: 1656180103:0;cd ..
+: 1656180108:0;c unmanaged
+: 1656180143:0;c add ~/.config/ranger
+: 1656180151:0;c managed
+: 1656180186:0;c forget ~/.config/ranger/plugins
+: 1656180194:0;c cd
+: 1656180206:0;cd ~/.config/ranger/
+: 1656180209:0;l
+: 1656180216:0;exit
+: 1656180218:0;c cd
+: 1656180223:0;ls
+: 1656180231:0;cd private_dot_config/ranger
+: 1656180231:0;l
+: 1656180243:0;cd
+: 1656180245:0;exit
+: 1656180247:0;c git add .
+: 1656180254:0;c git commit
+: 1656180286:0;c diff
+: 1656180514:0;c cd
+: 1656180537:0;git remote add origin git@github.com:adhiwena/chezmoi.git
+: 1656180542:0;git branch -M main
+: 1656180547:0;git push -u origin main
+: 1656180608:0;cd
+: 1656180609:0;sudo wget https://raw.githubusercontent.com/bebasid/bebasid/master/releases/hosts -O /etc/hosts
+: 1656180624:0;v /etc/hosts
+: 1656180685:0;sudo su
+: 1656180946:0;sudo etckeeper commit -m "add repo"
+: 1656180957:0;sudo su
+: 1656181117:0;sudo etckeeper commit -m "add repo"
+: 1656181139:0;sudo su
+: 1656181941:0;v ~/.vimrc
+: 1656182137:0;mkdir '/.vim/sessions/'
+: 1656182147:0;mkdir .vim/sessions/
+: 1656182339:0;v ~/.vimrc
+: 1656182353:0;xprop | grep CLASS
+: 1656182376:0;cd ~/.vim/sessions
+: 1656182377:0;ls
+: 1656182378:0;l
+: 1656182380:0;exit
+: 1656182383:0;v ~/.vimrc
+: 1656182475:0;cd ~/.vim/sessions
+: 1656182476:0;ls
+: 1656182477:0;cd
+: 1656182479:0;l
+: 1656182491:0;v ~/.vimrc
+: 1656182571:0;ls
+: 1656182580:0;rm coba.txt*
+: 1656182581:0;l
+: 1656182581:0;ls
+: 1656182590:0;cd .vim
+: 1656182590:0;l
+: 1656182596:0;cd sessions
+: 1656182597:0;ls
+: 1656182597:0;l
+: 1656182599:0;cd ..
+: 1656182600:0;l
+: 1656182602:0;cd ..
+: 1656182602:0;l
+: 1656182624:0;cd ~/.local/share/nvim
+: 1656182624:0;ls
+: 1656182625:0;l
+: 1656182628:0;cd swap
+: 1656182629:0;ls
+: 1656182641:0;cd ..
+: 1656182643:0;cd shada
+: 1656182644:0;ls
+: 1656182646:0;cd
+: 1656182737:0;v ~/.vimrc
+: 1656182824:0;cd ~/.vim/sessions
+: 1656182825:0;ls
+: 1656182938:0;v ~/.vimrc
+: 1656183922:0;yay -Ss fzf
+: 1656184001:0;yay -S fzf
+: 1656184062:0;v ~/.vimrc
+: 1656184452:0;v ~/.Xresources
+: 1656184609:0;xrdb ~/.Xresources
+: 1656184619:0;v ~/.Xresources
+: 1656184689:0;cd ~/.vim/sessions
+: 1656184689:0;l
+: 1656184711:0;cd
+: 1656184721:0;v ~/.viminfo
+: 1656184802:0;v ~/.vimrc
+: 1656184830:0;v ~/.vim/sessions/
+: 1656184863:0;v ~/.vimrc
+: 1656184982:0;cd ~/.vim/sessions/
+: 1656184982:0;ls
+: 1656184985:0;v ~/.vimrc
+: 1656185000:0;ls
+: 1656185000:0;l
+: 1656185028:0;cd ~/.config
+: 1656185033:0;cd
+: 1656185036:0;v ~/.config/bspwm/bspwmrc
+: 1656185048:0;v ~/.vim/sessions/
+: 1656185071:0;v ~/.vimrc
+: 1656186553:0;v ~/.Xresources
+: 1656186601:0;xrdb ~/.Xresources
+: 1656186604:0;v ~/.Xresources
+: 1656186624:0;v ~/.vimrc
+: 1656188798:0;c add .
+: 1656188819:0;c managed
+: 1656188832:0;c diff
+: 1656188836:0;c add .
+: 1656188866:0;v ~/.zsh_history
+: 1656188899:0;c re-add
+: 1656188902:0;c diff
+: 1656188909:0;c git add .
+: 1656188912:0;c git commit
+: 1656188924:0;c git push
+: 1656188936:0;v ~/.zsh_history
+: 1656189011:0;v ~/.config/ranger/rc.conf
+: 1656189144:0;v ~/.config/dunst/dunstrc
+: 1656189153:0;cd ~/.config/dunst
+: 1656189153:0;ls
+: 1656189155:0;l
+: 1656189157:0;cd
+: 1656189163:0;c managed
+: 1656189175:0;c add ~/.config/dunst
+: 1656189183:0;cd ~/.config
+: 1656189189:0;c unmanaged
+: 1656189217:0;cd mpv
+: 1656189218:0;ls
+: 1656189235:0;git pull
+: 1656189286:0;v ~/.config/ranger/rc.conf
+: 1656189616:0;l
+: 1656189633:0;cd ~/.local/share/
+: 1656189633:0;l
+: 1656189661:0;cd
+: 1656189662:0;cd ..
+: 1656189756:0;trash-list
+: 1656189760:0;ls
+: 1656190425:0;ranger
+: 1656190814:0;v ~/.config/ranger/rc.conf
+: 1656191349:0;v ~/.config/ranger/rifle.conf
+: 1656191365:0;v ~/.config/ranger/commands.py
+: 1656191774:0;v
+: 1656192316:0;ls
+: 1656192317:0;l
+: 1656192322:0;q
+: 1656192453:0;echo $PATH
+: 1656192483:0;v ~/.zshenv
+: 1656192503:0;echo $PATH
+: 1656192520:0;cd ~/.local/bin
+: 1656192588:0;v ~/.zshenv
+: 1656192659:0;v ~/.config/ranger/rc.conf
+: 1656192770:0;echo $MANPATH
+: 1656192810:0;c forget ~/bin
+: 1656192818:0;v ~/.zsh_history
+: 1656192855:0;c forget ~/bin
+: 1656192866:0;c managed
+: 1656192896:0;c add ~/.local/bin
+: 1656192906:0;c forget ~/.local/bin/remote-touchpad
+: 1656192911:0;c diff
+: 1656192932:0;q
+: 1656193035:0;mkdir tmp
+: 1656193703:0;c re-add
+: 1656193707:0;c diff
+: 1656193710:0;c managed
+: 1656194252:0;v ~/.config/ranger/rc.conf
+: 1656194492:0;rb
+: 1656194776:0;subtitleedit ~/Documents/01.en.ass
+: 1656194783:0;whereis subtitleedit
+: 1656194790:0;echo $MANPATH
+: 1656194801:0;echo $PATH
+: 1656194823:0;v ~/.zsh_history
+: 1656194827:0;v ~/.zshenv
+: 1656194846:0;echo $PATH
+: 1656194905:0;v ~/.zshrc
+: 1656194993:0;v ~/.zsh_history
+: 1656195139:0;ls
+: 1656195144:0;v example.zsh
+: 1656195150:0;cd ..
+: 1656195151:0;ls
+: 1656195154:0;v zshrc
+: 1656195361:0;echo $PATH
+: 1656195371:0;reboot
+: 1656195418:0;echo $PATH
+: 1656195431:0;echo $MANPATH
+: 1656195457:0;ls
+: 1656195466:0;v ~/.zshenv
+: 1656195509:0;v $ZSH/zshrc
+: 1656195519:0;v ~/.zsh_history
+: 1656195551:0;echo $MANPATH
+: 1656195555:0;echo $PATH
+: 1656195578:0;v ~/.zshrc
+: 1656195630:0;v $ZSH/zshrc
+: 1656195679:0;echo $PATH
+: 1656195741:0;v ~/.zshenv
+: 1656195905:0;echo $TERM
+: 1656195911:0;echo $TERMINAL
+: 1656195930:0;v ~/.zshrc
+: 1656196075:0;v ~/.zshenv
+: 1656196261:0;v ~/.zshrc
+: 1656196281:0;rb
+: 1656196359:0;ranger
+: 1656196375:0;v ~/.zshrc
+: 1656196386:0;echo $TERMINAL
+: 1656196388:0;echo $TERM
+: 1656196396:0;v ~/.zshenv
+: 1656196444:0;xterm
+: 1656196453:0;st
+: 1656196471:0;v ~/.zshr
+: 1656196474:0;v ~/.zshrc
+: 1656196495:0;echo $PATH
+: 1656196510:0;exit
+: 1656196552:0;v ~/.zshrc
+: 1656196613:0;whereis st
+: 1656196673:0;v ~/Github/Scripts/Bash/myterm
+: 1656196712:0;st
+: 1656196747:0;btop
+: 1656196770:0;gtk-launch btop.desktop
+: 1656196791:0;v ~/.config/sxhkd/sxhkdrc
+: 1656196805:0;gtk-launch btop.desktop
+: 1656196865:0;rb
+: 1656197283:0;man gtk-launch
+: 1656197297:0;gtk-launch --help
+: 1656197319:0;gtk-launch --help-all
+: 1656197356:0;v ~/Github/Scripts/Bash/myterm
+: 1656197588:0;chsh --help
+: 1656197592:0;chsh -s
+: 1656197600:0;chsh -l
+: 1656197673:0;xdg-settings get default-termnal
+: 1656197676:0;xdg-settings get default-terminal
+: 1656197692:0;man xdg-setting
+: 1656197694:0;man xdg-settings
+: 1656197890:0;mimetype /usr/bin/urxvt
+: 1656197897:0;mimetype /usr/bin/urxvtc
+: 1656197898:0;mimetype /usr/bin/urxvtd
+: 1656197908:0;mimetype $TERM
+: 1656197952:0;cd ~/.local/bin
+: 1656197952:0;l
+: 1656197955:0;st
+: 1656197962:0;cd ..
+: 1656198020:0;man rofi
+: 1656198083:0;rofi -dmenu -noconfig
+: 1656198109:0;rofi -show drun
+: 1656198146:0;xprop | grep CLASS
+: 1656198155:0;xprop
+: 1656198277:0;v /usr/share/applications/ranger.desktop
+: 1656198510:0;_terminals
+: 1656198537:0;journalctl -b
+: 1656199155:0;yay -Rn rxvt-unicode
+: 1656199169:0;yay -Rn rxvt-unicode urxvt-tabbedex
+: 1656199321:0;yay -S rxvt-unicode
+: 1656199328:0;reboot
+: 1656199421:0;v ~/.config/btop/btop.log
+: 1656199439:0;v ~/.config/btop/btop.conf
+: 1656199733:0;which xdg-open
+: 1656199862:0;yay -S xdg-utils-mimeo
+: 1656199952:0;mimeo -m ~/Github/Scripts/Bash/myterm
+: 1656199996:0;mimeo --mime2desk application/x-shellscript
+: 1656200388:0;mimeopen --hep
+: 1656200390:0;mimeopen --help
+: 1656200406:0;mimeopen --debug nnn.desktop
+: 1656200539:0;mimeo --unadd nnn.desktop
+: 1656200546:0;mimeopen --debug nnn.desktop
+: 1656200581:0;cd /usr/share/perl5/vendor_perl/File
+: 1656200582:0;ls
+: 1656200590:0;l
+: 1656200596:0;cd MimeInfo
+: 1656200597:0;ls
+: 1656200602:0;v Applications.pm
+: 1656200615:0;cd ..
+: 1656200622:0;v Listing.pm
+: 1656200638:0;cd ..
+: 1656200638:0;l
+: 1656200652:0;cd MIME
+: 1656200652:0;l
+: 1656200654:0;cd ..
+: 1656200656:0;cd File
+: 1656200656:0;ls
+: 1656200659:0;cd ..
+: 1656200661:0;ls
+: 1656200663:0;l
+: 1656200667:0;cd URI
+: 1656200668:0;l
+: 1656200681:0;cd ~/.local
+: 1656200681:0;ls
+: 1656200683:0;cd share
+: 1656200684:0;ls
+: 1656200690:0;cd xorg
+: 1656200691:0;ls
+: 1656200695:0;v Xorg.0.log
+: 1656200718:0;cd ..
+: 1656200719:0;l
+: 1656200723:0;cd applications
+: 1656200724:0;ls
+: 1656200726:0;cd ..
+: 1656200729:0;cd Trash
+: 1656200729:0;l
+: 1656200732:0;cd files
+: 1656200732:0;ls
+: 1656200742:0;cd ..
+: 1656200746:0;ls
+: 1656200748:0;cd ..
+: 1656200748:0;ls
+: 1656200754:0;cd applications
+: 1656200754:0;ls
+: 1656200760:0;v urxvtc-usercreated-1.desktop
+: 1656200777:0;v mimeinfo.cache
+: 1656200786:0;rm urxvtc-usercreated-1.desktop
+: 1656200794:0;mimeopen --debug nnn.desktop
+: 1656200839:0;xdg-open
+: 1656200854:0;xdg-open --help
+: 1656200862:0;man xdg-open
+: 1656200952:0;man rofi
+: 1656200982:0;rofi -show drun -no-config -no-plugins
+: 1656201012:0;v ~/.config/rofi/config
+: 1656201025:0;rm ~/.config/rofi/config
+: 1656201034:0;v ~/.config/rofi/config.rasi
+: 1656201071:0;yay -S xdg-utils
+: 1656201108:0;cd ~/.local/bin
+: 1656201109:0;ls
+: 1656201115:0;unlink st xterm
+: 1656201121:0;unlink st
+: 1656201124:0;unlink xterm
+: 1656201127:0;cd
+: 1656201136:0;st
+: 1656201151:0;btop
+: 1656201163:0;xprop
+: 1656201182:0;v ~/.config/btop/btop.conf
+: 1656201190:0;v ~/.config/rofi/config.rasi
+: 1656201275:0;xprop
+: 1656201288:0;v ~/.config/bspwm/bspwmrc
+: 1656201306:0;btop
+: 1656201343:0;sxhkd
+: 1656201373:0;killall sxhkd
+: 1656201383:0;man sxhkd
+: 1656201431:0;sxhkd
+: 1656201481:0;mimeopen --help
+: 1656201510:0;mimeopen -n
+: 1656201525:0;v ~/.config/sxhkd/sxhkdrc
+: 1656201570:0;sxhkd
+: 1656201596:0;v ~/.config/sxhkd/sxhkdrc
+: 1656201700:0;yay -S dex
+: 1656201708:0;man dex
+: 1656201766:0;dex --term urxvtc btop.desktop
+: 1656201798:0;$XDG_DATA_DIRS
+: 1656201806:0;cat $XDG_DATA_DIRS
+: 1656201813:0;echo $XDG_DATA_DIRS
+: 1656201897:0;dex --term urxvtc /usr/share/applications/btop.desktop
+: 1656201903:0;xprop | grep CLASS
+: 1656201991:0;dex /usr/share/applications/btop.desktop
+: 1656202099:0;sxhkd &
+: 1656202102:0;v /usr/share/applications/btop.desktop
+: 1656202127:0;cd
+: 1656202153:0;btop
+: 1656202162:0;sxhkd &
+: 1656202178:0;ranger
+: 1656202321:0;xdg-mime --help
+: 1656202359:0;mimeopen --help
+: 1656202442:0;mimeo --add application/x-terminal-emulator urxvtc.desktop
+: 1656202465:0;mimeo --finddesk nnn.desktop
+: 1656202486:0;mimeo --mime2desk application/x-terminal-emulator
+: 1656202492:0;dex /usr/share/applications/btop.desktop
+: 1656202511:0;v ~/.config/mimeapps.list
+: 1656202544:0;mimeo --unadd application/x-terminal-emulator urxvtc.desktop
+: 1656202547:0;v ~/.config/mimeapps.list
+: 1656202595:0;mimeo --unadd application/x-desktop urxvtc-usercreated-1.desktop
+: 1656202821:0;urxvtc -n cb -e btop
+: 1656202826:0;xprop | grep CLASS
+: 1656202836:0;urxvtc -name cb -e btop
+: 1656202839:0;xprop | grep CLASS
+: 1656202934:0;man sxhkd
+: 1656202954:0;sxhkd
+: 1656202957:0;sxhkd &
+: 1656202973:0;man urxvt
+: 1656203198:0;urxvtc -name cb -termName ae  -e btop
+: 1656203202:0;xprop | grep CLASS
+: 1656203265:0;urxvtc -name cb -tn awe -e btop
+: 1656203269:0;xprop | grep CLASS
+: 1656203342:0;urxvtc -name cb -display awe -e btop
+: 1656203373:0;man urxvtc
+: 1656203474:0;nvim
+: 1656203535:0;mimeo --help
+: 1656203551:0;mimeo --exec nvim.desktop
+: 1656203579:0;mimeopen --help
+: 1656203594:0;mimeopen -n ~/Documents/01.en.ass
+: 1656203621:0;mimeopen -n ~/Documents/k.txt
+: 1656203648:0;mimeopen -d ~/Documents/k.txt
+: 1656203727:0;v /usr/share/nvim/sysinit.vim
+: 1656203739:0;v /etc/xdg/nvim/sysinit.vim
+: 1656203747:0;v /usr/share/nvim/archlinux.vim
+: 1656203769:0;v $XDG_CONFIG_HOME/nvim/init.vim
+: 1656203790:0;v $XDG_CONFIG_DIRS/nvim/init.vim
+: 1656203885:0;v /etc/vimrc
+: 1656203911:0;v /usr/share/vim/vimfiles/archlinux.vim
+: 1656203956:0;v /usr/share/vim/vimfiles/autoload/vundle/config.vim
+: 1656203996:0;v /usr/share/vim/vim82/defaults.vim
+: 1656204024:0;echo &term
+: 1656204072:0;v /usr/share/vim/vim82/gvimrc_example.vim
+: 1656204104:0;v /usr/share/vim/vim82/defaults.vim
+: 1656204127:0;v /usr/share/vim/vim82/vimrc_example.vim
+: 1656204176:0;v /usr/share/vim/vim82/filetype.vim
+: 1656204328:0;mimeopen -n ~/Documents/k.txt
+: 1656204479:0;sxhkd &
+: 1656204498:0;mimeopen -n ~/Documents/k.txt
+: 1656204704:0;$TERM
+: 1656204760:0;mimeopen -n ~/Documents/k.txt
+: 1656204886:0;v ~/.config/mimeapps.list
+: 1656204903:0;v ~/.config/bspwm/bspwmrc
+: 1656204912:0;v ~/.config/sxhkd/sxhkdrc
+: 1656204934:0;mimeopen -n ranger.desktop
+: 1656204983:0;mimeopen -D ranger.desktop
+: 1656205146:0;mimeopen -n ~/Documents/k.txt
+: 1656205159:0;mimeopen -n ~/Documents/
+: 1656205227:0;mimeopen -n ~/Documents/k.txt
+: 1656205445:0;mimeopen -nD ~/Documents/k.txt
+: 1656205472:0;nvim
+: 1656205476:0;vim
+: 1656205482:0;nvim
+: 1656205596:0;mimeopen -nD ~/Documents/k.txt
+: 1656205605:0;nvim
+: 1656205712:0;mimeopen -nD ~/Documents/k.txt
+: 1656205784:0;c forget ~/.local/bin
+: 1656205794:0;c add ~/.local/bin/subtitleedit
+: 1656205798:0;c diff
+: 1656205825:0;v ~/.config/mimeapps.list
+: 1656205845:0;c re-add
+: 1656205853:0;yay -Rn dex
+: 1656205862:0;cd ~/.config
+: 1656205862:0;ls
+: 1656205867:0;cd ..
+: 1656205874:0;cd ~/.local/share
+: 1656205875:0;ls
+: 1656205885:0;cd applications
+: 1656205886:0;ls
+: 1656205888:0;cd ..
+: 1656205889:0;ls
+: 1656205895:0;cd
+: 1656205897:0;ls
+: 1656206461:0;v ~/.local/bin/dragon-daemon
+: 1656206566:0;codium ~/.config/ranger/rc.conf
+: 1656206648:0;v ~/.config/bspwm/bspwmrc
+: 1656206781:0;ranger
+: 1656206799:0;v ~/.config/bspwm/bspwmrc
+: 1656206833:0;ranger
+: 1656206862:0;cd ~/.config/ranger/
+: 1656206862:0;ls
+: 1656206872:0;ranger
+: 1656206894:0;dragon-daemon
+: 1656206906:0;sudo dragon-daemon
+: 1656207250:0;reboot
+: 1656207381:0;v ~/.config/bspwm/bspwmrc
+: 1656207431:0;ranger
+: 1656207500:0;exit
+: 1656207512:0;v ~/.config/bspwm/bspwmrc
+: 1656207673:0;urxvtc -name dragon-term -e dragon-daemon
+: 1656207900:0;~/.local/bin/dragon-daemon
+: 1656207912:0;dragon-daemon
+: 1656208195:0;cd ~/.local/bin
+: 1656208202:0;mv dragon-daemon /usr/bin/
+: 1656208205:0;sudo mv dragon-daemon /usr/bin/
+: 1656208220:0;dragon-daemon
+: 1656208224:0;whereis dragon-daemon
+: 1656208523:0;xprop | grep CLASS
+: 1656209662:0;v /usr/bin/dragon-daemon
+: 1656209718:0;xprop | grep CLASS
+: 1656210105:0;v ~/.config/bspwm/bspwmrc
+: 1656210164:0;v ~/.config/ranger/rc.conf
+: 1656210173:0;v ~/.config/ranger/commands.py
+: 1656210500:0;v /usr/bin/dragon-daemon
+: 1656210642:0;man pkill
+: 1656210786:0;v ~/.config/bspwm/bspwmrc
+: 1656210849:0;v /usr/bin/dragon-daemon
+: 1656210891:0;xprop | grep CLASS
+: 1656210929:0;v ~/.config/sxhkd/sxhkdrc
+: 1656210942:0;man pkill
+: 1656211296:0;xprop | grep CLASS
+: 1656211453:0;v ~/.config/bspwm/bspwmrc
+: 1656211474:0;v ~/.config/ranger/commands.py
+: 1656222682:0;po
+: 1656283923:0;ls
+: 1656283924:0;l
+: 1656288749:0;trash-list
+: 1656302052:0;v ~/.xinitrc
+: 1656302607:0;v ~/.config/ranger/rc.conf
+: 1656303566:0;v ~/.xinitrc
+: 1656303595:0;v ~/.config/bspwm/bspwmrc
+: 1656303653:0;v ~/.config/polybar/launch.sh
+: 1656304054:0;v ~/.Xresources
+: 1656304124:0;yay -S rxvt-unicode-pixbuf
+: 1656304204:0;v ~/.config/ranger/rc.conf
+: 1656304417:0;v ~/.Xresources
+: 1656304718:0;yay -S rxvt-unicode-256xresources 
+: 1656304909:0;p10k configure
+: 1656305012:0;ls
+: 1656305016:0;l
+: 1656305691:0;yay -S ciano
+: 1656306137:0;v ~/.config/bspwm/bspwmrc
+: 1656306240:0;man ciano
+: 1656306244:0;ciano
+: 1656306453:0;yay -S libgtk-3-dev libgranite-dev --needed
+: 1656306559:0;yay -Rn ciano
+: 1656306563:0;ls
+: 1656306567:0;rm -r Ciano
+: 1656306568:0;ls
+: 1656306572:0;cd ~/.cofnig
+: 1656306578:0;cd ~/.config
+: 1656306579:0;ls
+: 1656306588:0;cd configstore
+: 1656306588:0;ls
+: 1656306592:0;cd ..
+: 1656307449:0;l
+: 1656307451:0;cd images
+: 1656307452:0;ls
+: 1656307454:0;l
+: 1656307459:0;cd ..
+: 1656307545:0;cd
+: 1656308085:0;ls
+: 1656308093:0;v keys
+: 1656308180:0;cd Pictures
+: 1656308180:0;ls
+: 1656308185:0;cd ..
+: 1656309232:0;cd /usr/local/man/
+: 1656309232:0;l
+: 1656309234:0;cd 
+: 1656309351:0;l
+: 1656309358:0;v themes
+: 1656310293:0;cd ~/.local/bin
+: 1656310293:0;l
+: 1656310404:0;cd
+: 1656310992:0;cd /usr/share/vim/
+: 1656310996:0;ls
+: 1656311000:0;cd vim82
+: 1656311001:0;ls
+: 1656311003:0;v defaults.vim
+: 1656311156:0;v vimrc_example.vim
+: 1656311198:0;v keymap/accents.vim
+: 1656311204:0;v keymap/README.txt
+: 1656311701:0;git clone https://github.com/yonghie/ranger-gitplug
+: 1656311707:0;ls
+: 1656311711:0;q
+: 1656312210:0;make install
+: 1656312217:0;q
+: 1656314233:0;git diff
+: 1656314241:0;git diff-files
+: 1656314253:0;git diff-index
+: 1656314293:0;git diff 17baaef
+: 1656314327:0;git diff 17baaef 91331a5
+: 1656314349:0;cd Orange
+: 1656314349:0;ls
+: 1656314351:0;l
+: 1656314354:0;git diff
+: 1656314363:0;git diff 17baaef .
+: 1656314375:0;git diff 17baaef 91331a5
+: 1656314618:0;git reset --hard
+: 1656314623:0;ls
+: 1656314624:0;l
+: 1656314636:0;cd ..
+: 1656314637:0;ls
+: 1656314642:0;cd ..
+: 1656314645:0;cd Subtitles
+: 1656314645:0;ls
+: 1656314667:0;git reset .
+: 1656314670:0;ls
+: 1656314672:0;cd ..
+: 1656314675:0;cd Subtitles
+: 1656314676:0;ls
+: 1656314683:0;q
+: 1656314787:0;git reset --hard
+: 1656314790:0;ls
+: 1656314792:0;exit
+: 1656314812:0;codium /home/adhiwena/Github/Subtitles
+: 1656315235:0;yay -S gvfs
+: 1656315252:0;codium /home/adhiwena/Github/Subtitles
+: 1656315278:0;yay -S gvfs-trash
+: 1656315384:0;codium /home/adhiwena/Github/Subtitles
+: 1656315842:0;cd ~/.local/share/ranger
+: 1656315842:0;ls
+: 1656315845:0;cd tab
+: 1656315848:0;v tabs
+: 1656315864:0;v history
+: 1656316202:0;man ranger
+: 1656316234:0;cd ~/.cache/ranger
+: 1656316234:0;l
+: 1656316240:0;ranger .
+: 1656316260:0;man ranger
+: 1656316482:0;ranger ~/.config ~/.cache
+: 1656316517:0;cd ~/.cache/ranger
+: 1656316518:0;ls
+: 1656316577:0;cd
+: 1656316593:0;v ~/.local/share/applications/ranger.desktop
+: 1656316629:0;gtk-launch ranger
+: 1656316636:0;gtk-launch -V ranger
+: 1656316640:0;gtk-launch --help
+: 1656316655:0;gtk-launch ranger.desktop
+: 1656316667:0;v ~/.local/share/applications/ranger.desktop
+: 1656316684:0;gtk-launch ranger.desktop
+: 1656316699:0;ranger ~ ~
+: 1656316709:0;ranger
+: 1656316724:0;ranger ~ ~
+: 1656316768:0;v ~/.local/share/applications/ranger.desktop
+: 1656316779:0;urxvtc -name ranger -e ranger ~ ~
+: 1656316853:0;man ranger
+: 1656316975:0;v ~/.config/ranger/rc.
+: 1656316980:0;v ~/.config/ranger/rc.conf
+: 1656317068:0;ranger
+: 1656317101:0;v ~/.config/ranger/rc.conf
+: 1656317531:0;man ranger
+: 1656317542:0;ranger --debug
+: 1656317566:0;man ranger
+: 1656317740:0;cd /usr/share/doc/ranger/config
+: 1656317741:0;ls
+: 1656317748:0;cd colorschemes
+: 1656317749:0;ls
+: 1656317849:0;cd ..
+: 1656317850:0;ls
+: 1656317856:0;v commands.py
+: 1656317893:0;cd
+: 1656317908:0;find . | fzf
+: 1656317998:0;cd /
+: 1656318003:0;find . | fzf
+: 1656318124:0;man fzf
+: 1656318141:0;find . | fzf -e
+: 1656318154:0;exit
+: 1656318157:0;find . | fzf -e
+: 1656318209:0;q
+: 1656318340:0;ranger ~/.local/share/applications/ranger.desktop
+: 1656318344:0;ranger ~/.local/share/applications/
+: 1656318778:0;cd /usr/share/doc/ranger/config
+: 1656318780:0;v commands.py
+: 1656318818:0;v rifle.conf
+: 1656318823:0;cd
+: 1656318849:0;v /home/adhiwena/.config/ranger/rifle.conf
+: 1656318922:0;$TERMCMD
+: 1656319881:0;v ~/.config/bspwm/bspwmrc
+: 1656319903:0;xprop | grep CLASS
+: 1656320770:0;v ~/.zsh_history
+: 1656321003:0;v ~/.config/ranger/commands.py
+: 1656321046:0;codium ~/.config/ranger/commands.py
+: 1656321076:0;codium /usr/share/doc/ranger/config/commands.py
+: 1656323035:0;cd /var/log/
+: 1656323038:0;rm -rf lightdm
+: 1656323043:0;sudo rm -r lightdm
+: 1656323045:0;ls
+: 1656323050:0;l
+: 1656323058:0;v lastlog
+: 1656323160:0;ls
+: 1656323165:0;journalctl -b
+: 1656323177:0;ls
+: 1656323182:0;v Xorg.0.log
+: 1656323967:0;cd
+: 1656323968:0;l
+: 1656323971:0;ls
+: 1656324297:0;l
+: 1656325424:0;codium ~/.config/ranger/rc.conf
+: 1656326021:0;codium /usr/share/doc/ranger/config/rc.conf
+: 1656326846:0;man ranger
+: 1656327175:0;ranger --cmd=check_tabs
+: 1656327187:0;v out.txt
+: 1656327196:0;ranger --cmd=check_tabs
+: 1656327217:0;v out.txt
+: 1656327221:0;ranger --cmd=check_tabs
+: 1656327230:0;v out.txt
+: 1656327700:0;ranger --cmd=check_tabs ${cat /home/adhiwena/out.txt}
+: 1656327732:0;cat /home/adhiwena/out.txt
+: 1656327773:0;echo we "${cat /home/adhiwena/out.txt}"
+: 1656327780:0;echo we "cat /home/adhiwena/out.txt"
+: 1656327798:0;echo we ${cat /home/adhiwena/out.txt"}
+: 1656327868:0;echo we ${cat /home/adhiwena/out.txt}
+: 1656327877:0;echo we ${'cat /home/adhiwena/out.txt'}
+: 1656327955:0;echo we $/home/adhiwena/out.txt
+: 1656327984:0;echo we $/home/adhiwena/out.txt"
+: 1656327987:0;echo we "$/home/adhiwena/out.txt"
+: 1656328066:0;echo /home/adhiwena/out.txt
+: 1656328077:0;echo ${/home/adhiwena/out.txt}
+: 1656328105:0;echo "$(/home/adhiwena/out.txt)"
+: 1656328110:0;echo $(/home/adhiwena/out.txt)
+: 1656328114:0;ls
+: 1656328115:0;l
+: 1656328170:0;echo "$(</home/adhiwena/out.txt)"
+: 1656328181:0;echo `cat /home/adhiwena/out.txt`
+: 1656328189:0;ranger `cat /home/adhiwena/out.txt`
+: 1656328257:0;v ~/.local/share/applications/ranger.desktop
+: 1656328288:0;gtk-launch ranger.desktop
+: 1656328339:0;v ~/.local/share/applications/ranger.desktop
+: 1656328493:0;urxvtc -name ranger -e 'cat \/home\/adhiwena\/out\.txt;ranger'
+: 1656328505:0;man urxvt
+: 1656328537:0;urxvtc -name ranger -e 'cat /home/adhiwena/out.txt;ranger'
+: 1656328550:0;urxvtc -name ranger -e 'cat /home/adhiwena/out.txt'
+: 1656328558:0;urxvtc -name ranger -e cat /home/adhiwena/out.txt
+: 1656328569:0;journalctl -b
+: 1656328625:0;urxvtc -name ranger -e cat /home/adhiwena/out.txt
+: 1656328742:0;urxvtc -name ranger -e 'cat /home/adhiwena/out.txt;exit 0'
+: 1656328748:0;urxvtc -name ranger -e 'cat /home/adhiwena/out.txt'
+: 1656328794:0;`cat /home/adhiwena/out.txt`
+: 1656328799:0;cat /home/adhiwena/out.txt
+: 1656328817:0;urxvtc -name ranger -e ${cat /home/adhiwena/out.txt}
+: 1656328866:0;urxvtc -name ranger -e echo awe
+: 1656328880:0;urxvtc -e echo awe
+: 1656328889:0;urxvtc -e 'echo awe"
+: 1656328890:0;urxvtc -e 'echo awe'
+: 1656328895:0;urxvtc -e "echo awe"
+: 1656328906:0;man urxvt
+: 1656329187:0;sh -c echo "$(</home/adhiwena/out.txt)"
+: 1656329194:0;sh -c "echo $(</home/adhiwena/out.txt)"
+: 1656329217:0;urxvtc -e "echo $(</home/adhiwena/out.txt)"
+: 1656329229:0;urxvtc -e "echo $(<\/home\/adhiwena\/out\.txt)"
+: 1656329322:0;sh -c "`cat /home/adhiwena/out.txt`"
+: 1656329329:0;sh -c "cat /home/adhiwena/out.txt"
+: 1656329339:0;urxvtc -e "cat /home/adhiwena/out.txt"
+: 1656329352:0;urxvtc -embed "cat /home/adhiwena/out.txt"
+: 1656329390:0;urxvtc --hold -e "cat /home/adhiwena/out.txt"
+: 1656329408:0;urxvtc --hold -e 'cat /home/adhiwena/out.txt'
+: 1656329415:0;urxvtc --hold -e ls
+: 1656329427:0;urxvtc --hold -e "cat /home/adhiwena/out.txt"
+: 1656329484:0;urxvtc --hold -e sh -e "cat /home/adhiwena/out.txt"
+: 1656329504:0;urxvtc --hold -e sh -e "pwd"
+: 1656329525:0;$PWD
+: 1656329540:0;pwd
+: 1656329554:0;urxvtc --hold -e sh -e "ranger"
+: 1656329578:0;urxvtc --hold -e sh -e "cat /home/adhiwena/out.txt"
+: 1656329603:0;urxvtc --hold -e sh -e `cat /home/adhiwena/out.txt`
+: 1656329627:0;urxvtc --hold -e sh -e "`cat /home/adhiwena/out.txt`"
+: 1656329639:0;urxvtc --hold -e sh -e "echo `cat /home/adhiwena/out.txt`"
+: 1656329653:0;urxvtc --hold -e sh -e "ranger `cat /home/adhiwena/out.txt`"
+: 1656329666:0;urxvtc --hold -e sh -e ranger `cat /home/adhiwena/out.txt`
+: 1656329680:0;urxvtc --hold -e sh -e ranger `cat \/home\/adhiwena\/out\.txt`
+: 1656329697:0;urxvtc --hold -e sh -e ranger "`cat /home/adhiwena/out.txt`"
+: 1656330219:0;urxvtc --hold -e /bin/sh -e ranger "`cat /home/adhiwena/out.txt`"
+: 1656330241:0;ranger "`cat /home/adhiwena/out.txt`"
+: 1656330323:0;ranger $(</home/adhiwena/out.txt)
+: 1656330342:0;urxvtc --hold -e /bin/sh -e ranger "$(cat /home/adhiwena/out.txt)"
+: 1656330362:0;urxvtc --hold -e /bin/sh -e ranger "$(< /home/adhiwena/out.txt)"
+: 1656330370:0;urxvtc --hold -e /bin/sh -e ranger $(< /home/adhiwena/out.txt)
+: 1656330384:0;urxvtc --hold -e /bin/sh -e "ranger $(< /home/adhiwena/out.txt)"
+: 1656330395:0;urxvtc --hold -e /bin/bash -e "ranger $(< /home/adhiwena/out.txt)"
+: 1656330411:0;man zsh
+: 1656330444:0;urxvtc --hold -e zsh -ic "ranger $(< /home/adhiwena/out.txt)"
+: 1656330483:0;urxvtc -e zsh -ic "ranger $(< /home/adhiwena/out.txt)"
+: 1656330495:0;urxvtc -e zsh -ic ranger $(< /home/adhiwena/out.txt)
+: 1656330509:0;urxvtc -e zsh -ic ranger `cat /home/adhiwena/out.txt`
+: 1656330530:0;v out.txt
+: 1656330535:0;urxvtc -e zsh -ic ranger `cat /home/adhiwena/out.txt`
+: 1656330548:0;urxvtc -e zsh -ic ranger `</home/adhiwena/out.txt`
+: 1656330560:0;urxvtc -e zsh -ic ranger $(</home/adhiwena/out.txt)
+: 1656330567:0;urxvtc -e zsh -ic "ranger $(< /home/adhiwena/out.txt)"
+: 1656330572:0;urxvtc -e zsh -ic ranger $(< /home/adhiwena/out.txt)
+: 1656330645:0;v ~/.local/share/applications/ranger.desktop
+: 1656330678:0;v out.txt
+: 1656332451:0;codium ~/.local/share/applications/ranger.desktop
+: 1656332920:0;urxvtc -name ranger -e zsh -ic "ranger $(< ~/out.txt)"
+: 1656333028:0;urxvtc -name ranger -e zsh -ic "ranger $(< $XDG_CONFIG_HOME/ranger/session)"
+: 1656333857:0;codium ./plugins
+: 1656334570:0;trash-restore
+: 1656334575:0;q
+: 1656334690:0;trash-restore
+: 1656335172:0;ranger ranger $(< ~/.config/ranger/session) ~/Documents
+: 1656335187:0;ranger ranger "$(< ~/.config/ranger/session)" ~/Documents
+: 1656335196:0;ranger $(< ~/.config/ranger/session) ~/Documents
+: 1656335752:0;v ~/.config/ranger/session
+: 1656336072:0;whereis python
+: 1656336079:0;v /usr/bin/python
+: 1656336090:0;which python
+: 1656336140:0;find / | fzf -e
+: 1656336183:0;cd  /usr/lib/python3.10/site-packages/ranger/
+: 1656336184:0;ls
+: 1656336195:0;cd config
+: 1656336195:0;ls
+: 1656336202:0;cd ..
+: 1656336204:0;cd data
+: 1656336205:0;ls
+: 1656336207:0;cd .
+: 1656336210:0;cd ..
+: 1656336213:0;cd container
+: 1656336214:0;ls
+: 1656336223:0;v directory.py
+: 1656336322:0;rm -r cb
+: 1656336379:0;ranger
+: 1656336391:0;man ranger
+: 1656336406:0;ranger --debug
+: 1656336474:0;v /usr/lib/python3.10/site-packages/ranger/gui/widgets/view_base.py
+: 1656336720:0;ls
+: 1656336724:0;cd ..
+: 1656336725:0;ls
+: 1656336734:0;find . | fzf -e
+: 1656336753:0;v | -e
+: 1656336758:0;v | fzf -e
+: 1656336773:0;v | $(fzf -e)
+: 1656336780:0;v $(fzf -e)
+: 1656337431:0;ls
+: 1656337434:0;cd api
+: 1656337434:0;ls
+: 1656337439:0;cd ..
+: 1656337442:0;cd data
+: 1656337443:0;ld
+: 1656337444:0;ls
+: 1656337448:0;v scope.sh
+: 1656337476:0;cd ..
+: 1656337476:0;ls
+: 1656337483:0;cd config
+: 1656337483:0;l
+: 1656337489:0;v __init__.py
+: 1656337506:0;cd ..
+: 1656337506:0;ls
+: 1656337583:0;cd ~/.local/share/ranger
+: 1656337590:0;v tabs
+: 1656337681:0;l
+: 1656337684:0;v tabs
+: 1656337901:0;echo ${<~/.local/share/ranger/tabs}
+: 1656337907:0;echo "${<~/.local/share/ranger/tabs}"
+: 1656337914:0;echo "${</home/adhiwena/.local/share/ranger/tabs}"
+: 1656337945:0;echo ${< ~/.local/share/ranger/tabs}
+: 1656337954:0;echo "${< ~/.local/share/ranger/tabs}"
+: 1656337963:0;cd
+: 1656337969:0;v coba.sh
+: 1656338044:0;chmod +x coba.sh
+: 1656338047:0;./coba.sh
+: 1656338180:0;v tabs
+: 1656338237:0;./coba.sh
+: 1656338339:0;codium tabs
+: 1656338584:0;./coba.sh
+: 1656338697:0;man tr
+: 1656338755:0;./coba.sh
+: 1656338897:0;ls
+: 1656338901:0;./coba.sh
+: 1656339282:0;ranger ([ -f ~/.local/share/ranger/tabs ] && echo $(tr '\0' ' ' < ~/.local/share/ranger/tabs))
+: 1656339356:0;[ -f ~/.local/share/ranger/tabs ] && ranger $(tr '\0' ' ' < ~/.local/share/ranger/tabs) || ranger
+: 1656339651:0;v coba.sh ranger.sh
+: 1656339659:0;mv coba.sh ranger.sh
+: 1656339673:0;mv ranger.sh ~/Github/Scripts/Bash
+: 1656339781:0;ls
+: 1656339785:0;q
+: 1656339795:0;whereis ranger
+: 1656339798:0;ranger
+: 1656339893:0;ls
+: 1656339905:0;v tabs
+: 1656339963:0;ranger
+: 1656339996:0;subtitleedit ~/Documents/01.en.ass
+: 1656340008:0;cd ~/.local/share/ranger
+: 1656340009:0;ls
+: 1656340010:0;l
+: 1656340011:0;cd
+: 1656340019:0;cd ~/.local/bin
+: 1656340019:0;l
+: 1656340037:0;unlink ranger
+: 1656340075:0;ln -s /home/data/Github/Scripts/Bash/ranger.sh /home/adhiwena/.local/bin
+: 1656340077:0;ls
+: 1656340078:0;l
+: 1656340088:0;unlink ranger.sh
+: 1656340095:0;ln -s /home/data/Github/Scripts/Bash/ranger.sh /home/adhiwena/.local/bin/ranger
+: 1656340096:0;ls
+: 1656340097:0;l
+: 1656340104:0;ranger
+: 1656340125:0;cd
+: 1656340127:0;ranger
+: 1656340141:0;ls
+: 1656340144:0;ranger
+: 1656340147:0;ls
+: 1656340150:0;v tabs
+: 1656340166:0;mkdir bin
+: 1656340171:0;cd bin
+: 1656340178:0;ln -s /home/data/Github/Scripts/Bash/ranger.sh /home/adhiwena/bin/ranger
+: 1656340183:0;whereis ranger
+: 1656340226:0;rm ~/.local/bin/ranger
+: 1656340229:0;whereis ranger
+: 1656340233:0;ranger
+: 1656340259:0;v /usr/bin/ranger
+: 1656340343:0;cd /usr/bin
+: 1656340343:0;l
+: 1656340491:0;ls
+: 1656340501:0;rm -r bin
+: 1656340504:0;rm out.txt
+: 1656340505:0;ls
+: 1656340511:0;cd ~/.local/bin
+: 1656340511:0;ls
+: 1656340513:0;cd
+: 1656340544:0;ls
+: 1656340547:0;v tabs
+: 1656340580:0;ranger
+: 1656340624:0;ls
+: 1656340626:0;v tabs
+: 1656340634:0;ranger
+: 1656340656:0;l
+: 1656340694:0;~/Github/Scripts/Bash/ranger.sh
+: 1656340742:0;ls
+: 1656340747:0;v ~/Github/Scripts/Bash/ranger.sh
+: 1656340781:0;codium ~/Github/Scripts/Bash/ranger.sh
+: 1656340809:0;v ~/Github/Scripts/Bash/ranger.sh
+: 1656340814:0;~/Github/Scripts/Bash/ranger.sh
+: 1656340841:0;ln -s /home/data/Github/Scripts/Bash/ranger.sh /home/adhiwena/.local/bin/ranger
+: 1656340845:0;ranger
+: 1656340872:0;ls
+: 1656340874:0;v tabs
+: 1656340929:0;ranger
+: 1656341322:0;ls
+: 1656341361:0;cd ~/.local/bin
+: 1656341362:0;ls
+: 1656341366:0;ranger
+: 1656341394:0;whereis ranger
+: 1656341414:0;ranger
+: 1656341417:0;ls
+: 1656341476:0;echo $PATH
+: 1656341491:0;ranger
+: 1656341511:0;cd ~/.local/share/ranger
+: 1656341513:0;v tabs
+: 1656341526:0;ranger
+: 1656341541:0;v tabs
+: 1656341714:0;ranger
+: 1656342000:0;cd ~/.local/share/ranger
+: 1656342004:0;cd ~/.local/bin
+: 1656342006:0;unlink ranger.sh
+: 1656342008:0;unlink ranger
+: 1656342051:0;ranger
+: 1656342134:0;whereis ranger
+: 1656342137:0;ranger
+: 1656342147:0;cd ~/.local/share/ranger
+: 1656342148:0;ls
+: 1656342151:0;rm tabs
+: 1656342152:0;ls
+: 1656342159:0;ranger
+: 1656342237:0;v ~/.local/share/ranger/tabs
+: 1656342343:0;ranger
+: 1656342702:0;ln -s /home/data/Github/Scripts/Bash/ranger.sh /home/adhiwena/.local/bin/ranger
+: 1656342711:0;cd ~/.local/share/ranger
+: 1656342711:0;ls
+: 1656342748:0;ranger
+: 1656343379:0;whereis ranger
+: 1656343386:0;cd /usr/local/bin
+: 1656343387:0;ls
+: 1656343397:0;cd
+: 1656343455:0;cd ~/.local/bin
+: 1656343455:0;ls
+: 1656343472:0;unlink myfeh
+: 1656343478:0;cd ~/Github/Scripts/Bash
+: 1656343479:0;l
+: 1656343493:0;v myter
+: 1656343496:0;v myterm
+: 1656343507:0;rm myfeh myterm
+: 1656343534:0;cd ~/.local/share/applications
+: 1656343535:0;ls
+: 1656343547:0;v motrix
+: 1656343568:0;l
+: 1656343614:0;v mimeopener
+: 1656343628:0;l
+: 1656343640:0;rm mimeopener motrix
+: 1656343644:0;rm search-aur.sh
+: 1656343645:0;ls
+: 1656343646:0;l
+: 1656343668:0;mv brightness brightness.sh
+: 1656343676:0;mv lightdm-settings.sh lightdm-settings
+: 1656343687:0;mv ranger.sh ranger
+: 1656343693:0;mv subtitleedit.sh subtitleedit
+: 1656343695:0;l
+: 1656343701:0;unlink ranger
+: 1656343703:0;unlink subtitleedit
+: 1656343709:0;l
+: 1656343718:0;cd
+: 1656343724:0;pwd | clip
+: 1656343727:0;v
+: 1656343760:0;ln -s /home/adhiwena/Github/Scripts/Bash/subtitleedit /usr/local/bin
+: 1656343764:0;sudo ln -s /home/adhiwena/Github/Scripts/Bash/subtitleedit /usr/local/bin
+: 1656343772:0;sudo ln -s /home/adhiwena/Github/Scripts/Bash/ranger /usr/local/bin
+: 1656343822:0;cd ~/.local/bin
+: 1656343822:0;ls
+: 1656343841:0;sudo mv remote-touchpad /usr/local/bin/
+: 1656343842:0;ls
+: 1656343845:0;l
+: 1656343846:0;cd ..
+: 1656343848:0;rm bin
+: 1656343852:0;rm -r bin
+: 1656343854:0;cd ..
+: 1656343862:0;v ~/.zshrc
+: 1656343890:0;ls
+: 1656344231:0;v ~/.zshrc
+: 1656344295:0;v ~/.config/ranger/metadata-lookup.py
+: 1656344374:0;chmod +x ~/.config/ranger/metadata-lookup.py
+: 1656344435:0;v ~/.config/ranger/rc.conf
+: 1656344830:0;cd ~/.config/ranger
+: 1656344831:0;ls
+: 1656344831:0;l
+: 1656344834:0;v metadata-lookup.py
+: 1656344848:0;./metadata-lookup.py
+: 1656344882:0;v metadata-lookup.py
+: 1656344900:0;cd ~/.config/ranger
+: 1656344903:0;./metadata-lookup.py
+: 1656344922:0;python3-config
+: 1656344945:0;man pip
+: 1656344957:0;python3
+: 1656345025:0;yay -S python-yaml
+: 1656345034:0;cd ~/.config/ranger
+: 1656345036:0;./metadata-lookup.py
+: 1656345137:0;rm metadata-lookup.py
+: 1656345145:0;v rc.conf
+: 1656345243:0;yay -Rn xarchiver
+: 1656345252:0;cd ~/.config
+: 1656345252:0;ls
+: 1656345258:0;rm -r xarchiver
+: 1656345261:0;cd ..
+: 1656345261:0;ls
+: 1656345265:0;cd ~/.local
+: 1656345265:0;ls
+: 1656345268:0;cd share
+: 1656345269:0;ls
+: 1656345273:0;cd ..
+: 1656345281:0;c re-add
+: 1656345286:0;c diff
+: 1656345311:0;c apply
+: 1656345324:0;c diff
+: 1656345338:0;c re-add
+: 1656345343:0;c git add .
+: 1656345350:0;c git commit
+: 1656345360:0;c git push
+: 1656345365:0;c diff
+: 1656345379:0;c git diff
+: 1656345384:0;c diff
+: 1656345399:0;c managed
+: 1656345416:0;c forget ~/.local/bin
+: 1656345456:0;cd ~/.local/share/applications
+: 1656345471:0;c add btop.desktop nvim.desktop ranger.desktop vim.desktop
+: 1656345475:0;c managed
+: 1656345479:0;cd
+: 1656345493:0;cd ~/.config/rofi
+: 1656345496:0;ls
+: 1656345506:0;c managed
+: 1656345512:0;c forget .
+: 1656345525:0;c add .
+: 1656345526:0;ls
+: 1656345531:0;c managed
+: 1656345547:0;cd
+: 1656345552:0;c diff
+: 1656345560:0;c git add .
+: 1656345562:0;c git commit
+: 1656345575:0;c git push
+: 1656345607:0;sudo etckeeper commit -m "manual commit"
+: 1656345627:0;c unmanaged
+: 1656345658:0;c add .zsh_history
+: 1656345719:0;v .yarnrc
+: 1656345724:0;v .urxvt
+: 1656345741:0;v .metadata.json
+: 1656345748:0;rm .metadata.json
+: 1656345750:0;ls
+: 1656345751:0;l
+: 1656345764:0;v .lesshst
+: 1656345783:0;cd .pki/nssdb
+: 1656345784:0;l
+: 1656345787:0;cd
+: 1656345789:0;l
+: 1656345805:0;cd .config
+: 1656345805:0;ls
+: 1656346400:0;cd ~/.config/ranger\
+git clone https://github.com/SL-RU/ranger_udisk_menu
+: 1656346513:0;xev
+: 1656346765:0;c cd
+: 1656346779:0;pwd | clip
+: 1656346983:0;man cd
+: 1656346988:0;cd --help
+: 1656347421:0;xdg-open .xinitrc
+: 1656347434:0;xdg-open .Xresources
+: 1656347497:0;mimetype .Xresources
+: 1656348062:0;v .lesshst
+: 1656348359:0;btop
+: 1656348511:0;yay -Rn gvfs
+: 1656348520:0;l
+: 1656348750:0;v ~/.config/ranger/rc.conf
+: 1656349049:0;c re-add
