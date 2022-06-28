@@ -163,3 +163,15 @@ super + minus
 # Mute
 super + backslash
 	exec pamixer --toggle-mute
+
+# USB Mounting Background
+super + u
+	exec udiskie -t &; \
+  exec udiskie-mount -a
+  # notify-send "Udiskie" "Backround process on, \nSuper + Shift + U to kill."
+
+# USB Mounting Kill
+super + U
+  exec udiskie-umount -a &; bash -c 'sleep 3; killall udiskie'
+  # notify-send "Udiskie" "Unmounted!"
+

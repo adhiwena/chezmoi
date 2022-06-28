@@ -56,12 +56,6 @@
 : 1655030056:0;bspc rule -a SubtitleEdit state=floating
 : 1655030057:0;bspc rule -l
 : 1655030058:0;bspc rule =l
-: 1655030059:0;bspwm
-: 1655030060:0;bspwm --r
-: 1655030061:0;bspwm --restart
-: 1655030062:0;bspwm -r
-: 1655030063:0;bspwm wm -r
-: 1655030064:0;bspwm Wm -r
 : 1655030065:0;c cd
 : 1655030066:0;c git add .
 : 1655030067:0;c git commit
@@ -403,26 +397,6 @@
 : 1655030414:0;handlr set .ass
 : 1655030415:0;handlr set .ass subtitleedit.desktop
 : 1655030416:0;history
-: 1655030417:0;i3lock
-: 1655030418:0;i3lock-fancy
-: 1655030419:0;i3lock-fancy -- scrot -zo
-: 1655030420:0;i3lock-fancy -g -- scrot -zo
-: 1655030421:0;i3lock-fancy -gf NotoSans-Regular -- scrot -zo
-: 1655030422:0;i3lock-fancy -gp -- scrot
-: 1655030423:0;i3lock-fancy -gp -- scrot -z
-: 1655030424:0;i3lock-fancy -gp -- scrot -zo
-: 1655030425:0;i3lock-fancy -gpf Comic-Sans-MS -- maim -z
-: 1655030426:0;i3lock-fancy -gpf Comic-Sans-MS -- scrot -z
-: 1655030427:0;i3lock-fancy -gpf Comic-Sans-MS -- scrot -zo
-: 1655030428:0;i3lock-fancy -gpf Noto-Sans -- scrot -zo
-: 1655030429:0;i3lock-fancy -gpf NotoSans-DisplayRegular -- scrot -zo
-: 1655030430:0;i3lock-fancy -l
-: 1655030431:0;i3lock-fancy -pf Noto Sans -- scrot -zo
-: 1655030432:0;i3lock-fancy -pf NotoSans -- scrot -zo
-: 1655030433:0;i3lock-fancy -pf NotoSans-DisplayRegular -- scrot -zo
-: 1655030434:0;i3lock-fancy -pf NotoSans-Regular -- scrot -zo
-: 1655030435:0;i3lock-fancy-rapid --help
-: 1655030436:0;i3lock-fancy-rapid 5 3
 : 1655030437:0;install -Dm644 /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
 : 1655030438:0;install -Dm755 /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
 : 1655030439:0;java --version
@@ -528,7 +502,6 @@
 : 1655030539:0;man firefox
 : 1655030540:0;man hadnlr
 : 1655030541:0;man handlr
-: 1655030542:0;man i3lock-fancy-rapid 
 : 1655030543:0;man if
 : 1655030544:0;man JDownloader
 : 1655030545:0;man journalctl
@@ -1108,7 +1081,6 @@
 : 1655031121:0;yay -R dex
 : 1655031122:0;yay -R geoclue
 : 1655031123:0;yay -R glxinfo
-: 1655031124:0;yay -R i3lock-fancy-git i3lock-fancy-rapid-git
 : 1655031125:0;yay -R java-runtime-common 
 : 1655031126:0;yay -R jdownloader2
 : 1655031127:0;yay -R jre-openjdk
@@ -1142,7 +1114,6 @@
 : 1655031155:0;yay -R xss-lock
 : 1655031156:0;yay -Rn alacritty
 : 1655031157:0;yay -Rn firefox
-: 1655031158:0;yay -Rn i3lock-blur
 : 1655031159:0;yay -Rn visual-studio-code-bin
 : 1655031160:0;yay -S 7-zip-full 
 : 1655031161:0;yay -S alacritty
@@ -1162,9 +1133,6 @@
 : 1655031176:0;yay -S gnome-themes-standard
 : 1655031177:0;yay -S go
 : 1655031178:0;yay -S handlr
-: 1655031179:0;yay -S i3lock-blur
-: 1655031180:0;yay -S i3lock-fancy-git 
-: 1655031181:0;yay -S i3lock-fancy-rapid-git
 : 1655031182:0;yay -S imagemagick-full
 : 1655031183:0;yay -S jdownloader2
 : 1655031184:0;yay -S kcoreaddons
@@ -3803,28 +3771,6 @@
 : 1656159740:0;rm commands_full.py
 : 1656159746:0;v scope.sh
 : 1656159783:0;mkdir plugins
-: 1656159793:0;cd ~/.config/ranger/plugins\
-git clone https://github.com/maximtrp/ranger-archives.git
-: 1656159795:0;ls
-: 1656159810:0;cd ..
-: 1656159854:0;l
-: 1656159863:0;v rc.conf
-: 1656159878:0;v ~/.config/ranger/rc.conf.bak
-: 1656159897:0;v commands.py
-: 1656159932:0;rm rc.conf.bak
-: 1656159933:0;ls
-: 1656159959:0;v rc.conf
-: 1656160114:0;cd ~/.local/share/Trash/files/
-: 1656160115:0;ls
-: 1656160116:0;l
-: 1656160129:0;trash-list
-: 1656160174:0;cd ~/.local/share/Trash
-: 1656160176:0;ls
-: 1656160176:0;l
-: 1656160179:0;cd files
-: 1656160180:0;l
-: 1656160181:0;cd ..
-: 1656160183:0;cd info
 : 1656160184:0;l
 : 1656160189:0;cd ..
 : 1656160488:0;trash-list
@@ -5064,8 +5010,6 @@ git clone https://github.com/maximtrp/ranger-archives.git
 : 1656345789:0;l
 : 1656345805:0;cd .config
 : 1656345805:0;ls
-: 1656346400:0;cd ~/.config/ranger\
-git clone https://github.com/SL-RU/ranger_udisk_menu
 : 1656346513:0;xev
 : 1656346765:0;c cd
 : 1656346779:0;pwd | clip
@@ -5087,3 +5031,158 @@ git clone https://github.com/SL-RU/ranger_udisk_menu
 : 1656349309:0;codium .
 : 1656350551:0;cd
 : 1656350579:0;c re-add
+: 1656350920:0;v ~/.config/ranger/rifle.conf
+: 1656351143:0;mimetype .Xresources
+: 1656351150:0;mimetype .xinitrc
+: 1656351798:0;v ~/.Xauthority
+: 1656352534:0;ln -s /run/media/adhiwena /home/adhiwena/mount
+: 1656352649:0;q
+: 1656352922:0;v /home/adhiwena/.config/ranger/ranger_udisk_menu/menu.py
+: 1656353023:0;ls
+: 1656353028:0;cd /dev/sda
+: 1656353029:0;cd /dev/sda1
+: 1656353059:0;findmnt
+: 1656353092:0;yay -S gvfs
+: 1656353104:0;findmnt
+: 1656353234:0;yay -S udisks2
+: 1656353509:0;yay -S udiskie
+: 1656353605:0;v ~/.xinitrc
+: 1656353899:0;v ~/Github/Scripts/Bash/ranger.sh
+: 1656353903:0;v ~/Github/Scripts/Bash/ranger
+: 1656354092:0;notify-send "hey"
+: 1656354098:0;v ~/Github/Scripts/Bash/ranger
+: 1656354409:0;v ~/out.txt
+: 1656354871:0;v ~/Github/Scripts/Bash/ranger
+: 1656355195:0;v ~/.config/sxhkd/sxhkdrc
+: 1656355360:0;rb
+: 1656355462:0;v ~/.config/sxhkd/sxhkdrc
+: 1656355571:0;v ~/.xinitrc
+: 1656355608:0;man udiskie
+: 1656356020:0;nvim ~/.config/sxhkd/sxhkdrc
+: 1656356032:0;man nvim
+: 1656356081:0;nvim ~/.config/sxhkd/sxhkdrc
+: 1656356111:0;nvim -R ~/.config/sxhkd/sxhkdrc
+: 1656356260:0;nvim ~/.config/sxhkd/sxhkdrc
+: 1656356299:0;v ~/.config/sxhkd/sxhkdrc
+: 1656356315:0;urxvtc -name help -e nvim ~/.config/sxhkd/sxhkdrc
+: 1656356331:0;urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc
+: 1656356358:0;killall sxhkd
+: 1656356366:0;sxhkd &
+: 1656356378:0;v ~/.config/sxhkd/sxhkdrc
+: 1656356654:0;rb
+: 1656356738:0;codium ~/.config/sxhkd/sxhkdrc
+: 1656356828:0;v ~/.config/sxhkd/sxhkdrc
+: 1656356906:0;v ~/Github/Scripts/Bash/help
+: 1656357097:0;ln -s /home/adhiwena/Github/Scripts/Bash/help /usr/local/bin
+: 1656357099:0;sudo ln -s /home/adhiwena/Github/Scripts/Bash/help /usr/local/bin
+: 1656357125:0;help
+: 1656357148:0;v ~/Github/Scripts/Bash/help
+: 1656357157:0;help
+: 1656357209:0;mimeo --help
+: 1656357317:0;mimeo --create help Help urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc "" "noterm" 
+: 1656357341:0;mimeo --create help Help "urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc" "" "noterm" 
+: 1656357405:0;mimeo --create "help" "Help" "urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc" "" "noterm" 
+: 1656357408:0;sudo mimeo --create "help" "Help" "urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc" "" "noterm" 
+: 1656357436:0;$XDG_DATA_HOME/applications
+: 1656357437:0;cd $XDG_DATA_HOME/applications
+: 1656357438:0;ls
+: 1656357453:0;sudo mimeo --create "help" "Help" "urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc" "" noterm 
+: 1656357589:0;sudo mimeo --create "help" "Help" "urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc" "" "noterm"
+: 1656357594:0;sudo mimeo --create "help" "Help" "urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc" "" noterm 
+: 1656357610:0;mimeo --create "help" "Help" "urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc" "" noterm
+: 1656357623:0;mimeo --create "help" "Help" 'nvim -R ~/.config/sxhkd/sxhkdrc' "" noterm
+: 1656357712:0;mimeo --mimeman-help
+: 1656357744:0;mimeo --create help.desktop Help "urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc" "" "noterm"
+: 1656357807:0;mimeo --create help.desktop Help "urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc" '' "noterm"
+: 1656357863:0;sudo mimeo --create help.desktop Help "urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc" '' "noterm"
+: 1656357887:0;find / | fzf -e
+: 1656357915:0;sudo mimeo --create help.desktop Help "urxvtc -name help -e nvim -R ~/.config/sxhkd/sxhkdrc" '' 'noterm'
+: 1656358162:0;v Âƒ€~/.config/sxhkd/sxhkdrc
+: 1656358203:0;man nvim
+: 1656358228:0;v ~/.config/sxhkd/sxhkdrc
+: 1656358492:0;v ~/.xinitrc
+: 1656358531:0;v ~/.config/sxhkd/sxhkdrc
+: 1656358799:0;man udiskie
+: 1656358880:0;v ~/.config/sxhkd/sxhkdrc
+: 1656358987:0;man udiskie
+: 1656359697:0;killall udiskie
+: 1656359987:0;po
+: 1656399074:0;md5sum "A Quiet Place Part II (2020).mkv"
+: 1656399101:0;cd Public/Videos/Movies/
+: 1656399105:0;cd "A Quiet Place Part II (2020)/"
+: 1656399107:0;ls
+: 1656399179:0;md5sum "A Quiet Place Part II (2020).mkv"
+: 1656399259:0;q
+: 1656399290:0;rm -r "A Quiet Place Part II (2020)"
+: 1656399293:0;ls
+: 1656399300:0;q
+: 1656399347:0;cd /home/data/Public/Videos/Movies
+: 1656399376:0;man rsync
+: 1656399415:0;cp "A Quiet Place Part II (2020)" /run/media/adhiwena/6E77-F1F9/
+: 1656399422:0;cp -r "A Quiet Place Part II (2020)" /run/media/adhiwena/6E77-F1F9/
+: 1656399897:0;cd /run/media/adhiwena/6E77-F1F9/
+: 1656399900:0;cd "A Quiet Place Part II (2020)/"
+: 1656399904:0;md5sum "A Quiet Place Part II (2020).mkv"
+: 1656399911:0;cd "A Quiet Place Part II (2020)/"
+: 1656399914:0;md5sum "A Quiet Place Part II (2020).mkv"
+: 1656401356:0;v ~/.local/share/ranger/tabs
+: 1656402541:0;v ~/.xinitrc
+: 1656402555:0;v ~/.zshrc
+: 1656402566:0;v ~/.zshenv
+: 1656402584:0;v /etc/profile.d/jre.sh
+: 1656402598:0;v /usr/bin/jdownloader
+: 1656402834:0;rb
+: 1656402927:0;yay -S jdownloader2
+: 1656403180:0;v
+: 1656427549:0;rb
+: 1656434062:0;cd Downloads
+: 1656434063:0;ls
+: 1656434068:0;cd _mts
+: 1656434069:0;ls
+: 1656434119:0;whereis java
+: 1656434126:0;cd /usr/bin/
+: 1656434131:0;java --version
+: 1656434137:0;cd
+: 1656434139:0;cd -
+: 1656434140:0;cd ..
+: 1656434143:0;cd _mts
+: 1656434143:0;ls
+: 1656434150:0;java -jar MatairSys.jar
+: 1656434378:0;jre/bin/java -jar MatairSys.jar
+: 1656434487:0;v Main.class
+: 1656434496:0;q
+: 1656435185:0;xprop | grep CLASS
+: 1656435219:0;v ~/.config/bspwm/bspwmrc
+: 1656435470:0;java -jar MatairSys.jar
+: 1656435489:0;q
+: 1656435537:0;/home/adhiwena/Downloads/_mts/bak/jre/bin/java -jar MatairSys.jar
+: 1656435568:0;q
+: 1656435942:0;v ~/.Xresources
+: 1656436090:0;npm run dev
+: 1656436148:0;npm install
+: 1656436211:0;npm audit fix
+: 1656436231:0;npm audit fix --force
+: 1656436257:0;npm run dev
+: 1656436273:0;npm install --save-dev @types/node
+: 1656436279:0;npm run dev
+: 1656436297:0;xprop | grep CLASS
+: 1656436307:0;xprop
+: 1656438474:0;npm update
+: 1656439517:0;yay -S remmina
+: 1656439537:0;yay -S freerdp
+: 1656439618:0;xprop | grep CLASS
+: 1656439672:0;v ~/.config/bspwm/bspwmrc
+: 1656439705:0;xprop | grep CLASS
+: 1656439750:0;xprop
+: 1656440446:0;npm run dev
+: 1656440726:0;git pull
+: 1656440752:0;ls
+: 1656440755:0;cd ..
+: 1656440755:0;ls
+: 1656440821:0;git config --global --add safe.directory /home/data/_DEV/MatairSys
+: 1656440824:0;q
+: 1656440980:0;git clone git@github.com:adhiwena/MatairSys.git
+: 1656441027:0;git pull
+: 1656441033:0;git config --global --add safe.directory /home/data/Github/MatairSys
+: 1656441038:0;cd ..
+: 1656441074:0;c re-add

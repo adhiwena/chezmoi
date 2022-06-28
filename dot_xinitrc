@@ -46,6 +46,7 @@ exec xsetroot -cursor_name left_ptr & # load cursor theme
 exec numlockx & # on numlock
 exec picom & # transparency, blur, etc
 exec snapshot-detect & # timeshift snapshot auto detect
+# exec udiskie --tray & # auto mount usb drive
 
 # Kill all URxvt Daemon if exist
 killall -q urxvtd

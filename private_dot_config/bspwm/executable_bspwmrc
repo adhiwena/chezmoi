@@ -52,12 +52,17 @@ bspc rule -a URxvt:nvim desktop='^3' follow=on
 bspc rule -a mpv desktop='^4' follow=on # subtitleedit also in desktop 4
 bspc rule -a '*:*:JDownloader 2' desktop='^5' follow=on
 bspc rule -a Motrix desktop='^5' follow=on
+# bspc rule -a org.remmina.Remmina desktop='^5' follow=on
+bspc rule -a 'org.remmina.Remmina' desktop='^5' follow=on state=floating
+
+
 
 # custom rules
 bspc rule -a feh:feh layer=above 
 # bspc rule -a Sxiv layer=above state=fullscreen
 bspc rule -a Rofi layer=above 
 bspc rule -a URxvt:btop state=floating sticky=on center=on layer=above rectangle=1500x800+0+0
+bspc rule -a org-jdownloader-update-launcher-JDLauncher state=floating layer=above
 
 # Drag and drop
 bspc rule -a URxvt:dragon-term state=floating hidden=on focus=off

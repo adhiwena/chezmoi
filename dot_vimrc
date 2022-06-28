@@ -39,11 +39,11 @@ call vundle#begin()
 
 Plugin 'tpope/vim-fugitive'
 Plugin 'junegunn/fzf.vim'
+" Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-" Plugin 'thaerkh/vim-workspace'
 Plugin 'mg979/vim-visual-multi', {'branch': 'master'}
 Plugin 'triglav/vim-visual-increment'
 
@@ -57,11 +57,7 @@ syntax on
 set nocompatible
 filetype plugin indent on
 
-" Plugin 'scrooloose/nerdtree'
 let g:NERDSpaceDelims = 1
-" let g:workspace_session_directory = $HOME . '/.vim/sessions/'
-" let g:workspace_autosave_ignore = ['gitcommit']
-" let g:workspace_autocreate = 0
 
 "================
 " Theme
@@ -83,7 +79,6 @@ let g:airline_section_z = airline#section#create(['windowswap', '%3p%% ', 'linen
 " Keybindings
 "================
 
-nnoremap <C-T> :ToggleWorkspace<CR>
 nnoremap qq :q<CR>
 nnoremap qQ :q<CR>
 " nnoremap <leader>n :NERDTreeFocus<CR>
