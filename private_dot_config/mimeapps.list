@@ -3,3 +3,4 @@ inode/directory=ranger.desktop;
 text/markdown=nvim.desktop;
 text/x-ssa=subtitleedit.desktop;
 text/plain=nvim.desktop;
+x-scheme-handler/postman=Postman.desktop
